@@ -10,6 +10,6 @@ Basics of how to create a Single Page Application with Angular2.
 
 ## Hints
 
-Look for these formatting hints throughout the worksheet.
+Look for these formatting hints throughout the workbook.
 
 ![](images/33.png)
