@@ -1,7 +1,6 @@
 # Summary
 
 * [Intro to Single Page Applications (SPAs)](README.md)
-* [Overview](overview.md)
 * [Project](project/README.md)
    * [Part 0A: Set-up | Verify NodeJS & npm is installed & Install Angular CLI](project/part_0a_set-up__verify_nodejs_&_npm_is_installed&_.md)
    * [Part 0B: Setup | Add TypeScript Package to Sublime Editor](project/part_0b_setup__add_typescript_package_to_sublime_e.md)
