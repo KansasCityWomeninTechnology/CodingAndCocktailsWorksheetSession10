@@ -2,7 +2,7 @@
 
 Let’s start with creating our app’s foundation. Open Git Bash (Windows) or iTerm2 (Mac) and rock &amp; roll.
 
-1.  Navigate to your CodingAndCocktails folder: cd &lt;your home directory&gt;/CodingAndCocktails
+1.  Navigate to your CodingAndCocktails folder: <span class="cmd">cd &lt;your home directory&gt;/CodingAndCocktails</span>
 
 | Command line woes?![](images/image42.png) |
 | --- |
