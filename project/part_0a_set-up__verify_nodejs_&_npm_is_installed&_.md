@@ -6,14 +6,13 @@ In order to use Angular CLI later in this lesson, you have to install it via npm
 
  ![](../images/5.png)![/image/windows-icon.png](/images/windows-icon.png) Some of these commands will run slower on Windows computers. To make these processes run faster, it is recommended to run Git Bash as an Administrator. See [here](http://bit.ly/angular-cli-windows) for tips on how to do that.
 
-1.  In Git Bash (windows) or iTerm2 (macs), type: <div class="cmd">node --version && npm --version</div>
+1.  In Git Bash (windows) or iTerm2 (macs), type: <span class="cmd">node --version && npm --version</span>
 2.  If you get version numbers, then NodeJS and NPM are already installed. Proceed to Step 4.
 
-| Command not found![](images/image50.png) |
-| --- |
+[![](../images/6.png)](http://nodejs.org )
 
-1.  In Git Bash (windows) or iTerm2 (macs), type: npm install -g angular-cliThis may take a minute or two to complete. Perfect excuse to grab yourself a snack!
-2.  To confirm Angular CLI was installed, while still in your Command Line tool, type: ng versionIf you get version numbers, you can move on to the next setup step!![1475355315_warning-fill.png](images/image21.png)You may also see a warning saying “Could not start watchman; ...”  This is ok and can be ignored but the version numbers for angular-cli and node should be displayed below that.
+1.  In Git Bash (windows) or iTerm2 (macs), type: <span class="cmd">npm install -g angular-cli</span> *This may take a minute or two to complete. Perfect excuse to grab yourself a snack!*
+2.  To confirm Angular CLI was installed, while still in your Command Line tool, type: <span class="cmd">ng version</span>. If you get version numbers, you can move on to the next setup step!
 
-| Having troubles?![1475355315_warning-fill.png](images/image21.png) |
-| --- |
+*You may also see a warning saying “Could not start watchman; ...”  This is ok and can be ignored but the version numbers for angular-cli and node should be displayed below that.*
+![](../images/7.png)
