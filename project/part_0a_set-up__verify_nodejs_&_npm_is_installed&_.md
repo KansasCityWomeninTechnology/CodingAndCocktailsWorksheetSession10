@@ -6,7 +6,7 @@ In order to use Angular CLI later in this lesson, you have to install it via npm
 
  ![](../images/5.png)![/image/windows-icon.png](/images/windows-icon.png) Some of these commands will run slower on Windows computers. To make these processes run faster, it is recommended to run Git Bash as an Administrator. See [here](http://bit.ly/angular-cli-windows) for tips on how to do that.
 
-1.  In Git Bash (windows) or iTerm2 (macs), type: <div style=" color: #674ea7">node --version && npm --version</div>
+1.  In Git Bash (windows) or iTerm2 (macs), type: <div class="cmd">node --version && npm --version</div>
 2.  If you get version numbers, then NodeJS and NPM are already installed. Proceed to Step 4.
 
 | Command not found![](images/image50.png) |
