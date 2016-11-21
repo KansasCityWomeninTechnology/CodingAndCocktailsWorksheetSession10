@@ -18,11 +18,9 @@ We now have questions and answers to create a quiz, but at the end of the quiz, 
 
 1.  Right now, you see all the quiz questions at once. And even when the results display, the questions/answers are still visible. Let’s add an <span class="ref">*ngIf</span>, so we only see 1 question at a time.
 
-1.  Open src/app/quiz/quiz.component.html. In &lt;div class=&quot;q-and-a&quot;&gt;, add attribute:*ngIf=&quot;currentQuestionIndex === i&quot;Printed worksheets see: [http://bit.ly/spa-if2](https://www.google.com/url?q=http://bit.ly/spa-if2&sa=D&ust=1479686156253000&usg=AFQjCNGB8a6X4JI9NMTbOP5237p1G--0VA)![](images/image41.gif)
+1.  Open src/app/quiz/quiz.component.html. In <span class="ref">&lt;div class=&quot;q-and-a&quot;&gt;</span>, add attribute: <span class="new">*ngIf=&quot;currentQuestionIndex === i&quot;</span> <br>Printed worksheets see: [http://bit.ly/spa-if2](https://www.google.com/url?q=http://bit.ly/spa-if2&sa=D&ust=1479686156253000&usg=AFQjCNGB8a6X4JI9NMTbOP5237p1G--0VA)<br>![](/images/image41.gif)
 
-1.  BONUS: Add a tracker to the top of the quiz that tells the user which question they’re viewing.
+1.  **BONUS**: Add a tracker to the top of the quiz that tells the user which question they’re viewing.
 
-1.  In src/app/quiz/quiz.component.html, before div.quiz but after opening div.quiz-wrapper tag, paste the code from here [[http://bit.ly/spa-track](https://www.google.com/url?q=http://bit.ly/spa-track&sa=D&ust=1479686156256000&usg=AFQjCNF6ztOuDElZkovWT8FjO51u6Ywq_w)].![](images/image40.png)Challenge: Can you explain to your neighbor what this is doing?
-
-| Nice work!![](images/image12.png) |
-| --- |
+  1.  In *src/app/quiz/quiz.component.html*, before *div.quiz* but after opening* div.quiz-wrapper* tag, paste the code from here [[http://bit.ly/spa-track](https://www.google.com/url?q=http://bit.ly/spa-track&sa=D&ust=1479686156256000&usg=AFQjCNF6ztOuDElZkovWT8FjO51u6Ywq_w)].<br>![](/images/image40.png)**Challenge**: Can you explain to your neighbor what this is doing?
+![](../images/24.png)
