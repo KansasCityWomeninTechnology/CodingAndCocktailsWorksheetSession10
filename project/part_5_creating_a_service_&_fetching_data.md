@@ -7,13 +7,13 @@ A service is just one piece of our larger application. Services are used to:
 *   share data or logic across multiple components of an application to avoid code duplication or
 *   to encapsulate external interactions (like with our API).
 
-1.  First, use Angular CLI to generate a service named quiz within the quiz directory. Open your CLI tool.Type: ng g service quiz/quiz
 
-| Helpful tip: |
-| --- |
+1.  First, use *Angular CLI* to generate a service named *quiz* within the *quiz* directory. Open your CLI tool.Type: <span class="cmd"> ng g service quiz/quiz</span>
 
-1.  Open src/app/quiz/quiz.service.ts. We need to import some methods from the HTTP Module &amp; RxJS [Angular CLI installed both of these for us so we can simply import to use them]. Add these imports below the @angular/core import:import { Http, Response } from &#039;@angular/http&#039;;import &#039;rxjs/add/operator/map&#039;;
-2.  In the parenthesis for constructor(), add:private http: Http![](images/image27.png)This creates an instance of the Http service that we imported and assigns it to http. It’s private because we don’t want to access it from outside the QuizService class.
+       ![](../images/25.png)
+
+1.  Open *src/app/quiz/quiz.service.ts*. We need to <span class="ref">import</span> some methods from the *HTTP Module &amp; RxJS* [*Angular CLI* installed both of these for us so we can simply import to use them]. Add these imports below the *@angular/core import*:<br><span class="new">import { Http, Response } from &#039;@angular/http&#039;;</span><br><span class="new">import &#039;rxjs/add/operator/map&#039;;</span><br>
+2.  In the parenthesis for constructor(), add:<br><span class="new">private http: Http</span>![](/images/image27.png)<br>This creates an instance of the <span class="ref">Http</span> service that we imported and assigns it to <span class="ref">http</span>. It’s private because we don’t want to access it from outside the <span class="ref">QuizService</span> class.
 3.  Now, we’re going to add our API request to //cocktail-trivia-api.herokuapp.com/api/sample.Copy the code from here [[http://bit.ly/spa-http](https://www.google.com/url?q=http://bit.ly/spa-http&sa=D&ust=1479686156271000&usg=AFQjCNFQxlhCBv8eVfsRAPVhgJ-Lu0ESzg)] &amp; paste below constructor(private http: Http) { }
 
 | What does this code do? |
