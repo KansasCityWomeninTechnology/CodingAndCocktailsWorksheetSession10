@@ -4,10 +4,9 @@ In order to use Angular CLI later in this lesson, you have to install it via npm
 
 1.  Open your terminal / command line
 
-| **Illegal nested table :** Helpful tip:The “terminal” and “command line” (aka CLI, command line interface) are the same thing.On Windows, we use Git BashOn Mac, we use iTerm2 |  | ![windows-icon.png](images/image23.png) Some of these commands will run slower on Windows computers. To make these processes run faster, it is recommended to run Git Bash as an Administrator. See here [[http://bit.ly/angular-cli-windows](https://www.google.com/url?q=http://bit.ly/angular-cli-windows&sa=D&ust=1479686156090000&usg=AFQjCNE6E03ZS7f6ionnyDCOKCOQrjuCtQ)] for tips on how to do that. |
-| --- | --- | --- |
+ ![](../images/5.png)![/image/windows-icon.png](/images/windows-icon.png) Some of these commands will run slower on Windows computers. To make these processes run faster, it is recommended to run Git Bash as an Administrator. See [here](http://bit.ly/angular-cli-windows) for tips on how to do that.
 
-1.  In Git Bash (windows) or iTerm2 (macs), type: node --version &amp;&amp; npm --version
+1.  In Git Bash (windows) or iTerm2 (macs), type: <div style=" color: #674ea7">node --version && npm --version</div>
 2.  If you get version numbers, then NodeJS and NPM are already installed. Proceed to Step 4.
 
 | Command not found![](images/image50.png) |
