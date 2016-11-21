@@ -11,10 +11,9 @@ It is recommended to watch this video [[http://bit.ly/router-video](https://www.
   1.  <span class="ref">&#039;&#039;</span> that loads our <span class="ref">QuizComponent</span> [this is the root or homepage path &#039;/&#039;]
   2.  <span class="ref">&#039;about&#039;</span> that loads our new <span class="ref">AboutComponent</span> [this will load for the path &#039;/about&#039;]
 
-| Helpful Tip: |
-| --- |
+![](../images/28.png)
 
-1.  We need to import our 2 components, so add those 2 import statements to the top of the file.
+1.  We need to <span class="ref">import</span> our 2 components, so add those 2 import statements to the top of the file.
 2.  Now we need to export our routes, so at the bottom of app.routes.ts, add this:export const QuizAppRoutes = RouterModule.forRoot(routes);
 3.  Open the src/app/app.module.ts file &amp; add an import. Import QuizAppRoutes from app.routes.ts [hint: that needs minor modifications to make that the actual import statement.]
 4.  We also need to add QuizAppRoutes in this file’s @NgModule imports.
