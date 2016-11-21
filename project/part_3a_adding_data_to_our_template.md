@@ -14,6 +14,6 @@ Later, we’ll be using an [API](https://www.google.com/url?q=http://bit.ly/CnCg
 
   1.  Open *src/app/quiz/quiz.component.ts* &amp; below the <span class="ref">import</span> at the top, add: <span class="new">import {} from &#039;./quiz.model&#039;;</span>
   2.  Place your cursor in the middle of <span class="ref">{}</span>. And type  <span class="new">A</span>. Sublime should give you an autocomplete suggestion of <span class="ref">Answer</span>. [Hit tab or enter/return key for it to autocomplete <span class="new">Answer</span> for you.]
-  3.  Add a comma after <span class="ref">Answer</span> &amp; repeat process by typing <span class="new">Q</span> [for Question].Printed worksheets see: [http://bit.ly/spa-ts](https://www.google.com/url?q=http://bit.ly/spa-ts&sa=D&ust=1479686156193000&usg=AFQjCNGdM4oSD7-pRBiV9_0928ngBX5DLg)![](images/image05.gif)
+  3.  Add a comma after <span class="ref">Answer</span> &amp; repeat process by typing <span class="new">Q</span> [for Question].Printed worksheets see: [http://bit.ly/spa-ts](https://www.google.com/url?q=http://bit.ly/spa-ts&sa=D&ust=1479686156193000&usg=AFQjCNGdM4oSD7-pRBiV9_0928ngBX5DLg)![](/images/image05.gif)
 
-1.  In the quiz.component.ts file, within the OnInit method, add: questions: Question[];![](images/image14.png)This uses the imported Question Model to set the type for questions, (the data we set earlier in ngOnInit).
+1.  In the quiz.component.ts file, within the <span class="ref">OnInit</span> method, add: <span class="new">questions: Question[];</span><br>![](/images/image14.png)This uses the imported <span class="ref">Question</span> Model to set the type for <span class="ref">questions</span>, (the data we set earlier in ngOnInit).
