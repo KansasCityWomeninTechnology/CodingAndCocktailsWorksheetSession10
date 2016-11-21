@@ -2,9 +2,9 @@
 
 It is recommended to watch this video [[http://bit.ly/router-video](https://www.google.com/url?q=http://bit.ly/router-video&sa=D&ust=1479686156301000&usg=AFQjCNFD5AQc0ycAzgtg0dq3pj6SfkbCiw)] (sign-up for free account to view) or read this article [[http://bit.ly/angular2-routing](https://www.google.com/url?q=http://bit.ly/angular2-routing&sa=D&ust=1479686156302000&usg=AFQjCNFl00rr7xlaObQwx_CAzr1oN3YYig)] to see how routers work in Angular 2 &amp; how to configure them.
 
-1.  Create a new component named about.
-2.  Create a new file in src/app and name it app.routes.ts
-3.  In this new file, we need to import a couple things from the Router module.Add: import { Routes, RouterModule } from &#039;@angular/router&#039;;
+1.  Create a new component named **about**.
+2.  Create a new file in *src/app* and name it** app.routes.ts**
+3.  In this new file, we need to import a couple things from the Router module.<br>Add: <span class="new">import { Routes, RouterModule } from &#039;@angular/router&#039;;</span>
 4.  Now we need to set our variable that will hold our routes. Add: const routes: Routes = [];This sets a constant variable named routes [of imported type Routes] to an empty array. We’ll add our routes to this array.
 5.  In your array, add 2 routes:
 
