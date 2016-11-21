@@ -5,11 +5,11 @@ It is recommended to watch this video [[http://bit.ly/router-video](https://www.
 1.  Create a new component named **about**.
 2.  Create a new file in *src/app* and name it** app.routes.ts**
 3.  In this new file, we need to import a couple things from the Router module.<br>Add: <span class="new">import { Routes, RouterModule } from &#039;@angular/router&#039;;</span>
-4.  Now we need to set our variable that will hold our routes. Add: const routes: Routes = [];This sets a constant variable named routes [of imported type Routes] to an empty array. We’ll add our routes to this array.
+4.  Now we need to set our variable that will hold our routes. Add: <span class="new">const routes: Routes = [];</span> This sets a *constant* variable named <span class="ref">routes</span> [of imported type <span class="ref">Routes</span>] to an empty array. We’ll add our routes to this array.
 5.  In your array, add 2 routes:
 
-1.  &#039;&#039; that loads our QuizComponent [this is the root or homepage path &#039;/&#039;]
-2.  &#039;about&#039; that loads our new AboutComponent [this will load for the path &#039;/about&#039;]
+  1.  <span class="ref">&#039;&#039;</span> that loads our <span class="ref">QuizComponent</span> [this is the root or homepage path &#039;/&#039;]
+  2.  <span class="ref">&#039;about&#039;</span> that loads our new <span class="ref">AboutComponent</span> [this will load for the path &#039;/about&#039;]
 
 | Helpful Tip: |
 | --- |
