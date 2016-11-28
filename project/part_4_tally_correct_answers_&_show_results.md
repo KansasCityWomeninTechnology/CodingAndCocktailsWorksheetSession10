@@ -2,7 +2,7 @@
 
 We now have questions and answers to create a quiz, but at the end of the quiz, the user won’t know how many they answered correctly. Let’s add a counter that keeps track of the correct answers throughout a quiz and displays the results at the end!
 
-1.  Copy the code here [[http://bit.ly/spa-4_1](https://www.google.com/url?q=http://bit.ly/spa-4_1&sa=D&ust=1479686156232000&usg=AFQjCNEjYuPzE2bIGEQzViIx8jmUZm8IQw)] &amp; paste into your *src/app/quiz/quiz.component.html* before the final <span class="ref">&lt;/div&gt;</span> tag.![](/images/image16.png)
+1.  Copy the code here [[http://bit.ly/spa-4_1](http://bit.ly/spa-4_1)] &amp; paste into your *src/app/quiz/quiz.component.html* before the final <span class="ref">&lt;/div&gt;</span> tag.![](/images/image16.png)
 
   ![](/images/22.png)
 
