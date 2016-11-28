@@ -18,7 +18,7 @@ Our app works, but it’s not very exciting. Let’s add some components!
 1.  Now that we have styles, let’s add the HTML markup for our templates.
 
   1.  Copy the HTML here [[http://bit.ly/spa-fonts](https://www.google.com/url?q=http://bit.ly/spa-fonts&sa=D&ust=1479686156149000&usg=AFQjCNH8YCrBjvdwcD7BMrDBn9fzQwlVGg)] &amp; paste into your *src/index.html* file, above the closing &lt;/head&gt; tag.![](/images/image36.png)This adds some Google Web Fonts, so we have some pretty fonts in our app.
-  2.  Let’s add our *quiz* component html to our *app* component.Copy the HTML here [[](https://www.google.com/url?q=http://bit.ly/spa-html2&sa=D&ust=1479686156151000&usg=AFQjCNGZdevYNpNeLx_RiM67_8P15RnaRg)[http://bit.ly/spa-html-a](https://www.google.com/url?q=http://bit.ly/spa-html-a&sa=D&ust=1479686156151000&usg=AFQjCNFBfI2S5IjDxl7gZ0gDgCuyNwKGXA)] &amp; paste into *src/app/app.component.html*.
+  2.  Let’s add our *quiz* component html to our *app* component.Copy the HTML here [[](http://bit.ly/spa-html-a)[http://bit.ly/spa-html-a](https://www.google.com/url?q=http://bit.ly/spa-html-a&sa=D&ust=1479686156151000&usg=AFQjCNFBfI2S5IjDxl7gZ0gDgCuyNwKGXA)] &amp; paste into *src/app/app.component.html*.
 
       ![](../images/image24.png)![](../images/15.png)
 
