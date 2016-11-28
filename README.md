@@ -1,4 +1,5 @@
-# Intro to Single Page Applications (SPAs) {#intro-to-single-page-applications-spas}
+# Coding & Cocktails Session 9:
+## Intro to Single Page Applications (SPAs) {#intro-to-single-page-applications-spas}
 
 ![codingcocktailsbadge-200.png](images/image47.png)
 # Overview {#overview}
