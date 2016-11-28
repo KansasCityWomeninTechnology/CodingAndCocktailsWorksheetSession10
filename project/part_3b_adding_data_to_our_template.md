@@ -9,7 +9,7 @@ Now that we have our data ready, let’s wire it up to our component’s templat
   ![](../images/19.png)
   ![](../images/32.png)
 1.  Replace  <span class="ref">question</span> here  with <span class="new">{{question.text}}</span>![](/images/image02.png)This will use the *question’s text* from our data to populate our template.
-2.  Let’s loop through our answers. In the <span class="ref">&lt;li&gt;</span> tag, add the following <span class="ref">*ngFor</span> attribute: <span class="new">*ngFor=&quot;let answer of question.answers&quot;</span><br>Printed worksheets see: [http://bit.ly/spa-for2](https://www.google.com/url?q=http://bit.ly/spa-for2&sa=D&ust=1479686156215000&usg=AFQjCNENq98ObzKMiqfy3beffZH2KTbG8w)![](/images/image20.gif)
+2.  Let’s loop through our answers. In the <span class="ref">&lt;li&gt;</span> tag, add the following <span class="ref">*ngFor</span> attribute: <span class="new">*ngFor=&quot;let answer of question.answers&quot;</span><br>Printed worksheets see: [http://bit.ly/spa-for2](http://bit.ly/spa-for2)![](/images/image20.gif)
 3.  Replace <span class="ref">answer here</span> with <span class="new">{{answer.text}}</span>![](/images/image26.png)
 4.  We now have our template rendering questions and answers, but nothing happens when a user selects an answer. Let’s add a *click* event so we can start tracking this.
 
