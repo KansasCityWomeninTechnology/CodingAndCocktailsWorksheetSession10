@@ -23,7 +23,7 @@ Let’s start with creating our app’s foundation. Open Git Bash (Windows) or i
 
 1.  Open your trivia folder in SublimeText.  Let’s make some updates to the app to see the live reload we get from **ng serve**! Remember the **ng serve** command watches for changes to our project files and automatically refreshes the browser for us so we don’t have to.  This is called “live reload.”
 2.  Open the *src/app/app.component.ts* file in SublimeText.
-  3.  Edit the <span class="ref">title</span> variable to whatever text you want (like: have a cocktail!)<br>Note: This <span class="ref">title</span> will end up being the title of your trivia app. Printed worksheets see: [http://bit.ly/spa-1a](https://www.google.com/url?q=http://bit.ly/spa-1a&sa=D&ust=1479686156127000&usg=AFQjCNFZbhIX5xt0vrxMTlkS7jZgODogHA)![](/images/image11.gif)
+  3.  Edit the <span class="ref">title</span> variable to whatever text you want (like: have a cocktail!)<br>Note: This <span class="ref">title</span> will end up being the title of your trivia app. Printed worksheets see: [http://bit.ly/spa-1a](http://bit.ly/spa-1a)![](/images/image11.gif)
 4.  Save your file &amp; go back to the tab in Chrome that has your app running. You should see your updated text! Printed worksheets see: [http://bit.ly/spa-title](https://www.google.com/url?q=http://bit.ly/spa-title&sa=D&ust=1479686156130000&usg=AFQjCNH4q5UVvvk-IYQyhprFzPLMb0sDBg)<br>
 ![](../images/image06.gif)
 ![](../images/10.png)
