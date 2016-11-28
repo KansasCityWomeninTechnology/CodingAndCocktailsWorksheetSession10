@@ -18,7 +18,7 @@ Now that we have our data ready, let’s wire it up to our component’s templat
 
       ![](../images/20.png)
 
-   1.  Open *src/app/quiz/quiz.component.ts*. <br>Copy the code here [[http://bit.ly/spa-select](https://www.google.com/url?q=http://bit.ly/spa-select&sa=D&ust=1479686156223000&usg=AFQjCNEvNwL_At6vwPb94MFqI0KQJKUxrw)] &amp; paste after the <span class="ref">ngOnInit() {}</span> method.![](/images/image03.png)
+   1.  Open *src/app/quiz/quiz.component.ts*. <br>Copy the code here [[http://bit.ly/spa-select](http://bit.ly/spa-select] &amp; paste after the <span class="ref">ngOnInit() {}</span> method.![](/images/image03.png)
 
     ![](../images/21.png)
 
