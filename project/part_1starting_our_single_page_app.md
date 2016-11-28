@@ -25,5 +25,5 @@ Let’s start with creating our app’s foundation. Open Git Bash (Windows) or i
 2.  Open the *src/app/app.component.ts* file in SublimeText.
   3.  Edit the <span class="ref">title</span> variable to whatever text you want (like: have a cocktail!)<br>Note: This <span class="ref">title</span> will end up being the title of your trivia app. Printed worksheets see: [http://bit.ly/spa-1a](http://bit.ly/spa-1a)<br>![](/images/image11.gif)
 4.  Save your file &amp; go back to the tab in Chrome that has your app running. You should see your updated text! Printed worksheets see: [http://bit.ly/spa-title](https://www.google.com/url?q=http://bit.ly/spa-title&sa=D&ust=1479686156130000&usg=AFQjCNH4q5UVvvk-IYQyhprFzPLMb0sDBg)<br>
-![](../images/image06.gif)
+![](../images/image06.gif)<br>
 ![](../images/10.png)
