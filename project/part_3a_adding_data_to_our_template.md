@@ -6,7 +6,7 @@ Later, we’ll be using an [API](https://www.google.com/url?q=http://bit.ly/CnCg
 
 1.  Open your *src/app/quiz/quiz.component.ts* file. In the <span class="ref">ngOnInit()</span> [method](https://www.google.com/url?q=http://bit.ly/CnCgloss&sa=D&ust=1479686156169000&usg=AFQjCNEEl_qdefuKpEwpc-LvjU-N2qu7RQ), between the <span class="ref">{}<span>, paste the code from here [[http://bit.ly/spa-qa](http://bit.ly/spa-qa].<br> Your file should look like the one here [[http://bit.ly/spa-3_1](http://bit.ly/spa-3_1)].
 2.  Since we’re using TypeScript, we need to set types for the data that we just copied and pasted. This is one file *Angular CLI* won’t generate for us. <br> Create a new file in *src/app/quiz* &amp; name it **quiz.model.ts**.
-3.  In *quiz.model.ts*, add the code found here [[http://bit.ly/spa-model](https://www.google.com/url?q=http://bit.ly/spa-model&sa=D&ust=1479686156173000&usg=AFQjCNFxv-WTAH3s9BuKANcviHYCn7d4iQ)]. Feel free to manually type or copy/paste.
+3.  In *quiz.model.ts*, add the code found here [[http://bit.ly/spa-model](http://bit.ly/spa-model)]. Feel free to manually type or copy/paste.
 
   ![](../images/18.png)
 
