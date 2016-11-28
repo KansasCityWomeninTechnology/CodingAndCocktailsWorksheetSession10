@@ -4,7 +4,7 @@ Let’s start with creating our app’s foundation. Open Git Bash (Windows) or i
 
 1.  Navigate to your CodingAndCocktails folder: <span class="cmd">cd &lt;your home directory&gt;/CodingAndCocktails</span>
 
-[![](../images/12.png)](http://bit.ly/cmdln)
+  [![](../images/12.png)](http://bit.ly/cmdln)
 
 1.  Use Angular CLI to scaffold the project for us. Type: <span class="cmd">ng new trivia</span>
 2.  Change the directory to the new one Angular CLI created for us. Type: <span class="cmd">cd trivia</span>
