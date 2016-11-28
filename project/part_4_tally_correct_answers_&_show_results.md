@@ -22,5 +22,5 @@ We now have questions and answers to create a quiz, but at the end of the quiz, 
 
 1.  **BONUS**: Add a tracker to the top of the quiz that tells the user which question they’re viewing.
 
-  1.  In *src/app/quiz/quiz.component.html*, before *div.quiz* but after opening* div.quiz-wrapper* tag, paste the code from here [[http://bit.ly/spa-track](https://www.google.com/url?q=http://bit.ly/spa-track&sa=D&ust=1479686156256000&usg=AFQjCNF6ztOuDElZkovWT8FjO51u6Ywq_w)].<br>![](/images/image40.png)**Challenge**: Can you explain to your neighbor what this is doing?
+  1.  In *src/app/quiz/quiz.component.html*, before *div.quiz* but after opening* div.quiz-wrapper* tag, paste the code from here [[http://bit.ly/spa-track](http://bit.ly/spa-track)].<br>![](/images/image40.png)**Challenge**: Can you explain to your neighbor what this is doing?
 ![](../images/24.png)
