@@ -22,4 +22,4 @@ Now that we have our data ready, let’s wire it up to our component’s templat
 
     ![](../images/21.png)
 
-Your src/app/quiz/quiz.component.ts file should look like the one here [[http://bit.ly/spa-6_b](https://www.google.com/url?q=http://bit.ly/spa-6_b&sa=D&ust=1479686156231000&usg=AFQjCNFKnt3ebjBIOTFy1C5E9uIs4q-3fg)].
+Your src/app/quiz/quiz.component.ts file should look like the one here [[http://bit.ly/spa-6_b](http://bit.ly/spa-6_b)].
