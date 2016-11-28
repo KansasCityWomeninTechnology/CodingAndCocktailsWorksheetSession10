@@ -2,7 +2,7 @@
 
 Now that we have our data ready, let’s wire it up to our component’s template. Open src/app/quiz/quiz.component.html &amp; let’s get to it.
 
-1.  In <span class="ref">&lt;div class=&quot;quiz-wrapper&quot;&gt;</span>, at the top of the file, add an <span class="ref">*ngIf</span> attribute:<br><span class="new">*ngIf=&quot;questions&quot;</span><br>Printed worksheets see: [http://bit.ly/spa-if1](https://www.google.com/url?q=http://bit.ly/spa-if1&sa=D&ust=1479686156199000&usg=AFQjCNF1VNH8SanAHn-CLp-oB9roOPJtjw)![](/images/image04.gif)<span class="ref">*ngIf</span> is an Angular attribute directive that will only render our template IF <span class="ref">this.questions</span> is defined in our component.
+1.  In <span class="ref">&lt;div class=&quot;quiz-wrapper&quot;&gt;</span>, at the top of the file, add an <span class="ref">*ngIf</span> attribute:<br><span class="new">*ngIf=&quot;questions&quot;</span><br>Printed worksheets see: [http://bit.ly/spa-if1](http://bit.ly/spa-if1)![](/images/image04.gif)<span class="ref">*ngIf</span> is an Angular attribute directive that will only render our template IF <span class="ref">this.questions</span> is defined in our component.
 2.  In the markup for <span class="ref">&lt;div class=&quot;each-question&quot;&gt;</span>, add the following as an attribute:<br><span class="new">*ngFor=&quot;let question of questions; let i = index;&quot;</span>
 
   Printed worksheets see: [http://bit.ly/spa-for1](https://www.google.com/url?q=http://bit.ly/spa-for1&sa=D&ust=1479686156203000&usg=AFQjCNHirza2RuAOGQN3dkV1mJZomzDvDw)![](/images/image17.gif) | 
