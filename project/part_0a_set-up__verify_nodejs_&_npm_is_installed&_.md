@@ -1,3 +1,5 @@
+# TODO: Delete this page
+
 ### Part 0A: Set-up | Verify NodeJS &amp; npm is installed &amp; Install Angular CLI {#part-0a-set-up-verify-nodejs-npm-is-installed-install-angular-cli}
 
 In order to use Angular CLI later in this lesson, you have to install it via npm, which requires NodeJS. (We won’t be writing a NodeJS application, but the two are essentially installed together.)
