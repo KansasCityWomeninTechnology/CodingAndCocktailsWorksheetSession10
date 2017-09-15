@@ -43,7 +43,7 @@ If you joined us earlier this year, you might have installed Node.js & **npm**, 
     
 ### 3. angular-cli
 
-1.  In Git Bash (windows) or iTerm2 (macs), type: `npm install -g angular-cli` 
+1.  In Git Bash (windows) or iTerm2 (macs), type: `npm install -g @angular/cli` 
 
   *This may take a minute or two to complete. Perfect excuse to grab yourself a drink!*
 
