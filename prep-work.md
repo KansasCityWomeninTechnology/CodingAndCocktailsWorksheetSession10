@@ -17,7 +17,7 @@ If you're using a Chromebook, skip down to the Cloud9 instructions at the bottom
 {% endhint %}
 
 
-### 2. Install/Update Node.js & npm {#install-nodejs}
+### 2. Install/Update Node.js & npm
 
 {% hint style='danger' %}
 
@@ -100,7 +100,23 @@ If you joined us earlier this year, you might have installed Node.js & **npm**, 
 
 2.  To confirm Angular CLI was installed, while still in Git Bash or iTerm2, type: `ng version`. If you get a version number, you can move on!
 
- _You may also see a warning saying “Could not start watchman; ...”  This is ok and can be ignored but the version numbers for angular-cli and node should be displayed below that._
+### 4: Add TypeScript Package to Atom
+
+Using TypeScript with Angular2, provides us a lot of shortcuts. However, to make sure the correct words highlight for us in Atom (remember the pretty colors you’ve seen in HTML &amp; CSS files?), and that we get some of the autosuggest features of TypeScript, we have to install the TypeScript package for Atom.
+
+1.  Open Atom and from the Atom or File menu **TODO: Windows vs Mac** choose **Preferences**.
+
+2.  In the Preferences pane click on the **Install** option. 
+
+3.  In the search bar, type **Typescript**
+
+4.  Find &amp; select the TypeScript package that matches this image:
+   
+5.  When prompted for any dependencies select **Yes** to install them.
+
+6. Hover over the settings tab at the top of the page and an x should appear.  Click the x to close the setup tab.
+
+7. Setup is done! Give high fives to those around you.
 
 <!--sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section0" data-show=true data-collapse=true ces id="chromebook"-->
 
