@@ -1,4 +1,4 @@
-# TODO: Determine if we need to add config to Atom
+# TODO: Delete this page
 
 ### Part 0B: Setup | Add TypeScript Package to Sublime Editor {#part-0b-setup-add-typescript-package-to-sublime-editor}
 
