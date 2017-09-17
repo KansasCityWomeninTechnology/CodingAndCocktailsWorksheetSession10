@@ -40,17 +40,6 @@ If you joined us earlier this year, you might have installed Node.js & **npm**, 
     Do you get a version number [_Version **8 or greater** required._]?
 
     1. No version number [something like `node: command not found`]. You need to install Node.
-    
-### 3. angular-cli
-
-1.  In Git Bash (windows) or iTerm2 (macs), type: `npm install -g @angular/cli` 
-
-  *This may take a minute or two to complete. Perfect excuse to grab yourself a drink!*
-
-2.  To confirm Angular CLI was installed, while still in Git Bash or iTerm2, type: `ng version`. If you get a version number, you can move on!
-
-  *You may also see a warning saying “Could not start watchman; ...”  This is ok and can be ignored but the version numbers for angular-cli and node should be displayed below that.*
-
 
       <!--sec data-title="Mac - Install Node" data-id="sectionInstallMac" data-show=true data-collapse=true ces-->
 
@@ -103,6 +92,16 @@ If you joined us earlier this year, you might have installed Node.js & **npm**, 
 
    2. If your version is less than **5**, update to the latest by typing: `npm install npm -g`
 
+### 3. angular-cli
+
+1.  In Git Bash (windows) or iTerm2 (macs), type: `npm install -g @angular/cli`
+
+ *This may take a minute or two to complete. Perfect excuse to grab yourself a drink!*
+
+2.  To confirm Angular CLI was installed, while still in Git Bash or iTerm2, type: `ng version`. If you get a version number, you can move on!
+
+ _You may also see a warning saying “Could not start watchman; ...”  This is ok and can be ignored but the version numbers for angular-cli and node should be displayed below that._
+
 <!--sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section0" data-show=true data-collapse=true ces id="chromebook"-->
 
 1. Sign up for an account at [c9.io](https://c9.io)
@@ -124,7 +123,7 @@ If you joined us earlier this year, you might have installed Node.js & **npm**, 
 8. Click on the **Create Workspace** button.
 
   Cloud9 will take a minute and create your workspace here.
-  
+
 9. When the workspace opens, click on the small x on the right side of the tab that says `[M]/README.md` to clear your workspace.
 
 10. On the left side project pane, right click on the _hello-world.html_ file and choose **Delete**.  Then confirm Yes you want to continue.
