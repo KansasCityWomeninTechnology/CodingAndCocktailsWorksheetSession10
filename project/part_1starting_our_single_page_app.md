@@ -92,7 +92,7 @@ This `title` will end up being the title of your trivia app.
   
   ![](/images/image11.gif)
 
-6.  Save your file & go back to the tab in Chrome that has your app running. You should see your updated text! 
+6.  Save your file & go back to the tab in Chrome that has your app running. You should see your updated text! **TODO: replace GIF**
 
   ![](../images/image06.gif)
 
