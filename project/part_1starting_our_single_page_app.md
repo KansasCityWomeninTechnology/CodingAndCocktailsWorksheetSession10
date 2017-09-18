@@ -1,5 +1,6 @@
-### Part 1: Starting our Single Page App 
+# Part 1: Starting our Single Page App
 
+### App Foundation
 Let’s start with creating our app’s foundation. Open Git Bash (Windows) or iTerm2 (Mac) and rock &amp; roll.
 
 1.  Navigate to your CodingAndCocktails folder. Type: `cd ~/CodingAndCocktails`
@@ -53,10 +54,46 @@ Windows will take more time for the ng serve process and for the automatic reloa
 In iTerm2 (mac), open a new tab or in Git Bash (windows), open a new window to be ready for the next CLI commands.  You'll want to leave `ng serve` running in your CLI tool to see the live updates as we progress through the project.
   {% endhint %}
 
-1.  Open your trivia folder in SublimeText.  Let’s make some updates to the app to see the live reload we get from **ng serve**! Remember the **ng serve** command watches for changes to our project files and automatically refreshes the browser for us so we don’t have to.  This is called “live reload.”
+### Make a Change
 
-2.  Open the *src/app/app.component.ts* file in SublimeText.
-  3.  Edit the <span class="ref">title</span> variable to whatever text you want (like: have a cocktail!)<br>Note: This <span class="ref">title</span> will end up being the title of your trivia app. Printed worksheets see: [http://bit.ly/spa-1a](http://bit.ly/spa-1a)<br>![](/images/image11.gif)
-4.  Save your file &amp; go back to the tab in Chrome that has your app running. You should see your updated text! Printed worksheets see: [http://bit.ly/spa-title](https://www.google.com/url?q=http://bit.ly/spa-title&sa=D&ust=1479686156130000&usg=AFQjCNH4q5UVvvk-IYQyhprFzPLMb0sDBg)<br>
-![](../images/image06.gif)<br>
-![](../images/10.png)
+Let’s make some updates to the app to see the live reload we get from `ng serve`! Remember the `ng serve` command watches for changes to our project files and automatically refreshes the browser for us so we don’t have to.  This is called “live reload.”
+
+1.  Open Atom via the command line
+
+  {% hint style='danger' %}
+**Cloud9 users:** Skip this step.
+  {% endhint %}
+
+  Type: `atom .`
+  
+  {% hint style='danger' %}
+Command not found
+
+If Atom doesn't open (but you know it's installed), your system likely doesn't recognize the `atom` command.
+
+You can configure your system to recognize the command (ask a mentor for help) or you can follow these steps to open it manually:
+  1. From your applications or start menu, open Atom
+  2. In Atom: File >> Open... (Mac) or Open Folder... (Windows)
+  3. Open the _trivia-api_ folder
+  4. Click the Open button
+  {% endhint %}
+
+2. In Atom, in the left side project pane, click on the arrow next to _src_ to expand the folder.
+
+3. Next, do the same thing next to the _app_ folder to expand it.
+
+4. Double click on the _app.component.ts_ file inside that _app_ folder to open it in the right side editing pane.
+  
+5.  Edit the `title` variable to whatever text you want (like: have a cocktail!)
+
+  {% hint style='info' %}
+This `title` will end up being the title of your trivia app.
+  {% endhint %} 
+  
+  ![](/images/image11.gif)
+
+6.  Save your file & go back to the tab in Chrome that has your app running. You should see your updated text! 
+
+  ![](../images/image06.gif)
+
+##### Nice work! Take a break and grab another drink, you've earned it! 
