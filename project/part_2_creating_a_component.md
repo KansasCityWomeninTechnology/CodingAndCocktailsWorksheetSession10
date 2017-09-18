@@ -1,12 +1,16 @@
-### Part 2: Creating a component {#part-2-creating-a-component}
+### Part 2: Creating a component
 
 Our app works, but it’s not very exciting. Let’s add some components!
 
-1.  Start in your CLI tool and generate a component named quiz with Angular CLI.Type: <span class="cmd">ng g component quiz</span>
+1.  In Git Bash or iTerm2, generate a component named quiz with Angular CLI. Type: `ng g component quiz`
 
-    ![](../images/34.png)
+  {% hint style='tip' %}
+This creates a _src/app/quiz_ director with 4 files in it: _html, css, typescript & spec_.  _spec_ files are to write tests (to make sure your code works). We won't be using these tonight so you can ignore this file.
+  {% endhint %}
 
-1.  Let’s add some styles to our app, so it won’t look bland as we develop it.<br>![windows-icon.png](/images/windows-icon.png) Windows users you’ll need to click the “raw” button to copy code from github to avoid copying the line numbers with the code
+2.  Next, add some styles to your app, so it won’t look bland as you develop it.
+
+![windows-icon.png](/images/windows-icon.png) Windows users you’ll need to click the “raw” button to copy code from github to avoid copying the line numbers with the code
     ![raw.png](/images/image32.png)
 
   1.  Copy the CSS styles here [[http://bit.ly/spa-css-a](https://www.google.com/url?q=http://bit.ly/spa-css-a&sa=D&ust=1479686156141000&usg=AFQjCNHxMUSfQXmiQ5XR2tlKbQtZWKetJQ)] &amp; paste into your *src/styles.css* file.These are global styles that apply to the whole app.
