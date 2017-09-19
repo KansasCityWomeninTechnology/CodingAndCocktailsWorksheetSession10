@@ -26,16 +26,6 @@ Let’s start with creating our app’s foundation. Open Git Bash (Windows) or i
 3.  In Git Bash or iTerm2, Change the directory to the new one Angular CLI created for us. Type: `cd trivia`
 
 4.  In Git Bash or iTerm2, Let’s run our new app. Type: `ng serve`
- 
-  {% hint style='info' %}
-This command will:
-
-  1.  Compile our TypeScript files into JavaScript
-  
-  2.  Start a local server on our computer so we can view our project prior to making it live on the internet
-  
-  3.  Watch our project files for changes so that when one of them changes it will automatically reload in the browser for us and avoid the step of us having to push the refresh button to see every update we make.
-  {% endhint %}
   
   {% hint style='danger' %}
 ![images/windows-icon.png](/images/windows-icon.png)
