@@ -44,6 +44,13 @@ Windows will take more time for the ng serve process and for the automatic reloa
 
 5.  In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to see your working (basic) app.
 
+{% hint style='info' %}
+The output of `ng serve` will provide the URL you can use in Google chrome to see your app. **TODO: Take screenshot**
+</br>
+</br>
+On Windows, `ng serve` will not provide the URL. When Git Bash looks like this: [http://bit.ly/windows-serve](http://bit.ly/windows-serve) navigate to http://localhost:4200 in Google Chrome. **TODO: verify this is still true**
+  (% endhint %)
+
   {% hint style='tip' %}
 In iTerm2 (mac), open a new tab or in Git Bash (windows), open a new window to be ready for the next CLI commands.  You'll want to leave `ng serve` running in your CLI tool to see the live updates as we progress through the project.
   {% endhint %}
