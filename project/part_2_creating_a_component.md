@@ -40,8 +40,6 @@ In an effort to keep the project focused on Single Page Applications, we're prov
   2.  Add the **quiz** component html to the **app** component. Copy the HTML code from this link: [http://bit.ly/spa-html-a](http://bit.ly/spa-html-a) & paste it into the *src/app/app.component.html* file.
   
       ![](../images/image24.png)
-      
-
 
    3.  Copy the HTML code from this link: [http://bit.ly/spa-html3c](http://bit.ly/spa-html3c) & paste it into the *src/app/quiz/quiz.component.html* file.![](/images/image28.png)
 
