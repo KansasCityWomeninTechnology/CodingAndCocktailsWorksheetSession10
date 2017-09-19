@@ -26,9 +26,11 @@ Windows users you’ll need to click the “raw” button to copy code from gith
 #### What is this HTML & CSS stuff?!
 In an effort to keep the project focused on Single Page Applications, we're providing the HTML & CSS code for you to copy/paste.
  
-**New to HTML/CSS?** Take a minute to read what you pasted.  Try to predict what you might see in the finished product. If you have questions about any of it, or HTML/CSS in general, grab a mentor! 
+##### New to HTML/CSS? 
+Take a minute to read what you pasted.  Try to predict what you might see in the finished product. If you have questions about any of it, or HTML/CSS in general, grab a mentor! 
 
-**Know HTML/CSS?** Have at it! Customize the HTML/CSS to your liking!
+##### Know HTML/CSS?
+Have at it! Customize the HTML/CSS to your liking!
   {% endhint %}
 
 3.  Now that we have styles, let’s add the HTML markup for our templates.
