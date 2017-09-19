@@ -3,28 +3,29 @@
 ### App Foundation
 Let’s start with creating our app’s foundation. Open Git Bash (Windows) or iTerm2 (Mac) and rock &amp; roll.
 
-1.  Navigate to your CodingAndCocktails folder. Type: `cd ~/CodingAndCocktails`
+1.  In Git Bash or iTerm2, Navigate to your CodingAndCocktails folder. Type: `cd ~/CodingAndCocktails`
 
  Then press **enter**. You will need to press enter after any command you enter in the command line.
 
   {% hint style='tip' %}
-  #### Command line woes?
+#### Command line woes?
   - Your home directory is:
     - Mac: `/users/<yourUsername>`
     - Windows: `C:/Users/<yourUsername>`
   - Command to change folders: `cd <folderToGoTo>`
   - Command to make a folder: `mkdir <newFolder>`
   - You can also use **~** as a shortcut in CLI for your home directory: ``cd ~``
-
+</br>
+</br>
   Revisit the command line worksheet from March:
   [bit.ly/CnCMarWork](http://bit.ly/CnCMarWork)
   {% endhint %}
 
-2.  Use Angular CLI to scaffold the project for us. Type: `ng new trivia`
+2.  In Git Bash or iTerm2, Use Angular CLI to scaffold the project for us. Type: `ng new trivia`
 
-3.  Change the directory to the new one Angular CLI created for us. Type: `cd trivia`
+3.  In Git Bash or iTerm2, Change the directory to the new one Angular CLI created for us. Type: `cd trivia`
 
-4.  Let’s run our new app. Type: `ng serve`
+4.  In Git Bash or iTerm2, Let’s run our new app. Type: `ng serve`
  
   {% hint style='info' %}
 This command will:
@@ -65,6 +66,18 @@ Let’s make some updates to the app to see the live reload we get from `ng serv
   {% endhint %}
 
   Type: `atom .`
+  
+  {% hint style='danger' %}
+Command not found
+
+If Atom doesn't open (but you know it's installed), your system likely doesn't recognize the `atom` command.
+
+You can configure your system to recognize the command (ask a mentor for help) or you can follow these steps to open it manually:
+  1. From your applications or start menu, open Atom
+  2. In Atom: File >> Open... (Mac) or Open Folder... (Windows)
+  3. Open the _trivia-api_ folder
+  4. Click the Open button
+  {% endhint %}
 
 2. In Atom, in the left side project pane, click on the arrow next to _src_ to expand the folder.
 
