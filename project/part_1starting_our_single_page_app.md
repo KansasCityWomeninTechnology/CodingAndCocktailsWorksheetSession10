@@ -31,18 +31,18 @@ Let’s start with creating our app’s foundation. Open Git Bash (Windows) or i
 This command will:
 
 1. Compile our TypeScript files into JavaScript
+</br>
 2. Start a local server on our computer so we can view our project prior to making it live on the internet
+</br>
 3. Watch our project files for changes so that when one of them changes it will automatically reload in the browser for us and avoid the step of us having to push the refresh button to see every update we make.
+  {% endhint %}
+  
+  {% hint style='danger' %}
+![images/windows-icon.png](/images/windows-icon.png)
+Windows will take more time for the ng serve process and for the automatic reload in the browser (upon file changes), unless you are running as admin. If you don’t recall doing this earlier, see tips [here](http://bit.ly/angular-cli-windows) to make it run faster.
   {% endhint %}
 
 5.  In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to see your working (basic) app.
-
-  {% hint style='info' %}
-#### Helpful Tips:
-* The output of `ng serve` will provide the URL you can use in Google chrome to see your app. **TODO: Take screenshot**
-
-* On Wondows, `ng serve` will not provide the URL. When Git Bash looks like this: bit.ly/windows-serve navigate to http://localhost:4200 in Google Chrome. **TODO: verify this is still true**
-  (% endhint %)
 
   {% hint style='tip' %}
 In iTerm2 (mac), open a new tab or in Git Bash (windows), open a new window to be ready for the next CLI commands.  You'll want to leave `ng serve` running in your CLI tool to see the live updates as we progress through the project.
