@@ -65,18 +65,6 @@ Let’s make some updates to the app to see the live reload we get from `ng serv
   {% endhint %}
 
   Type: `atom .`
-  
-  {% hint style='danger' %}
-Command not found
-
-If Atom doesn't open (but you know it's installed), your system likely doesn't recognize the `atom` command.
-
-You can configure your system to recognize the command (ask a mentor for help) or you can follow these steps to open it manually:
-  1. From your applications or start menu, open Atom
-  2. In Atom: File >> Open... (Mac) or Open Folder... (Windows)
-  3. Open the _trivia-api_ folder
-  4. Click the Open button
-  {% endhint %}
 
 2. In Atom, in the left side project pane, click on the arrow next to _src_ to expand the folder.
 
