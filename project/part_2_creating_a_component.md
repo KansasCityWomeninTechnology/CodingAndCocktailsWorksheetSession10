@@ -22,7 +22,7 @@ Windows users you’ll need to click the “raw” button to copy code from gith
   
   3.  Copy the CSS styles here [[http://bit.ly/spa-css-c](http://bit.ly/spa-css-c)] & paste into *src/app/quiz/quiz.component.css*. These styles apply only to the markup in _quiz.component.html_.
   
-    {% hint style='info' %}
+      {% hint style='info' %}
 #### What is this HTML & CSS stuff?!
 In an effort to keep the project focused on Single Page Applications, we're providing the HTML & CSS code for you to copy/paste.
  
