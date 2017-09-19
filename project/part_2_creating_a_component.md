@@ -41,19 +41,7 @@ In an effort to keep the project focused on Single Page Applications, we're prov
   
       ![](../images/image24.png)
       
-      {% hint style='info' %}
-`<app-quiz></app-quiz>` is the HTML selector for our _quiz_ component.  This tag will be replaced (automagically) by the HTML in our _src/app/quiz/quiz.component.html_ file.
-</br>
-Where does `<app-quiz>` come from?  In the Component metadata in the _src/app/quiz/quiz.component.ts_ file, the **selector** is set to 'app-quiz'.
-</br>
-```
-@Component({
-  selector: 'app-quiz',
-  templateUrl: './quiz.component.html',
-  styleUrls: ['./quiz.component.css']
-})
-```
-{% endhint %}
+
 
  3.  Copy the HTML code from this link: [http://bit.ly/spa-html3c](http://bit.ly/spa-html3c) & paste it into the *src/app/quiz/quiz.component.html* file.![](/images/image28.png)
 
