@@ -43,7 +43,7 @@ In an effort to keep the project focused on Single Page Applications, we're prov
       
 
 
- 3.  Copy the HTML code from this link: [http://bit.ly/spa-html3c](http://bit.ly/spa-html3c) & paste it into the *src/app/quiz/quiz.component.html* file.![](/images/image28.png)
+   3.  Copy the HTML code from this link: [http://bit.ly/spa-html3c](http://bit.ly/spa-html3c) & paste it into the *src/app/quiz/quiz.component.html* file.![](/images/image28.png)
 
 4.  Head on over to Chrome to check out how your app looks.
 
