@@ -18,18 +18,48 @@ Windows users you’ll need to click the “raw” button to copy code from gith
 
   1.  Copy the CSS styles from this link: [[http://bit.ly/spa-css-a](http://bit.ly/spa-css-a)] & paste into your _src/styles.css_ file. These are global styles that apply to the whole app.
   
-  2.  Copy the CSS styles here [[http://bit.ly/spa-css-b](https://www.google.com/url?q=http://bit.ly/spa-css-b&sa=D&ust=1479686156142000&usg=AFQjCNFfXzzZCfus01BRb7a_mtRmYaxCRw)] &amp; paste into your *src/app/app.component.css* file.These styles apply only to the markup in app.component.html.
-  3.  Copy the CSS styles here [[http://bit.ly/spa-css-c](https://www.google.com/url?q=http://bit.ly/spa-css-c&sa=D&ust=1479686156143000&usg=AFQjCNH5DXHFCu1alvaRWlZ653U8Vsvs-g)] &amp; paste into *src/app/quiz/quiz.component.css*.These styles apply only to the markup in quiz.component.html.
+  2.  Copy the CSS styles here [[http://bit.ly/spa-css-b](http://bit.ly/spa-css-b)] & paste into your *src/app/app.component.css* file. These styles apply only to the markup in _app.component.html_.
+  
+  3.  Copy the CSS styles here [[http://bit.ly/spa-css-c](http://bit.ly/spa-css-c)] & paste into *src/app/quiz/quiz.component.css*. These styles apply only to the markup in _quiz.component.html_.
+  
+    {% hint style='info' %}
+#### What is this HTML & CSS stuff?!
+In an effort to keep the project focused on Single Page Applications, we're providing the HTML & CSS code for you to copy/paste.
+</br>  
+**New to HTML/CSS?** Take a minute to read what you pasted.  Try to predict what you might see in the finished product. If you have questions about any of it, or HTML/CSS in general, grab a mentor! 
+</br>
+**Know HTML/CSS?** Have at it! Customize the HTML/CSS to your liking!
+  {% endhint %}
 
-    ![](../images/9.png)
+3.  Now that we have styles, let’s add the HTML markup for our templates.
 
-1.  Now that we have styles, let’s add the HTML markup for our templates.
+  1.  Copy the HTML code from this link [http://bit.ly/spa-fonts](http://bit.ly/spa-fonts) & paste it into your *src/index.html* file, above the closing &lt;/head&gt; tag. This adds some Google Web Fonts, so we have some pretty fonts in our app.
+  
+      ![](/images/image36.png)
+  
+  2.  Add the **quiz** component html to the **app** component. Copy the HTML code from this link: [http://bit.ly/spa-html-a](http://bit.ly/spa-html-a) & paste it into the *src/app/app.component.html* file.
+  
+      ![](../images/image24.png)
+      
+      {% hint style='info' %}
+`<app-quiz></app-quiz>` is the HTML selector for our _quiz_ component.  This tag will be replaced (automagically) by the HTML in our _src/app/quiz/quiz.component.html_ file.
+</br>
+Where does `<app-quiz>` come from?  In the Component metadata in the _src/app/quiz/quiz.component.ts_ file, the **selector** is set to 'app-quiz'.
+</br>
+```
+@Component({
+  selector: 'app-quiz',
+  templateUrl: './quiz.component.html',
+  styleUrls: ['./quiz.component.css']
+})
+```
+{% endhint %}
 
-  1.  Copy the HTML here [[http://bit.ly/spa-fonts](http://bit.ly/spa-fonts)] & paste into your *src/index.html* file, above the closing &lt;/head&gt; tag.![](/images/image36.png)This adds some Google Web Fonts, so we have some pretty fonts in our app.
-  2.  Let’s add our *quiz* component html to our *app* component.Copy the HTML here [[](http://bit.ly/spa-html-a)[http://bit.ly/spa-html-a](http://bit.ly/spa-html-a)] &amp; paste into *src/app/app.component.html*.
+ 3.  Copy the HTML code from this link: [http://bit.ly/spa-html3c](http://bit.ly/spa-html3c) & paste it into the *src/app/quiz/quiz.component.html* file.![](/images/image28.png)
 
-      ![](../images/image24.png)![](../images/15.png)
+4.  Head on over to Chrome to check out how your app looks.
 
- 1.  Copy the HTML here [[http://bit.ly/spa-html3c](http://bit.ly/spa-html3c)] &amp; paste into *src/app/quiz/quiz.component.html*.![](/images/image28.png)
-  2.  Head on over to Chrome to check out how your app looks.<br>
-![](../images/16.png)
+  {% hint style='danger' %}
+#### App doesn't look like this?
+Look back through the steps or grab a mentor!
+  {% endhint %}
