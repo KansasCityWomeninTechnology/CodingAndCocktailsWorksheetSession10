@@ -10,17 +10,120 @@ This creates a _src/app/quiz_ directory with 4 files in it: _html, css, typescri
 
 2.  Next, add some styles to your app, so it won’t look bland as you develop it.
 
-  {% hint style='danger' %}
-![windows-icon.png](/images/windows-icon.png) 
-Windows users you’ll need to click the “raw” button to copy code from github to avoid copying the line numbers with the code
-    ![raw.png](/images/image32.png)
-  {% endhint %}
+  1.  Copy (check out the [keyboard shortcuts](/reference-helpful-keyboard-shortcuts.md) for help!) these CSS styles: 
 
-  1.  Copy the CSS styles from this link: [[http://bit.ly/spa-css-a](http://bit.ly/spa-css-a)] & paste into your _src/styles.css_ file. These are global styles that apply to the whole app.
+```
+body {
+  align-items: center;
+  background: #000;
+  color: #fff;
+  display: flex;
+	font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+```
+   
+  2. Paste (use the [keyboard shortcuts](/reference-helpful-keyboard-shortcuts.md)!) the CSS code into your _src/styles.css_ file. These are global styles that apply to the whole app.
   
-  2.  Copy the CSS styles here [[http://bit.ly/spa-css-b](http://bit.ly/spa-css-b)] & paste into your *src/app/app.component.css* file. These styles apply only to the markup in _app.component.html_.
+  3.  Copy these CSS styles:
   
-  3.  Copy the CSS styles here [[http://bit.ly/spa-css-c](http://bit.ly/spa-css-c)] & paste into *src/app/quiz/quiz.component.css*. These styles apply only to the markup in _quiz.component.html_.
+```
+.quiz-wrapper {
+  max-height: 100vh;
+  max-width: 31rem;
+}
+
+h1 {
+  color: #4db6ac;
+  float: left;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: 0;
+  padding: 1rem;
+}
+```
+   
+  4. Paste the CSS code into your *src/app/app.component.css* file. These styles apply only to the markup in _app.component.html_.
+  
+  5.  Copy these CSS styles:
+  
+```
+.question-tracker,
+.results-header {
+  color: #ff9800;
+  float: right;
+  font-size: 0.9rem;
+  font-style: italic;
+  padding: 1rem;
+}
+
+.quiz {
+  clear: both;
+}
+
+.question,
+.results {
+  background: #111;
+  color: #cddc39;
+  margin: 0;
+  padding: 1rem;
+}
+
+.question {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+}
+
+.answers {
+  background: #1f1f1f;
+  list-style-position: inside;
+  list-style-type: lower-alpha;
+}
+
+.answers li {
+  color: #f06292;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 1rem;
+  transition:all 0.5s ease;
+}
+
+.answers li:hover {
+  background: #222;
+  color: #ba68c8;
+}
+
+.results {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.score {
+  color: #f06292;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.result-message {
+  font-size: 2.8rem;
+}
+
+.result-action {
+  color: #ba68c8;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+}
+```
+   
+  6. Paste the CSS code into the *src/app/quiz/quiz.component.css* file. These styles apply only to the markup in _quiz.component.html_.
   
       {% hint style='info' %}
 #### What is this HTML & CSS stuff?!
@@ -35,17 +138,58 @@ Have at it! Customize the HTML/CSS to your liking!
 
 3.  Now that we have styles, let’s add the HTML markup for our templates.
 
-  1.  Copy the HTML code from this link [http://bit.ly/spa-fonts](http://bit.ly/spa-fonts) & paste it into your *src/index.html* file, above the closing &lt;/head&gt; tag. This adds some Google Web Fonts, so we have some pretty fonts in our app.
+  1.  Copy the HTML code:
+  
+```
+<link href="//fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+```
+   
+  2. Paste it into your *src/index.html* file, above the closing &lt;/head&gt; tag. This adds some Google Web Fonts to make the app a bit more visually appealing.
   
       ![](/images/image36.png)
   
-  2.  Add the **quiz** component html to the **app** component. Copy the HTML code from this link: [http://bit.ly/spa-html-a](http://bit.ly/spa-html-a) & paste it into the *src/app/app.component.html* file.
+  3.  Add the **quiz** component html to the **app** component. Copy the HTML code:
+  
+```
+<div class="quiz-wrapper">
+  <h1>{{title}}</h1>
+  <app-quiz></app-quiz>
+</div>
+```
+   
+  4. Paste it into the *src/app/app.component.html* file.
   
       ![](../images/image24.png)
 
-   3.  Copy the HTML code from this link: [http://bit.ly/spa-html3c](http://bit.ly/spa-html3c) & paste it into the *src/app/quiz/quiz.component.html* file.![](/images/image28.png)
+  5. Copy the HTML code:
+  
+```
+<div class="quiz-wrapper">
+
+  <div class="quiz">
+
+    <div class="each-question">
+      <div class="q-and-a">
+        <h3 class="question">question here</h3>
+
+        <ul class="answers">
+          <li>answer here</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+```
+
+  6. Paste it into the *src/app/quiz/quiz.component.html* file.
+  
+  ![](/images/image28.png)
 
 4.  Head on over to Chrome to check out how your app looks.
+
+    ![](/images/appOne.png)
 
   {% hint style='danger' %}
 #### App doesn't look like this?
