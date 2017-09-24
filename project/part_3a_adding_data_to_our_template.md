@@ -1,4 +1,4 @@
-### Part 3A: Adding Data to Your Template
+### Part 3: Adding Data to Your Template
 
 Your template is working and looks pretty, but it’s hardcoded, or, in other words, the data is fixed and can only be edited manually. Add a couple questions and answers to your component, and make the template render your quiz questions dynamically. In Part 3, you’ll do some set-up work for data to use in your template. Part 4 will be to integrate the data with your component’s template (HTML).
 
@@ -55,18 +55,50 @@ Later, you’ll be using an [API](http://bit.ly/CnCgloss) [Application Programmi
 
 2. In Atom, open your *src/app/quiz/quiz.component.ts* file by double clicking on it in the left side Project Pane. In the `ngOnInit()` [method](http://bit.ly/CnCgloss), between the opening and closing curly braces, (`{}`), paste that code in.
 
+  {% hint style='tip' %}
 Check your code against the answer key here: [[http://bit.ly/spa-3_1](http://bit.ly/spa-3_1)].
+  {% endhint %}
 
+3.  Since you’re using [TypeScript](https://www.typescriptlang.org), you'll need to set data types for the data that you just copied and pasted. This is one file Angular CLI won’t generate for you since it can't read your mind about what your application's data should look like!  Here you'll create a model to represent the data for your applications questions and answers
 
-2.  Since we’re using TypeScript, we need to set types for the data that we just copied and pasted. This is one file *Angular CLI* won’t generate for us. <br> Create a new file in *src/app/quiz* &amp; name it **quiz.model.ts**.
-3.  In *quiz.model.ts*, add the code found here [[http://bit.ly/spa-model](http://bit.ly/spa-model)]. Feel free to manually type or copy/paste.
+  1. Create a new file in *src/app/quiz* & name it **quiz.model.ts**.
+  
+  2. In your newly created *quiz.model.ts*, add the code below. Feel free to manually type or copy/paste.
 
-  ![](../images/18.png)
+      ```
+      export class Answer {
+        correct: boolean;
+        text: string;
+      }
+      
+      export class Question {
+        text: string;
+        answers: Answer[];
+      }
+      ```
+      
+    {% hint style='tip' %}
+### What does this code do?
 
-1.  Now we’re going to import these into *quiz.component.ts*.
+It defines two models, one `Answer` model and one `Question` model. It **exports** the models so you can **import** the models into the file where you want to use them. 
 
-  1.  Open *src/app/quiz/quiz.component.ts* &amp; below the <span class="ref">import</span> at the top, add: <span class="new">import {} from &#039;./quiz.model&#039;;</span>
-  2.  Place your cursor in the middle of <span class="ref">{}</span>. And type  <span class="new">A</span>. Sublime should give you an autocomplete suggestion of <span class="ref">Answer</span>. [Hit tab or enter/return key for it to autocomplete <span class="new">Answer</span> for you.]
-  3.  Add a comma after <span class="ref">Answer</span> &amp; repeat process by typing <span class="new">Q</span> [for Question].Printed worksheets see: [http://bit.ly/spa-ts](http://bit.ly/spa-ts)![](/images/image05.gif)
+The `Answer` model has 2 properties: `correct` and `text`.  `correct` is of data type **boolean** (that means it can be set to either **true** or **false**).  `text` is of data type **string** (that means it represents textual data or, a series of characters).
 
-1.  In the quiz.component.ts file, within the <span class="ref">OnInit</span> method, add: <span class="new">questions: Question[];</span><br>![](/images/image14.png)This uses the imported <span class="ref">Question</span> Model to set the type for <span class="ref">questions</span>, (the data we set earlier in <span class="ref">ngOnInit</span>).
+The `Question` model has two properties: `text` and `answers`.  `text` is of data type **string**.  `answers` is of data type **array** (this means it can hold multiple items of any data type, similar to a list like a grocery list or a honey-do list)
+    {% endhint %}
+
+4.  Now you'll import these models into the *quiz.component.ts* file to use them.
+
+  1.  In Atom, open the *src/app/quiz/quiz.component.ts* file & below the `import` statment at the top, type: `import {} from './quiz.model';`
+  
+  2.  Place your cursor in the middle of the curly braces `{}`. And type `A`. Atom should give you an autocomplete suggestion of `Answer`. [Hit tab or enter/return key for it to autocomplete `Answer` for you.]
+    
+  3.  Add a comma after `Answer` & repeat the process by typing `Q` [for Question].
+  
+      ![](/images/image05.gif)
+
+5.  In the _quiz.component.ts_ file, within the `OnInit` method, type: `questions: Question[];`
+
+    ![](/images/image14.png)
+    
+      This uses the imported `Question` Model to set the type for `questions`, (the data we set earlier in `ngOnInit`).
