@@ -12,24 +12,24 @@ This creates a _src/app/quiz_ directory with 4 files in it: _html, css, typescri
 
   1.  Copy (check out the [keyboard shortcuts](/reference-helpful-keyboard-shortcuts.md) for help!) these CSS styles: 
 
-```
-body {
-  align-items: center;
-  background: #000;
-  color: #fff;
-  display: flex;
-	font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  height: 100vh;
-  justify-content: center;
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-```
+      ```
+      body {
+        align-items: center;
+        background: #000;
+        color: #fff;
+        display: flex;
+      	font-family: 'Raleway', sans-serif;
+        font-weight: 200;
+        height: 100vh;
+        justify-content: center;
+        margin: 0;
+      }
+      
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      ```
    
   2. Paste (use the [keyboard shortcuts](/reference-helpful-keyboard-shortcuts.md)!) the CSS code into your _src/styles.css_ file. These are global styles that apply to the whole app.
   
