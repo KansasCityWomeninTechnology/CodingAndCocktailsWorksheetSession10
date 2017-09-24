@@ -1,7 +1,7 @@
-# Part 1: Starting our Single Page App
+# Part 1: Starting your Single Page App
 
 ### App Foundation
-Let’s start with creating our app’s foundation. Open Git Bash (Windows) or iTerm2 (Mac) and rock &amp; roll.
+Let’s start with creating your app’s foundation. Open Git Bash (Windows) or iTerm2 (Mac) and rock &amp; roll.
 
 1.  In Git Bash or iTerm2, Navigate to your CodingAndCocktails folder. Type: `cd ~/CodingAndCocktails`
 
@@ -21,20 +21,20 @@ Let’s start with creating our app’s foundation. Open Git Bash (Windows) or i
   [bit.ly/CnCMarWork](http://bit.ly/CnCMarWork)
   {% endhint %}
 
-2.  In Git Bash or iTerm2, Use Angular CLI to scaffold the project for us. Type: `ng new trivia`
+2.  In Git Bash or iTerm2, Use Angular CLI to scaffold the project. Type: `ng new trivia`
 
-3.  In Git Bash or iTerm2, Change the directory to the new one Angular CLI created for us. Type: `cd trivia`
+3.  In Git Bash or iTerm2, Change the directory to the new one Angular CLI created for you. Type: `cd trivia`
 
-4.  In Git Bash or iTerm2, Let’s run our new app. Type: `ng serve`
+4.  In Git Bash or iTerm2, run your new app. Type: `ng serve`
 
   {% hint style='info' %}
 This command will:
 
-1. Compile our TypeScript files into JavaScript
+1. Compile your TypeScript files into JavaScript
 </br>
-2. Start a local server on our computer so we can view our project prior to making it live on the internet
+2. Start a local server on our computer so you can view your project prior to making it live on the internet
 </br>
-3. Watch our project files for changes so that when one of them changes it will automatically reload in the browser for us and avoid the step of us having to push the refresh button to see every update we make.
+3. Watch your project files for changes so that when one of them changes it will automatically reload in the browser for you and avoid the step of having to push the refresh button to see every update you make.
   {% endhint %}
   
   {% hint style='danger' %}
@@ -45,12 +45,12 @@ Windows will take more time for the ng serve process and for the automatic reloa
 5.  In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to see your working (basic) app.
 
   {% hint style='tip' %}
-In iTerm2 (mac), open a new tab or in Git Bash (windows), open a new window to be ready for the next CLI commands.  You'll want to leave `ng serve` running in your CLI tool to see the live updates as we progress through the project.
+In iTerm2 (mac), open a new tab or in Git Bash (windows), open a new window to be ready for the next CLI commands.  You'll want to leave `ng serve` running in your CLI tool to see the live updates as you progress through the project.
   {% endhint %}
 
 ### Make a Change
 
-Let’s make some updates to the app to see the live reload we get from `ng serve`! Remember the `ng serve` command watches for changes to our project files and automatically refreshes the browser for us so we don’t have to.  This is called “live reload.”
+Make some updates to the app to see the live reload we get from `ng serve`! Remember the `ng serve` command watches for changes to your project files and automatically refreshes the browser for you so you don’t have to.  This is called “live reload.”
 
 1.  Open Atom via the command line
 
