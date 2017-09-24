@@ -1,10 +1,63 @@
-### Part 3A: Adding Data to Our Template {#part-3a-adding-data-to-our-template}
+### Part 3A: Adding Data to Your Template
 
-Our template is working and looks pretty, but it’s hardcoded, or, in other words, the data is fixed and can only be edited manually. Let’s add a couple questions and answers to our component, and make the template render our quiz questions dynamically. In Part A, we’ll do some set-up work for data to use in our template. Part B will be to integrate the data with our component’s template (HTML).
+Your template is working and looks pretty, but it’s hardcoded, or, in other words, the data is fixed and can only be edited manually. Add a couple questions and answers to your component, and make the template render your quiz questions dynamically. In Part 3, you’ll do some set-up work for data to use in your template. Part 4 will be to integrate the data with your component’s template (HTML).
 
-Later, we’ll be using an [API](https://www.google.com/url?q=http://bit.ly/CnCgloss&sa=D&ust=1479686156166000&usg=AFQjCNGJrppcfsV8r9eNOVF4hKEJwl_RIA) [Application Programming Interface], to allow us to interface with a set of  questions and answers for our quiz. In order to make that transition go smoothly, we’re going to set-up our data in the same format that will come from our API.
+Later, you’ll be using an [API](http://bit.ly/CnCgloss) [Application Programming Interface], to allow your application to interface with a set of  questions and answers for your quiz. In order to make that transition go smoothly, you'll set-up your data in the same format that will come from the API.
 
-1.  Open your *src/app/quiz/quiz.component.ts* file. In the <span class="ref">ngOnInit()</span> [method](https://www.google.com/url?q=http://bit.ly/CnCgloss&sa=D&ust=1479686156169000&usg=AFQjCNEEl_qdefuKpEwpc-LvjU-N2qu7RQ), between the <span class="ref">{}<span>, paste the code from here [[http://bit.ly/spa-qa](http://bit.ly/spa-qa].<br> Your file should look like the one here [[http://bit.ly/spa-3_1](http://bit.ly/spa-3_1)].
+1.  Copy the following code:
+
+    ```
+    this.questions = [
+      {
+        "text": "Florence Nightingale became known as \"the Lady With the Lamp\" during which war?",
+        "answers": [
+          {
+            "correct": false,
+            "text": "American Civil War"
+          },
+          {
+            "correct": false,
+            "text": "World War I"
+          },
+          {
+            "correct": true,
+            "text": "Crimean War"
+          },
+          {
+            "correct": false,
+            "text": "World War II"
+          }
+        ]
+      },
+      {
+        "text": "In a quarter-mile race, which animal can be expected to win?",
+        "answers": [
+          {
+            "correct": false,
+            "text": "Lion"
+          },
+          {
+            "correct": true,
+            "text": "Pronghorn Antelope"
+          },
+          {
+            "correct": false,
+            "text": "Quarter Horse"
+          },
+          {
+            "correct": false,
+            "text": "Giraffe"
+          }
+        ]
+      }
+    ];
+    ```
+
+2. In Atom, open your *src/app/quiz/quiz.component.ts* file by double clicking on it in the left side Project Pane. In the `ngOnInit()` [method](http://bit.ly/CnCgloss), between the opening and closing curly braces, (`{}`), paste that code in.
+
+Check your code against the answer key here: [[http://bit.ly/spa-3_1](http://bit.ly/spa-3_1)].
+
+
 2.  Since we’re using TypeScript, we need to set types for the data that we just copied and pasted. This is one file *Angular CLI* won’t generate for us. <br> Create a new file in *src/app/quiz* &amp; name it **quiz.model.ts**.
 3.  In *quiz.model.ts*, add the code found here [[http://bit.ly/spa-model](http://bit.ly/spa-model)]. Feel free to manually type or copy/paste.
 
