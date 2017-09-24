@@ -13,5 +13,6 @@
   * [Part 1: Git - Deploy App to GitHub Pages](homework/part_1_git-_deploy_appto_github_pages.md)
   * [Part 2: Add a router](homework/part_2_add_a_router.md)
 * [Reference: Helpful Keyboard Shortcuts](reference-helpful-keyboard-shortcuts.md)
+* [Reference: Answer Key](reference-answer-key.md)
 * [Survey](survey.md)
 
