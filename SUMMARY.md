@@ -2,9 +2,9 @@
 
 * [Overview](README.md)
 * [Prep Work](prep-work.md)
+* [Part 1: Starting your Single Page App](project/part_1starting_our_single_page_app.md)
+* [Part 2: Creating a component](project/part_2_creating_a_component.md)
 * [Project](project/README.md)
-  * [Part 1: Starting your Single Page App](project/part_1starting_our_single_page_app.md)
-  * [Part 2: Creating a component](project/part_2_creating_a_component.md)
   * [Part 3A: Adding Data to Our Template](project/part_3a_adding_data_to_our_template.md)
   * [Part 3B: Adding Data to Our Template](project/part_3b_adding_data_to_our_template.md)
   * [Part 4: Tally Correct Answers & Show Results](project/part_4_tally_correct_answers_&_show_results.md)
