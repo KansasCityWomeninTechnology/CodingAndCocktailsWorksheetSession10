@@ -35,93 +35,93 @@ This creates a _src/app/quiz_ directory with 4 files in it: _html, css, typescri
   
   3.  Copy these CSS styles:
   
-```
-.quiz-wrapper {
-  max-height: 100vh;
-  max-width: 31rem;
-}
-
-h1 {
-  color: #4db6ac;
-  float: left;
-  font-size: 0.9rem;
-  font-style: italic;
-  margin: 0;
-  padding: 1rem;
-}
-```
+      ```
+      .quiz-wrapper {
+        max-height: 100vh;
+        max-width: 31rem;
+      }
+      
+      h1 {
+        color: #4db6ac;
+        float: left;
+        font-size: 0.9rem;
+        font-style: italic;
+        margin: 0;
+        padding: 1rem;
+      }
+      ```
    
   4. Paste the CSS code into your *src/app/app.component.css* file. These styles apply only to the markup in _app.component.html_.
   
   5.  Copy these CSS styles:
   
-```
-.question-tracker,
-.results-header {
-  color: #ff9800;
-  float: right;
-  font-size: 0.9rem;
-  font-style: italic;
-  padding: 1rem;
-}
-
-.quiz {
-  clear: both;
-}
-
-.question,
-.results {
-  background: #111;
-  color: #cddc39;
-  margin: 0;
-  padding: 1rem;
-}
-
-.question {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.5rem;
-}
-
-.answers {
-  background: #1f1f1f;
-  list-style-position: inside;
-  list-style-type: lower-alpha;
-}
-
-.answers li {
-  color: #f06292;
-  cursor: pointer;
-  font-size: 1.1rem;
-  padding: 1rem;
-  transition:all 0.5s ease;
-}
-
-.answers li:hover {
-  background: #222;
-  color: #ba68c8;
-}
-
-.results {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-}
-
-.score {
-  color: #f06292;
-  font-size: 4rem;
-  text-transform: uppercase;
-}
-
-.result-message {
-  font-size: 2.8rem;
-}
-
-.result-action {
-  color: #ba68c8;
-  font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
-}
-```
+      ```
+      .question-tracker,
+      .results-header {
+        color: #ff9800;
+        float: right;
+        font-size: 0.9rem;
+        font-style: italic;
+        padding: 1rem;
+      }
+      
+      .quiz {
+        clear: both;
+      }
+      
+      .question,
+      .results {
+        background: #111;
+        color: #cddc39;
+        margin: 0;
+        padding: 1rem;
+      }
+      
+      .question {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.5rem;
+      }
+      
+      .answers {
+        background: #1f1f1f;
+        list-style-position: inside;
+        list-style-type: lower-alpha;
+      }
+      
+      .answers li {
+        color: #f06292;
+        cursor: pointer;
+        font-size: 1.1rem;
+        padding: 1rem;
+        transition:all 0.5s ease;
+      }
+      
+      .answers li:hover {
+        background: #222;
+        color: #ba68c8;
+      }
+      
+      .results {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+      }
+      
+      .score {
+        color: #f06292;
+        font-size: 4rem;
+        text-transform: uppercase;
+      }
+      
+      .result-message {
+        font-size: 2.8rem;
+      }
+      
+      .result-action {
+        color: #ba68c8;
+        font-family: 'Playfair Display', serif;
+        font-size: 1.8rem;
+      }
+      ```
    
   6. Paste the CSS code into the *src/app/quiz/quiz.component.css* file. These styles apply only to the markup in _quiz.component.html_.
   
@@ -140,9 +140,9 @@ Have at it! Customize the HTML/CSS to your liking!
 
   1.  Copy the HTML code:
   
-```
-<link href="//fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
-```
+      ```
+      <link href="//fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+      ```
    
   2. Paste it into your *src/index.html* file, above the closing &lt;/head&gt; tag. This adds some Google Web Fonts to make the app a bit more visually appealing.
   
@@ -150,12 +150,12 @@ Have at it! Customize the HTML/CSS to your liking!
   
   3.  Add the **quiz** component html to the **app** component. Copy the HTML code:
   
-```
-<div class="quiz-wrapper">
-  <h1>{{title}}</h1>
-  <app-quiz></app-quiz>
-</div>
-```
+      ```
+      <div class="quiz-wrapper">
+        <h1>{{title}}</h1>
+        <app-quiz></app-quiz>
+      </div>
+      ```
    
   4. Paste it into the *src/app/app.component.html* file.
   
@@ -163,25 +163,25 @@ Have at it! Customize the HTML/CSS to your liking!
 
   5. Copy the HTML code:
   
-```
-<div class="quiz-wrapper">
-
-  <div class="quiz">
-
-    <div class="each-question">
-      <div class="q-and-a">
-        <h3 class="question">question here</h3>
-
-        <ul class="answers">
-          <li>answer here</li>
-        </ul>
+      ```
+      <div class="quiz-wrapper">
+      
+        <div class="quiz">
+      
+          <div class="each-question">
+            <div class="q-and-a">
+              <h3 class="question">question here</h3>
+      
+              <ul class="answers">
+                <li>answer here</li>
+              </ul>
+            </div>
+          </div>
+      
+        </div>
+      
       </div>
-    </div>
-
-  </div>
-
-</div>
-```
+      ```
 
   6. Paste it into the *src/app/quiz/quiz.component.html* file.
   
