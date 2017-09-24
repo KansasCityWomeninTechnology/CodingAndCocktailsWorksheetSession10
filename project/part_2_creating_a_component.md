@@ -1,11 +1,11 @@
 ### Part 2: Creating a component
 
-Our app works, but it’s not very exciting. Let’s add some components!
+Your app works, but it’s not very exciting. Add some components to it!
 
 1.  In Git Bash or iTerm2, generate a component named quiz with Angular CLI. Type: `ng g component quiz`
 
   {% hint style='tip' %}
-This creates a _src/app/quiz_ directory with 4 files in it: _html, css, typescript & spec_.  _spec_ files are to write tests (to make sure your code works). We won't be using these tonight so you can ignore this file.
+This creates a _src/app/quiz_ directory with 4 files in it: _html, css, typescript & spec_.  _spec_ files are to write tests (to make sure your code works). You won't be using these tonight so you can ignore this file.
   {% endhint %}
 
 2.  Next, add some styles to your app, so it won’t look bland as you develop it.
@@ -136,7 +136,7 @@ Take a minute to read what you pasted.  Try to predict what you might see in the
 Have at it! Customize the HTML/CSS to your liking!
   {% endhint %}
 
-3.  Now that we have styles, let’s add the HTML markup for our templates.
+3.  Now that you have styles, add the HTML markup for our templates.
 
   1.  Copy the HTML code:
   

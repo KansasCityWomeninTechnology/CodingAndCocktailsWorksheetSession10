@@ -1,7 +1,7 @@
 # Part 1: Starting your Single Page App
 
 ### App Foundation
-Let’s start with creating your app’s foundation. Open Git Bash (Windows) or iTerm2 (Mac) and rock &amp; roll.
+Start with creating your app’s foundation. Open Git Bash (Windows) or iTerm2 (Mac) and rock &amp; roll.
 
 1.  In Git Bash or iTerm2, Navigate to your CodingAndCocktails folder. Type: `cd ~/CodingAndCocktails`
 
@@ -14,14 +14,14 @@ Let’s start with creating your app’s foundation. Open Git Bash (Windows) or 
     - Windows: `C:/Users/<yourUsername>`
   - Command to change folders: `cd <folderToGoTo>`
   - Command to make a folder: `mkdir <newFolder>`
-  - You can also use **~** as a shortcut in CLI for your home directory: ``cd ~``
+  - You can also use **~** as a shortcut in your CLI for your home directory: ``cd ~``
 </br>
 </br>
   Revisit the command line worksheet from March:
   [bit.ly/CnCMarWork](http://bit.ly/CnCMarWork)
   {% endhint %}
 
-2.  In Git Bash or iTerm2, Use Angular CLI to scaffold the project. Type: `ng new trivia`
+2.  In Git Bash or iTerm2, use Angular CLI to scaffold the project. Type: `ng new trivia`
 
 3.  In Git Bash or iTerm2, Change the directory to the new one Angular CLI created for you. Type: `cd trivia`
 
