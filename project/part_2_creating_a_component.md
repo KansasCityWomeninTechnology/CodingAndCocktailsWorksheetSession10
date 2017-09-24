@@ -182,12 +182,6 @@ Have at it! Customize the HTML/CSS to your liking!
       
       </div>
       ```
-      
-      {% hint style='danger' %}
-      Atom may highlight the `this.questions` text in red and you may see a warning that states "Property 'questions' does not exist on type 'QuizComponent'.
-      </br>
-      You can ignore this warning for now, we'll fix it in the next few steps.
-      {% endhint %}
 
   6. Paste it into the *src/app/quiz/quiz.component.html* file.
   
