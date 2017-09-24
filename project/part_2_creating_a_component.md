@@ -14,20 +14,20 @@ This creates a _src/app/quiz_ directory with 4 files in it: _html, css, typescri
 
       ```
       body {
-        align-items: center;
-        background: #000;
-        color: #fff;
-        display: flex;
-      	font-family: 'Raleway', sans-serif;
-        font-weight: 200;
-        height: 100vh;
-        justify-content: center;
-        margin: 0;
+          align-items: center;
+          background: #000;
+          color: #fff;
+          display: flex;
+      	  font-family: 'Raleway', sans-serif;
+          font-weight: 200;
+          height: 100vh;
+          justify-content: center;
+          margin: 0;
       }
       
       ul {
-        margin: 0;
-        padding: 0;
+          margin: 0;
+          padding: 0;
       }
       ```
    
@@ -37,17 +37,17 @@ This creates a _src/app/quiz_ directory with 4 files in it: _html, css, typescri
   
       ```
       .quiz-wrapper {
-        max-height: 100vh;
-        max-width: 31rem;
+          max-height: 100vh;
+          max-width: 31rem;
       }
       
       h1 {
-        color: #4db6ac;
-        float: left;
-        font-size: 0.9rem;
-        font-style: italic;
-        margin: 0;
-        padding: 1rem;
+          color: #4db6ac;
+          float: left;
+          font-size: 0.9rem;
+          font-style: italic;
+          margin: 0;
+          padding: 1rem;
       }
       ```
    
@@ -58,68 +58,68 @@ This creates a _src/app/quiz_ directory with 4 files in it: _html, css, typescri
       ```
       .question-tracker,
       .results-header {
-        color: #ff9800;
-        float: right;
-        font-size: 0.9rem;
-        font-style: italic;
-        padding: 1rem;
+          color: #ff9800;
+          float: right;
+          font-size: 0.9rem;
+          font-style: italic;
+          padding: 1rem;
       }
       
       .quiz {
-        clear: both;
+          clear: both;
       }
       
       .question,
       .results {
-        background: #111;
-        color: #cddc39;
-        margin: 0;
-        padding: 1rem;
+          background: #111;
+          color: #cddc39;
+          margin: 0;
+          padding: 1rem;
       }
       
       .question {
-        font-family: 'Playfair Display', serif;
-        font-size: 2.5rem;
+          font-family: 'Playfair Display', serif;
+          font-size: 2.5rem;
       }
       
       .answers {
-        background: #1f1f1f;
-        list-style-position: inside;
-        list-style-type: lower-alpha;
+          background: #1f1f1f;
+            list-style-position: inside;
+            list-style-type: lower-alpha;
       }
       
       .answers li {
-        color: #f06292;
-        cursor: pointer;
-        font-size: 1.1rem;
-        padding: 1rem;
-        transition:all 0.5s ease;
+            color: #f06292;
+            cursor: pointer;
+            font-size: 1.1rem;
+            padding: 1rem;
+            transition:all 0.5s ease;
       }
       
       .answers li:hover {
-        background: #222;
-        color: #ba68c8;
+            background: #222;
+            color: #ba68c8;
       }
       
       .results {
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
       }
       
       .score {
-        color: #f06292;
-        font-size: 4rem;
-        text-transform: uppercase;
+            color: #f06292;
+            font-size: 4rem;
+            text-transform: uppercase;
       }
       
       .result-message {
-        font-size: 2.8rem;
+            font-size: 2.8rem;
       }
       
       .result-action {
-        color: #ba68c8;
-        font-family: 'Playfair Display', serif;
-        font-size: 1.8rem;
+            color: #ba68c8;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
       }
       ```
    
@@ -152,8 +152,8 @@ Have at it! Customize the HTML/CSS to your liking!
   
       ```
       <div class="quiz-wrapper">
-        <h1>{{title}}</h1>
-        <app-quiz></app-quiz>
+          <h1>{{title}}</h1>
+          <app-quiz></app-quiz>
       </div>
       ```
    
