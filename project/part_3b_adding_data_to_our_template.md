@@ -24,7 +24,7 @@ To help make the code easier to read, the example above starts each attribute on
 ### What does this code do?
 
 This is an `*ngFor` directive that will repeat the HTML markup (including the `div` HTML element with the class `each-question`) for every question in your components `this.questions` array.
-</br>
+
 It also sets a variable maned `i` to `index`.  This helps to keep track of what question is currently bein rendered in the template by giving you the `index` of that `question`.  **Question 1 is Index 0. Question 2 is Index 1.** This will come into play later in the tutorial.
   {% endhint %}
   
