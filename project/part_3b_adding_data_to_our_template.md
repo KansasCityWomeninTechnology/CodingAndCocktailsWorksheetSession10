@@ -50,10 +50,12 @@ It also sets a variable maned `i` to `index`.  This helps to keep track of what 
 
       ![](../images/20.png)
 
-   1.  Open *src/app/quiz/quiz.component.ts*.
+   1.  In Atom, open *src/app/quiz/quiz.component.ts*.
       
-      Copy the code here [[http://bit.ly/spa-select](http://bit.ly/spa-select] & paste after the <span class="ref">ngOnInit() {}</span> method.![](/images/image03.png)
+      Copy the code here [[http://bit.ly/spa-select](http://bit.ly/spa-select] & paste after the <span class="ref">ngOnInit() {}</span> method.
+      
+      ![](/images/image03.png)
 
-    ![](../images/21.png)
+      ![](../images/21.png)
 
 Your _src/app/quiz/quiz.component.ts_ file should look like the answer key here: [[http://bit.ly/spa-6_b](http://bit.ly/spa-6_b)].
