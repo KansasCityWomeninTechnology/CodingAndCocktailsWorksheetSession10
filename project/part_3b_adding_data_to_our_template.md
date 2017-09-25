@@ -32,30 +32,47 @@ It also sets a variable maned `i` to `index`.  This helps to keep track of what 
 
   ![](/images/image02.png)
   
-  This will use the *question’s text* from your data to populate your HTML template.
+  This will use the *question’s text* from the data you added in Part 3 to populate your HTML template. The data is connected to the HTML template through the _quiz.component.ts_ file.
   
-5.  Next, loop through your answers. In the `<li>` HTML element, add the following `*ngFor` attribute: `*ngFor="let answer of question.answers"`
+5.  Next, loop through the question's answers. Add an `*ngFor` attribute to the `<li>` HTML element. Place your cursor before the `>` on the element, press **return**, then **tab** and then type: `*ngFor="let answer of question.answers"`
 
   ![](/images/image20.gif)
 
-6.  Replace "answer here" with `{{answer.text}}`
+6.  Replace the text "answer here" inside the opening and closing `li` HTML tags with the text `{{answer.text}}` including the curly braces.
 
   ![](/images/image26.png)
 
-7.  We now have our template rendering questions and answers, but nothing happens when a user selects an answer. Let’s add a *click* event so we can start tracking this.
+7.  You now have your template rendering questions and answers, but nothing happens when a user selects an answer. Add a *click* event so you can start tracking clicks.
 
-  1.  In that same `<li>` tag, add a `(click)` attribute:`(click)="onSelect(answer)";`
+  1.  In that same `<li>` tag, add a `(click)` attribute on the line below the `*ngFor`. Type:`(click)="onSelect(answer)"`
    
       ![](/images/image46.png)
-
-      ![](../images/20.png)
-
-   1.  In Atom, open *src/app/quiz/quiz.component.ts*.
       
-      Copy the code here [[http://bit.ly/spa-select](http://bit.ly/spa-select] & paste after the <span class="ref">ngOnInit() {}</span> method.
+    {% hint style='info' %}
+### What does this code do?
+When a user clicks on the `<li>` HTML element holding the answer data, a method named `onSelect` in the Component's TypeScript file  is executed and passes the `answer` data through to the `onSelect` method.  (You haven't yet defined the `onSelect` method in the _quiz.component.ts_ file just yet, you'll do that next!
+    {% endhint %}
+
+8.  In Atom, open the *src/app/quiz/quiz.component.ts* file.  Copy the code below:
+
+    ```
+    onSelect(answer: Answer){
+      if (answer.correct) {
+        console.log('answer correct');
+      }
+      else {
+        console.log('answer wrong');
+      }
+    }
+    ```
+    
+9. Paste the code in after the closing curly brace of the `ngOnInit() {}` (the method does have content inside the curly braces in your file).
       
       ![](/images/image03.png)
-
-      ![](../images/21.png)
+      
+      {% hint style='info' %}
+### What does this code do?
+You're declaring that the `answer` parameter is of data type `Answer`.  Then, if the selected answer is correct, we log "answer correct" to the development console.  If the selected answer is incorrect, we log "answer wrong" to the development console.
+      {% endhint %}
 
 Your _src/app/quiz/quiz.component.ts_ file should look like the answer key here: [[http://bit.ly/spa-6_b](http://bit.ly/spa-6_b)].
