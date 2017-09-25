@@ -72,7 +72,7 @@ When a user clicks on the `<li>` HTML element holding the answer data, a method 
       
       {% hint style='info' %}
 ### What does this code do?
-You're declaring that the `answer` parameter is of data type `Answer`.  Then, if the selected answer is correct, we log "answer correct" to the development console.  If the selected answer is incorrect, we log "answer wrong" to the development console.
+You're declaring that the `answer` parameter is of data type `Answer`.  Then, if the selected answer (the answer passed to the `onSelect` method) is correct, we log "answer correct" to the development console.  If the selected answer is incorrect, we log "answer wrong" to the development console.
       {% endhint %}
 
 Your _src/app/quiz/quiz.component.ts_ file should look like the answer key here: [[http://bit.ly/spa-6_b](http://bit.ly/spa-6_b)].
