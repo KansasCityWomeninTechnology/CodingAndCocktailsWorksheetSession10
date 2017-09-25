@@ -38,7 +38,7 @@ It also sets a variable named `i` to `index`.  This helps to keep track of what 
 
   ![](/images/image20.gif)
 
-6.  Replace the text "answer here" inside the opening and closing `li` HTML tags with the text `{{answer.text}}` including the curly braces.
+6.  Replace the text "answer here" inside the opening and closing `li` HTML tags with the text ` {{answer.text}}` including the curly braces.
 
   ![](/images/image26.png)
 
