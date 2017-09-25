@@ -97,7 +97,7 @@ The `Question` model has two properties: `text` and `answers`.  `text` is of dat
 
   1.  In Atom, open the *src/app/quiz/quiz.component.ts* file & below the `import` statment at the top, type: `import {} from './quiz.model';`
   
-  2.  Place your cursor in the middle of the curly braces `{}`. And type `A`. Atom should give you an autocomplete suggestion of `Answer`. [Hit tab or enter/return key for it to autocomplete `Answer` for you.]
+  2.  Place your cursor in the middle of the curly braces `{}`. And type `A`. Atom should give you an autocomplete suggestion of `class Answer`. [Hit tab or enter/return key for it to autocomplete `Answer` for you.]
     
   3.  Add a comma after `Answer` & repeat the process by typing `Q` [for Question].
   
