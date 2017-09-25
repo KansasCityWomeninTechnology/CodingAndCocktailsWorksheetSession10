@@ -34,17 +34,26 @@ It also sets a variable maned `i` to `index`.  This helps to keep track of what 
   
   This will use the *question’s text* from your data to populate your HTML template.
   
-5.  Next, loop through your answers. In the <span class="ref">&lt;li&gt;</span> tag, add the following <span class="ref">*ngFor</span> attribute: <span class="new">*ngFor=&quot;let answer of question.answers&quot;</span><br>Printed worksheets see: [http://bit.ly/spa-for2](http://bit.ly/spa-for2)![](/images/image20.gif)
-3.  Replace <span class="ref">answer here</span> with <span class="new">{{answer.text}}</span>![](/images/image26.png)
-4.  We now have our template rendering questions and answers, but nothing happens when a user selects an answer. Let’s add a *click* event so we can start tracking this.
+5.  Next, loop through your answers. In the `<li>` HTML element, add the following `*ngFor` attribute: `*ngFor="let answer of question.answers"`
 
-  1.  In that same <span class="ref">&lt;li&gt;</span> tag, add a <span class="ref">(click)</span> attribute:<span class="new">(click)=&quot;onSelect(answer)&quot;</span><br> 
+  ![](/images/image20.gif)
+
+6.  Replace "answer here" with `{{answer.text}}`
+
+  ![](/images/image26.png)
+
+7.  We now have our template rendering questions and answers, but nothing happens when a user selects an answer. Let’s add a *click* event so we can start tracking this.
+
+  1.  In that same `<li>` tag, add a `(click)` attribute:`(click)="onSelect(answer)";`
+   
       ![](/images/image46.png)
 
       ![](../images/20.png)
 
-   1.  Open *src/app/quiz/quiz.component.ts*. <br>Copy the code here [[http://bit.ly/spa-select](http://bit.ly/spa-select] &amp; paste after the <span class="ref">ngOnInit() {}</span> method.![](/images/image03.png)
+   1.  Open *src/app/quiz/quiz.component.ts*.
+      
+      Copy the code here [[http://bit.ly/spa-select](http://bit.ly/spa-select] & paste after the <span class="ref">ngOnInit() {}</span> method.![](/images/image03.png)
 
     ![](../images/21.png)
 
-Your src/app/quiz/quiz.component.ts file should look like the one here [[http://bit.ly/spa-6_b](http://bit.ly/spa-6_b)].
+Your _src/app/quiz/quiz.component.ts_ file should look like the answer key here: [[http://bit.ly/spa-6_b](http://bit.ly/spa-6_b)].
