@@ -1,15 +1,40 @@
-### Part 3B: Adding Data to Our Template {#part-3b-adding-data-to-our-template}
+### Part 4: Adding Data to Your Template
 
-Now that we have our data ready, let’s wire it up to our component’s template. Open src/app/quiz/quiz.component.html &amp; let’s get to it.
+Now that you have your data ready, wire it up to your component’s template.
 
-1.  In <span class="ref">&lt;div class=&quot;quiz-wrapper&quot;&gt;</span>, at the top of the file, add an <span class="ref">*ngIf</span> attribute:<br><span class="new">*ngIf=&quot;questions&quot;</span><br>Printed worksheets see: [http://bit.ly/spa-if1](http://bit.ly/spa-if1)![](/images/image04.gif)<br><span class="ref">*ngIf</span> is an Angular attribute directive that will only render our template IF <span class="ref">this.questions</span> is defined in our component.
-2.  In the markup for <span class="ref">&lt;div class=&quot;each-question&quot;&gt;</span>, add the following as an attribute:<br><span class="new">*ngFor=&quot;let question of questions; let i = index;&quot;</span>
+1.  In Atom, open _src/app/quiz/quiz.component.html_.
 
-  Printed worksheets see: [http://bit.ly/spa-for1](http://bit.ly/spa-for1)![](/images/image17.gif) 
-  ![](../images/19.png)
-  ![](../images/32.png)
-1.  Replace  <span class="ref">question</span> here  with <span class="new">{{question.text}}</span>![](/images/image02.png)<br>This will use the *question’s text* from our data to populate our template.
-2.  Let’s loop through our answers. In the <span class="ref">&lt;li&gt;</span> tag, add the following <span class="ref">*ngFor</span> attribute: <span class="new">*ngFor=&quot;let answer of question.answers&quot;</span><br>Printed worksheets see: [http://bit.ly/spa-for2](http://bit.ly/spa-for2)![](/images/image20.gif)
+2. In the `<div class="quiz-wrapper">` HTML element at the top of the file, place your cursor directly before the `>` to add add an `*ngIf` attribute.  Type: `*ngIf="questions"`
+
+  ![](/images/image04.gif)
+
+  {% hint style='info' %}
+`*ngIf` is an Angular attribute directive that will only render our template **IF** `this.questions` is defined in our component because we set it to `"questions"`.
+  {% endhint %}
+  
+3.  In the HTM element `<div class="each-question">;`, place your cursor directly in front of the `>`, add a space and then type the following to add an attribute: `*ngFor="let question of questions; let i = index;";`
+
+  ![](/images/image17.gif)
+  
+  {% hint style='tip' %}
+To help make the code easier to read, the example above starts each attribute on it's own line.
+  {% endhint %}
+
+  {% hint style='info' %}
+### What does this code do?
+
+This is an `*ngFor` directive that will repeat the HTML markup (including the `div` HTML element with the class `each-question`) for every question in your components `this.questions` array.
+</br>
+It also sets a variable maned `i` to `index`.  This helps to keep track of what question is currently bein rendered in the template by giving you the `index` of that `question`.  **Question 1 is Index 0. Question 2 is Index 1.** This will come into play later in the tutorial.
+  {% endhint %}
+  
+4.  In the `<h3 class="question">` HTML element, replace the "question here" text with `{{question.text}}`
+
+  ![](/images/image02.png)
+  
+  This will use the *question’s text* from your data to populate your HTML template.
+  
+5.  Next, loop through your answers. In the <span class="ref">&lt;li&gt;</span> tag, add the following <span class="ref">*ngFor</span> attribute: <span class="new">*ngFor=&quot;let answer of question.answers&quot;</span><br>Printed worksheets see: [http://bit.ly/spa-for2](http://bit.ly/spa-for2)![](/images/image20.gif)
 3.  Replace <span class="ref">answer here</span> with <span class="new">{{answer.text}}</span>![](/images/image26.png)
 4.  We now have our template rendering questions and answers, but nothing happens when a user selects an answer. Let’s add a *click* event so we can start tracking this.
 
