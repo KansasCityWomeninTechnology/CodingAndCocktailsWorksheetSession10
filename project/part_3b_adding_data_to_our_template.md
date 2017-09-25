@@ -9,7 +9,7 @@ Now that you have your data ready, wire it up to your component’s template.
   ![](/images/image04.gif)
 
   {% hint style='info' %}
-`*ngIf` is an Angular attribute directive that will only render our template **IF** `this.questions` is defined in our component because we set it to `"questions"`.
+`*ngIf` is an Angular attribute directive that will only render our template **IF** `this.questions` is defined in our component.
   {% endhint %}
   
 3.  In the HTM element `<div class="each-question">;`, place your cursor directly in front of the `>`, add a space and then type the following to add an attribute: `*ngFor="let question of questions; let i = index;";`
