@@ -15,20 +15,54 @@ This creates two files in your _src/app/quiz_ directory:
   * _quiz.service.ts_ and
   * _quiz.service.spec.ts_
   
-We won't be adding any tests tonight, so you can ignore the _quiz.service.spec.ts_ file.
+You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.ts_ file.
   {% endhint %}
 
-2.  Open *src/app/quiz/quiz.service.ts*. We need to import some methods from the *HTTP Module &amp; RxJS* [*Angular CLI* installed both of these for us so we can simply import to use them]. Add these imports below the *@angular/core import*:<br><span class="new">import { Http, Response } from &#039;@angular/http&#039;;</span><br><span class="new">import &#039;rxjs/add/operator/map&#039;;</span><br>
+2.  In Atom, open the _src/app/quiz/quiz.service.ts_ file. 
 
-3.  In the parenthesis for constructor(), add:<br><span class="new">private http: Http</span>![](/images/image27.png)<br>This creates an instance of the <span class="ref">Http</span> service that we imported and assigns it to <span class="ref">http</span>. It’s private because we don’t want to access it from outside the <span class="ref">QuizService</span> class.
+  You need to import some methods from the **HTTP Module & RxJS** (**Angular CLI** installed both of these for us so we can simply import to use them). 
+  
+3. Place your cursor at the end of the first line of the file that reads `import { Injectable } from '@angular/core';` and press return.
 
-4.  Now, we’re going to add our API request to **//cocktail-trivia-api.herokuapp.com/api/sample**.<br>Copy the code from here [[http://bit.ly/spa-http](https://www.google.com/url?q=http://bit.ly/spa-http&sa=D&ust=1479686156271000&usg=AFQjCNFQxlhCBv8eVfsRAPVhgJ-Lu0ESzg)] &amp; paste below <span class="ref">constructor(private http: Http) { }</span>
-![](../images/26.png)
+4. Type: `import { Http, Response } from '@angular/http';`
 
-1.  Open *src/app/quiz/quiz.component.ts*.
+5. Press return to move to a new line and then type`import 'rxjs/add/operator/map';`
 
-  1.  We need to import the <span class="ref">QuizService</span>, so that we can use it. Add the following to the list of your other imports: <span class="new">import { QuizService } from &#039;./quiz.service&#039;;</span>
-  2.  In our <span class="ref">Component</span> metadata, we need to add <span class="ref">QuizService</span> as a provider.<br>Add a comma &amp; a new line after <span class="ref">styleUrls: [&#039;./quiz.component.css&#039;]</span> and add:<br><span class="new">providers: [QuizService]</span>![](/images/image22.png)
-3.  In the parenthesis for <span class="ref">constructor() { }</span> add:<br><span class="new">private quizService: QuizService</span>![](/images/image48.png)Now, we can access the <span class="ref">QuizService methods</span> via <span class="ref">this.quizService</span>.
-4.  Replace <span class="ref">this.questions = [...];</span> with: <span class="new">this.quizService.getQuestions()  .subscribe(questions =&gt; this.questions = questions);</span>![](/images/image13.png)
+6. On the line that starts with `constructor()`, place your cursor in between the parenthesis and type: `private http: Http`
+
+  ![](/images/image27.png)
+
+  This creates an instance of the `Http` service that you imported and assigns it to `http`. It’s private because you don’t want to access it from outside the `QuizService` class.
+
+7.  Now, you’re going to add your API request to **//cocktail-trivia-api.herokuapp.com/api/sample**. Copy the code below:
+
+  ```
+  getQuestions() {
+    return this.http.get('//cocktail-trivia-api.herokuapp.com/api/sample')
+      .map((res: Response) => res.json());
+  }
+  ```
+
+8. Paste the code in the _src/app/quiz/quiz.service.ts_ file just below the `constructor(private http: Http) { }` line
+
+  ![](../images/26.png)
+
+9.  Open *src/app/quiz/quiz.component.ts*.
+
+  1.  You need to import the `QuizService`, so that you can use it. Add the following to the list of your other imports: `import { QuizService } from './quiz.service';`
+  
+  2.  In our `Component` metadata, you need to add `QuizService` as a provider. Add a comma & a new line after `styleUrls: ['./quiz.component.css']` and add:`providers: [QuizService]`
+  
+  ![](/images/image22.png)
+  
+3.  In the parenthesis for `constructor() { }` add:`private quizService: QuizService`
+
+  ![](/images/image48.png)
+  
+  Now, you can access the `QuizService methods` via `this.quizService`.
+  
+4.  Replace `this.questions = [...];` with: `this.quizService.getQuestions()  .subscribe(questions =< this.questions = questions);`
+
+![](/images/image13.png)
+
 ![](../images/27.png)
