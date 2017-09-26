@@ -2,15 +2,21 @@
 
 You have your component set-up to display trivia questions and answers, but you only have a couple hardcoded questions & answers. Next you'll use an API to populate your quiz questions and possible answers.
 
+{% hint style='info' %}
 A service is just one piece of your larger application. Services are used to:
+* share data or logic across multiple components of an application to avoid code duplication
+* encapsulate external interactions (like with our API).
+{% endhint %}
 
-*   share data or logic across multiple components of an application to avoid code duplication or
+1. First, use **Angular CLI** to generate a service named **quiz** within the _quiz_ directory. In Git Bash or iTerm2, type: `ng g service quiz/quiz`
 
-*   to encapsulate external interactions (like with our API).
-
-1.  First, use *Angular CLI* to generate a service named *quiz* within the *quiz* directory. Open your CLI tool. Type: `ng g service quiz/quiz`
-
-  ![](../images/25.png)
+  {% hint style='tip' %}
+This creates two files in your _src/app/quiz_ directory:
+  * _quiz.service.ts_ and
+  * _quiz.service.spec.ts_
+  
+We won't be adding any tests tonight, so you can ignore the _quiz.service.spec.ts_ file.
+  {% endhint %}
 
 2.  Open *src/app/quiz/quiz.service.ts*. We need to import some methods from the *HTTP Module &amp; RxJS* [*Angular CLI* installed both of these for us so we can simply import to use them]. Add these imports below the *@angular/core import*:<br><span class="new">import { Http, Response } from &#039;@angular/http&#039;;</span><br><span class="new">import &#039;rxjs/add/operator/map&#039;;</span><br>
 
