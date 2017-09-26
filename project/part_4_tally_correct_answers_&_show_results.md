@@ -1,10 +1,31 @@
 # Part 5: Tally Correct Answers & Show Results
 
-We now have questions and answers to create a quiz, but at the end of the quiz, the user won’t know how many they answered correctly. Let’s add a counter that keeps track of the correct answers throughout a quiz and displays the results at the end!
+Now you have questions and answers to create a quiz, but at the end of the quiz, the user won’t know how many they answered correctly. Add a counter that keeps track of the correct answers throughout a quiz and displays the results at the end!
 
-1.  Copy the code here [[http://bit.ly/spa-4_1](http://bit.ly/spa-4_1)] &amp; paste into your *src/app/quiz/quiz.component.html* before the final <span class="ref">&lt;/div&gt;</span> tag.![](/images/image16.png)
+1.  Copy the code below:
 
-  ![](/images/22.png)
+     ```
+     <div class="results" *ngIf="quizIsOver">
+       <div class="result-message">
+         You answered {{correctAnswers}} out of {{questions.length}} questions correctly.
+       </div>
+       <div class="score">That's {{correctAnswers / questions.length * 100}}%</div>
+       <div class="result-action">Grab a cocktail &amp; celebrate!</div>
+     </div>
+     ```
+
+2. In Atom, paste the code into your *src/app/quiz/quiz.component.html* file before the final closing `</div>` HTML tag.
+
+  ![](/images/image16.png)
+  
+  {% hint style='info' %}
+### What does this code do?
+  - The `div` HTML element with the `class="results"` only shows **if** the `quizIsOver`
+  - The `div` HTML element with the `class="result-message"` tells the user how many `correctAnswers` they had out of the total number of questions
+  - The `div` HTML element with the `class="score"` calculates and displays the percentage of correct answers
+  - The `div` HTML element with the `class="result-action"` displays a fun message
+  - `quizIsOver` and `correctAnswers` are highlighted because you still need to define those methods in the _quiz.component.ts_ file.
+  {% endhint %}
 
 1.  Open *src/app/quiz/quiz.component.ts*.
 
