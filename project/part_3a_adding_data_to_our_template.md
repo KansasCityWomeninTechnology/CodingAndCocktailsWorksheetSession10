@@ -1,4 +1,4 @@
-### Part 3: Adding Data to Your Template
+# Part 3: Adding Data to Your Template
 
 Your template is working and looks pretty, but it’s hardcoded, or, in other words, the data is fixed and can only be edited manually. Add a couple questions and answers to your component, and make the template render your quiz questions dynamically. In Part 3, you’ll do some set-up work for data to use in your template. Part 4 will be to integrate the data with your component’s template (HTML).
 

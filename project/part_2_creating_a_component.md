@@ -1,4 +1,4 @@
-### Part 2: Creating a component
+# Part 2: Creating a component
 
 Your app works, but it’s not very exciting. Add some components to it!
 

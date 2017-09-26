@@ -1,4 +1,4 @@
-### Part 4: Adding Data to Your Template
+# Part 4: Adding Data to Your Template
 
 Now that you have your data ready, wire it up to your component’s template.
 

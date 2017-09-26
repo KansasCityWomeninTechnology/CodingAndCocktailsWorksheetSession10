@@ -1,6 +1,6 @@
 # Part 1: Starting your Single Page App
 
-### App Foundation
+## App Foundation
 Start with creating your app’s foundation. Open Git Bash (Windows) or iTerm2 (Mac) and rock &amp; roll.
 
 1.  In Git Bash or iTerm2, Navigate to your CodingAndCocktails folder. Type: `cd ~/CodingAndCocktails`
@@ -48,7 +48,7 @@ Windows will take more time for the ng serve process and for the automatic reloa
 In iTerm2 (mac), open a new tab or in Git Bash (windows), open a new window to be ready for the next CLI commands.  You'll want to leave `ng serve` running in your CLI tool to see the live updates as you progress through the project.
   {% endhint %}
 
-### Make a Change
+## Make a Change
 
 Make some updates to the app to see the live reload we get from `ng serve`! Remember the `ng serve` command watches for changes to your project files and automatically refreshes the browser for you so you don’t have to.  This is called “live reload.”
 

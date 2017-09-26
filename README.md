@@ -11,7 +11,7 @@ Single page applications provide a more native app-like experience to users. The
 
 In this session, you will become familiar with how to use Angular 2 and use it to create a single page application that allows the user to play a trivia game using data from an API (Application Programming Interface).
 
-## Hints
+### Hints
 
 {% hint style='danger' %}
 While following along with the worksheet, type out the commands instead of doing a copy & paste (_unless instructed to copy & paste_) to avoid inadvertently using any incorrect characters.

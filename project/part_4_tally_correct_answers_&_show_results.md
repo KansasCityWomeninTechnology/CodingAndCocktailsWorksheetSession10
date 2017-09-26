@@ -1,4 +1,4 @@
-### Part 4: Tally Correct Answers &amp; Show Results {#part-4-tally-correct-answers-show-results}
+# Part 5: Tally Correct Answers & Show Results
 
 We now have questions and answers to create a quiz, but at the end of the quiz, the user won’t know how many they answered correctly. Let’s add a counter that keeps track of the correct answers throughout a quiz and displays the results at the end!
 

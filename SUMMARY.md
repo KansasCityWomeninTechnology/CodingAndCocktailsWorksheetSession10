@@ -7,7 +7,7 @@
 * [Part 3: Adding Data to Your Template](project/part_3a_adding_data_to_our_template.md)
 * [Part 4: Adding Data to Your Template](project/part_3b_adding_data_to_our_template.md)
 * [Project](project/README.md)
-  * [Part 5 Tally Correct Answers & Show Results](project/part_4_tally_correct_answers_&_show_results.md)
+  * [Part 5: Tally Correct Answers & Show Results](project/part_4_tally_correct_answers_&_show_results.md)
   * [Part 6: Creating a Service & Fetching Data](project/part_5_creating_a_service_&_fetching_data.md)
 * [Homework](homework/README.md)
   * [Part 1: Git - Deploy App to GitHub Pages](homework/part_1_git-_deploy_appto_github_pages.md)
