@@ -27,11 +27,33 @@ Now you have questions and answers to create a quiz, but at the end of the quiz,
   - `quizIsOver` and `correctAnswers` are highlighted because you still need to define those methods in the _quiz.component.ts_ file.
   {% endhint %}
 
-1.  Open *src/app/quiz/quiz.component.ts*.
+3.  In Atom, open the *src/app/quiz/quiz.component.ts* file.
 
-  1.  Below <span class="ref">questions: Question[];</span> let’s add 3 new variables and their types: <br><span class="new">correctAnswers: number;currentQuestion</span><br><span class="new">Index: number;</span><br><span class="new">quizIsOver: boolean;</span>![](/images/image35.png)
-  2.  Then in ngOnInit, before <span class="ref">this.questions</span>, let’s set default values for these 3 variables:<br><span class="new">this.correctAnswers = 0;</span><br><span class="new">this.currentQuestionIndex = 0;</span><br><span class="new">this.quizIsOver = false;</span>![](/images/image39.png)
-![](../images/23.png)
+  1.  Below the `questions: Question[];` code, add 3 new variables and their data types. Type: `correctAnswers: number;` 
+  
+  2. Press enter to write the next variable on the next line. 
+  
+  3. Type: `currentQuestionIndex: number;`
+  
+  4. Repeat that process to add the final variable: `quizIsOver: boolean;`
+  
+      ![](/images/image35.png)
+  
+  5. Next, in Atom, in the same _src/app/quiz/quiz.component.ts_ file, find the `ngOnInit` function. Before the `this.questions` code, set default values for these 3 new variables that you just created. Place your cursor after the opening curly brace of the `ngOnInit() {` line and press enter. 
+  
+  6. Type: `this.correctAnswers = 0;` then press enter to move to the next line.
+  
+  7. Type: `this.currentQuestionIndex = 0;` then press enter to move to the next line.
+  
+  8. Type: `this.quizIsOver = false;`
+  
+      ![](/images/image39.png)
+      
+      {% hint style='info' %}
+### Why these defaults?
+      - `correctAnswers` and `currentQuestionIndex` both start at 0 because the quiz hasn't started yet.
+      - `quizIsOver` starts as false because the quiz can't be over if it hasn't started yet.
+      {% endhint %}
 
     1. We  need to increment our <span class="ref">correctAnswers</span> variable, every time an answer is correct.<br> In the <span class="ref">onSelect</span> method, within the <span class="ref">if (answer.correct) {...}</span> add: <span class="new">this.correctAnswers++;</span>![Screen Shot 2016-10-08 at 11.51.11 AM.png](/images/image19.png)<br>This will update the value of *correctAnswers* + 1, when the *answer* is *correct*.
   2.  We need to increment <span class="ref">currentQuestionIndex</span>, every time an answer is selected (correct or not).Below <span class="ref">onSelect’s else {...}</span> add: <span class="new">this.currentQuestionIndex++;</span>![Screen Shot 2016-10-08 at 11.54.05 AM.png](/images/image07.png)
