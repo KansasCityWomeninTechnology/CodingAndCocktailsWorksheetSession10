@@ -9,7 +9,7 @@ Now you have questions and answers to create a quiz, but at the end of the quiz,
        <div class="result-message">
          You answered {{correctAnswers}} out of {{questions.length}} questions correctly.
        </div>
-       <div class="score">That's {{ correctAnswers / questions.length * 100}}%</div>
+       <div class="score">That's {{ correctAnswers / questions.length * 100 }}%</div>
        <div class="result-action">Grab a cocktail &amp; celebrate!</div>
      </div>
      ```
