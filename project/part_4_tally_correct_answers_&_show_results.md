@@ -57,33 +57,42 @@ Now you have questions and answers to create a quiz, but at the end of the quiz,
       
 9. Increment your `correctAnswers` variable, every time an answer is correct.
 
-  1. Find the `onSelect` method. Place your cursor at the end of the `if (answer.correct) {` line of code and press enter.  You're now in the body of the if statement. Type: `this.correctAnswers++;`
+  1. Find the `onSelect` method towards the bottom of the file. Place your cursor at the end of the `if (answer.correct) {` line of code and press enter.  You're now in the body of the if statement. Type: `this.correctAnswers++;`
   
     ![Screen Shot 2016-10-08 at 11.51.11 AM.png](/images/image19.png)
     
     {% hint style='info' %}
-That line of code will update the value of `correctAnswers` by one each time that line of code is hit (when the `answer` is `correct`). 
+That line of code will update the value of the `correctAnswers` variable by one each time that line of code is hit (when the `answer` is `correct`). 
 
 `++` is a common way of incrementing a number by one in many programming languages!
     {% endhint %}
       
 10. Next, increment the `currentQuestionIndex` variable by one, every time an answer is selected (correct or not).
 
-  1. Place your cursor after the closing `}` for the `else` clause and press return.  
+  1. The `if` statement has an `else` clause as well. Place your cursor after the closing `}` for the `else` clause and press return.  
   
   2. Type: `this.currentQuestionIndex++;`
   
       ![Screen Shot 2016-10-08 at 11.54.05 AM.png](/images/image07.png)
   
-  3.  Below `this.currentQuestionIndex++;` type: `if (this.currentQuestionIndex === this.questions.length) {  this.quizIsOver = true;}`
+  3.  Press return to move to the next line and type: 
+      `if (this.currentQuestionIndex === this.questions.length) {`
+      
+      Notice Atom automatically adds the closing curly brace `}` for you.
+      
+  4. Press return and set the `quizIsOver` variable to the value `true` in the if statement body.  Type: `this.quizIsOver = true;`
   
       ![Screen Shot 2016-10-07 at 9.49.59 PM.png](/images/image10.png)
       
-      When the `currentQuestionIndex` value is the same as the `questions.length` value, `quizIsOver` is set to true.
+      {% hint style='info' %}
+When the `currentQuestionIndex` value is the same as the number of questions in the quiz (`questions.length` value), `quizIsOver` is set to true.
+    {% endhint %}
+    
+  5. Save your _src/app/quiz/quiz.component.ts_ file.
 
 11.  Right now, you see all the quiz questions at once. Even when the results display, the questions and answers are still visible. Add an `*ngIf` attribute, so you only see 1 question at a time.
 
-  1.  Open the _src/app/quiz/quiz.component.html_ file. In `<div class="q-and-a">`, add the attribute: `*ngIf="currentQuestionIndex === i"` 
+  1.  Open the _src/app/quiz/quiz.component.html_ file. In the `<div class="q-and-a">` HTML element, add the attribute: `*ngIf="currentQuestionIndex === i"` 
   
       ![](/images/image41.gif)
 
@@ -101,5 +110,7 @@ That line of code will update the value of `correctAnswers` by one each time tha
        ![](/images/image40.png)
       
       **Challenge**: Can you explain to your neighbor what this is doing?
+      
+  2. Save the _src/app/quiz/quiz.component.html_ file.
 
 ![](../images/24.png)
