@@ -89,16 +89,16 @@ That line of code will update the value of `correctAnswers` by one each time tha
 
 12.  **BONUS**: Add a tracker to the top of the quiz that tells the user which question they’re viewing.
 
-  1.  In the *src/app/quiz/quiz.component.html* file, before the `<div class="quiz"> HTML element but after the opening `<div class="quiz-wrapper"> HTML element, paste the following code:
+  1.  In the *src/app/quiz/quiz.component.html* file, before the `<div class="quiz">` HTML element but after the opening `<div class="quiz-wrapper">` HTML element, paste the following code:
   
-     ```
-     <div
-       class="question-tracker"
-       *ngIf="!quizIsOver">Question {{currentQuestionIndex + 1}} of {{questions.length}}</div>
-     <div class="results-header" *ngIf="quizIsOver">Results</div>
-     ```
-     
-     ![](/images/image40.png)
+       ```
+       <div
+         class="question-tracker"
+         *ngIf="!quizIsOver">Question {{currentQuestionIndex + 1}} of {{questions.length}}</div>
+       <div class="results-header" *ngIf="quizIsOver">Results</div>
+       ```
+       
+       ![](/images/image40.png)
       
       **Challenge**: Can you explain to your neighbor what this is doing?
 
