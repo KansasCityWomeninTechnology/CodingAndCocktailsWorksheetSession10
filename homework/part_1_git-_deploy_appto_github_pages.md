@@ -38,12 +38,7 @@ For more information on working with remotes read [Git Basics - Working with Rem
 
 8. Stage the files so Git knows which files to deal with.  In this case we want all of them so we just add all the files in the current directory. The current directory can be referenced as: `.`.  Type: `git add .`
 
-9. Check to ensure all of your files are staged & ready to be committed.
-
-  {% label %}Git Bash/iTerm2{% endlabel %}
-  ```
-  git status
-  ```
+9. Check to ensure all of your files are staged & ready to be committed. Type: `git status`
   
   Now, your files should display under a header of "Changes to be committed:" and should be green in color.
 
