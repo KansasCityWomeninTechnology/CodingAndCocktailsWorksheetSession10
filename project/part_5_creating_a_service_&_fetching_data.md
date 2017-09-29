@@ -20,6 +20,7 @@ You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.
 
 2.  In Atom, open the _src/app/quiz/quiz.service.ts_ file. 
 
+# TODO: Update this section below
   You need to import some methods from the **HTTP Module & RxJS** (**Angular CLI** installed both of these for us so we can simply import to use them). 
   
 3. Place your cursor at the end of the first line of the file that reads `import { Injectable } from '@angular/core';` and press return.
