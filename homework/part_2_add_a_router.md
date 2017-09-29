@@ -22,7 +22,7 @@ It is recommended to watch this video [[http://bit.ly/router-video](http://bit.l
   
   {% hint style='tip' %}
 The format for a route looks like this [replace the italicized words with your own]:
-`[path: '_urlpath_',component: _MyComponent_]
+`{path: '_urlpath_',component: _MyComponent_}`
 
 When defining a route, don't include the '/' at the beginning
   {% endhint %}
