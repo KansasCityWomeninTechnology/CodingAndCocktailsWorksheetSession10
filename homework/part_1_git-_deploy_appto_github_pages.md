@@ -13,24 +13,8 @@ Angular CLI initialized a git repository for you in your source folder. Angular 
     {% hint style='danger' %}
 Make sure **Initialize this repository with a README** is **unchecked**.
 
-![](/assets/images/no-readme.PNG)
+![](/images/no-readme.PNG)
   {% endhint %}
-
-3. In Git Bash or iTerm2, initialize the _trivia-api_ directory as a local Git repository (aka repo).
-
-  {% label %}Git Bash/iTerm2{% endlabel %}
-  ```
-  git init
-  ```
-
-4. In Atom, right click on the _trivia-api_ folder in the left side Project pane and choose "**New File**." Name this file _.gitignore_ (**notice the filename starts with a .**) 
-
-5. Double click on that file in the left side Project pane to open it for editing and in that file type:
-
-  {% label %}Atom | .gitignore{% endlabel %}
-  ```
-  node_modules/
-  ```
 
 6. You must connect the repository from GitHub (on the internet) to this repository you now have locally on your computer. This is called adding a remote repository. 
 
@@ -38,16 +22,17 @@ Make sure **Initialize this repository with a README** is **unchecked**.
 For more information on working with remotes read [Git Basics - Working with Remotes from the Pro Git book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
   {% endhint %}
 
-  1. In Google Chrome on the GitHub site make sure you have your `trivia-api` repository open.
+  1. In Google Chrome on the GitHub site make sure you have your `trivia` repository open.
   
   2. Click on the clipboard icon to copy the URL.
-     ![](/assets/images/gitClone.png)
+  
+     ![](/images/gitClone.png)
 
   3. In Git Bash or iTerm2, type the following to add the remote:
   
     {% label %}Git Bash/iTerm2{% endlabel %}
     ```
-    git remote add origin https://github.com/<your_github_username>/trivia-api.git
+    git remote add origin https://github.com/<your_github_username>/trivia.git
     ```
     Replace the git URL with the URL you copied from the GitHub site in step 6.i. above.
 
