@@ -38,6 +38,8 @@ For more information on working with remotes read [Git Basics - Working with Rem
 
 8. Stage the files so Git knows which files to deal with.  In this case we want all of them so we just add all the files in the current directory. The current directory can be referenced as: `.`.  Type: `git add .`
 
+  ![](/images/image45.png)
+
 9. Check to ensure all of your files are staged & ready to be committed. Type: `git status`
   
   Now, your files should display under a header of "Changes to be committed:" and should be green in color.
@@ -46,36 +48,7 @@ For more information on working with remotes read [Git Basics - Working with Rem
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Open your Git Bash or iTerm2 & check git.  Type: `git status`.
-
-   You should see several files listed as `modified:` under the heading "Changes not staged for commit:" 
-
-2. Stage your files to tell git what files you want to add. Type: `git add .`
-
-   ![](/images/image45.png)
+   
    
 3. Check your status again. Type `git status`.
 
