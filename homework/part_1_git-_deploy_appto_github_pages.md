@@ -46,21 +46,16 @@ For more information on working with remotes read [Git Basics - Working with Rem
 
 10. Commit the files so Git understands what group of changes to deal with.  Feel free to change the commit message (the part in the quotation marks) if you'd like! Type: `git commit -m "I built a Single Page Application!"`
 
+  ![](/images/image18.png)
+
+
 
 
    
    
-3. Check your status again. Type `git status`.
 
-   You should see your files now listed under the heading "Changes to be committed:"
    
-4.  Commit all your files. Type: `git commit -m "Trivia App Initial Development"`
 
-   ![](/images/image18.png)
-   
-5.  Deploy your app to GitHub Pages. Type: `ng github-pages:deploy --message "Add your own message here"`
-
-   ![](/images/image49.png)
    
    It may prompt you to generate a token on GitHub. Follow the instructions as provided in your CLI tool. 
 
