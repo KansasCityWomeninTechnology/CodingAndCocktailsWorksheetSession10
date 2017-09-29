@@ -48,17 +48,10 @@ For more information on working with remotes read [Git Basics - Working with Rem
 
   ![](/images/image18.png)
 
-
-
-
-   
-   
+11.    
 
    
-
-   
-   It may prompt you to generate a token on GitHub. Follow the instructions as provided in your CLI tool. 
 
    ![windows-icon.png](/images/windows-icon.png) This is another command that will run faster if you run Git Bash as admin. 
 
-6.  View your App from Chrome or from your phone!When the deployment to GitHub Pages is completed, it will provide the URL for your app.Format of the URL should be something like https://username.github.io/trivia
+6.  View your App from Chrome or from your phone! The URL for your app should be something like https://username.github.io/trivia
