@@ -19,8 +19,14 @@ It is recommended to watch this video [[http://bit.ly/router-video](http://bit.l
   1. '' that loads your `QuizComponent` [this is the root or homepage path '/']
   
   2.  `'about'` that loads your new `AboutComponent` [this will load for the path '/about']
+  
+  {% hint style='danger' %}
+#### Helpful Tip: 
+The format for a route looks like this [replace the italicized words with your own]:
+`[path: '_urlpath_',component: _MyComponent_]
 
-  ![](../images/28.png)
+When defining a route, don't include the '/' at the beginning
+  {% endhint %}
 
 1.  We need to <span class="ref">import</span> our 2 components, so add those 2 import statements to the top of the file.
 2.  Now we need to export our routes, so at the bottom of *app.routes.ts*, add this: <br><span class="new">export const QuizAppRoutes = RouterModule.forRoot(routes);</span>
