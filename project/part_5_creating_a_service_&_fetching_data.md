@@ -14,56 +14,67 @@ A service is just one piece of your larger application. Services are used to:
 This creates two files in your _src/app/quiz_ directory:
   * _quiz.service.ts_ and
   * _quiz.service.spec.ts_
-  
+
 You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.ts_ file.
   {% endhint %}
 
-2.  In Atom, open the _src/app/quiz/quiz.service.ts_ file. 
+2. We're going to use an **HTTP Module** that Angular provides, but we need to tell Angular that we want to use it. In Atom, open the _app.module.ts_ file.
 
-# TODO: Update this section below
-  You need to import some methods from the **HTTP Module & RxJS** (**Angular CLI** installed both of these for us so we can simply import to use them). 
-  
-3. Place your cursor at the end of the first line of the file that reads `import { Injectable } from '@angular/core';` and press return.
+  1. Below the `import {NgModule} from '@angular/core';`, add a new line & type:
+  `import { HttpClientModule } from '@angular/common/http';`
 
-4. Type: `import { Http, Response } from '@angular/http';`
+  2. In the same file, look for `imports` section within the parameters passed to `@NgModule`. Add a comma after `BrowserModule` & add a new line. On this new line, type: `HttpClientModule`
 
-5. Press return to move to a new line and then type`import 'rxjs/add/operator/map';`
+2.  In Atom, open the _src/app/quiz/quiz.service.ts_ file.
 
-6. On the line that starts with `constructor()`, place your cursor in between the parenthesis and type: `private http: Http`
+    We need to import a method from the **HttpClientModule** and our **Question** model.
 
-  ![](/images/image27.png)
+    1. Place your cursor at the end of the first line of the file that reads `import { Injectable } from '@angular/core';` and press return.
 
-  This creates an instance of the `Http` service that you imported and assigns it to `http`. It’s private because you don’t want to access it from outside the `QuizService` class.
+    2. Type: `import { HttpClient } from '@angular/common/http';`
 
-7.  Now, you’re going to add your API request to **//cocktail-trivia-api.herokuapp.com/api/sample**. Copy the code below:
+    3. Press return to move to a new line and then type: `import { Question } from './quiz.model';`
 
-  ```
-  getQuestions() {
-    return this.http.get('//cocktail-trivia-api.herokuapp.com/api/sample')
-      .map((res: Response) => res.json());
-  }
-  ```
+    4. On the line that starts with `constructor()`, place your cursor in between the parenthesis and type: `private http: HttpClient`
 
-8. Paste the code in the _src/app/quiz/quiz.service.ts_ file just below the `constructor(private http: Http) { }` line
+    TODO: UPDATE IMAGE
+    ![](/images/image27.png)
 
-  ![](../images/26.png)
+    This creates an instance of the `HttpClient` service that you imported and assigns it to `http`. It’s private because you don’t want to access it from outside the `QuizService` class.
 
-9.  Open *src/app/quiz/quiz.component.ts*.
+    5. Now, you’re going to add your API request to **//cocktail-trivia-api.herokuapp.com/api/sample**. Copy the code below:
+
+    ```
+    getQuestions() {
+  		return this.http.get<Question[]>('//cocktail-trivia-api.herokuapp.com/api/sample');
+  	}
+    ```
+
+    6. Paste the code in the _src/app/quiz/quiz.service.ts_ file just below the `constructor(private http: Http) { }` line
+
+    TODO: UPDATE IMAGE
+    ![](../images/26.png)
+
+9.  In Atom, open the _src/app/quiz/quiz.component.ts_ file.
 
   1.  You need to import the `QuizService`, so that you can use it. Add the following to the list of your other imports: `import { QuizService } from './quiz.service';`
-  
+
   2.  In our `Component` metadata, you need to add `QuizService` as a provider. Add a comma & a new line after `styleUrls: ['./quiz.component.css']` and add:`providers: [QuizService]`
-  
+
   ![](/images/image22.png)
-  
-3.  In the parenthesis for `constructor() { }` add:`private quizService: QuizService`
+
+  3. In the parenthesis for `constructor() { }` add:`private quizService: QuizService`
 
   ![](/images/image48.png)
-  
-  Now, you can access the `QuizService methods` via `this.quizService`.
-  
-4.  Replace `this.questions = [...];` with: `this.quizService.getQuestions()  .subscribe(questions =< this.questions = questions);`
 
-![](/images/image13.png)
+  Now, you can access the `QuizService methods` via `this.quizService`.
+
+4.  Replace `this.questions = [...];` with:
+    ```
+    this.quizService.getQuestions()
+      .subscribe(questions => this.questions = questions);
+    ```
+
+    ![](/images/image13.png)
 
 ![](../images/27.png)
