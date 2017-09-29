@@ -48,10 +48,10 @@ For more information on working with remotes read [Git Basics - Working with Rem
 
   ![](/images/image18.png)
 
-11.    
+11. Install the ghpages cli package.  In Git Bash or iTerm2, type: `npm i -g angular-cli-ghpages`
 
-   
+12. Build the application so it is ready for production.  Type: `ng build --prod --base-href "https://yourusername.github.io/trivia/"`
 
-   ![windows-icon.png](/images/windows-icon.png) This is another command that will run faster if you run Git Bash as admin. 
+13. Run the deploy step.  Type: `angular-cli-ghpages`
 
-6.  View your App from Chrome or from your phone! The URL for your app should be something like https://username.github.io/trivia
+14.  View your App from Chrome or from your phone! The URL for your app should be something like https://yourusername.github.io/trivia
