@@ -36,12 +36,7 @@ For more information on working with remotes read [Git Basics - Working with Rem
   
   Your files should display under a header of "Changes not staged for commit:" and should be red in color.
 
-8. Stage the files so Git knows which files to deal with.  In this case we want all of them so we just add all the files in the current directory. The current directory can be referenced as: `.`.  Type:
-
-  {% label %}Git Bash/iTerm2{% endlabel %}
-  ```
-  git add .
-  ```
+8. Stage the files so Git knows which files to deal with.  In this case we want all of them so we just add all the files in the current directory. The current directory can be referenced as: `.`.  Type: `git add .`
 
 9. Check to ensure all of your files are staged & ready to be committed.
 
