@@ -20,19 +20,25 @@ It is recommended to watch this video [[http://bit.ly/router-video](http://bit.l
   
   2.  `'about'` that loads your new `AboutComponent` [this will load for the path '/about']
   
-  {% hint style='danger' %}
-#### Helpful Tip: 
+  {% hint style='tip' %}
 The format for a route looks like this [replace the italicized words with your own]:
 `[path: '_urlpath_',component: _MyComponent_]
 
 When defining a route, don't include the '/' at the beginning
   {% endhint %}
 
-1.  We need to <span class="ref">import</span> our 2 components, so add those 2 import statements to the top of the file.
-2.  Now we need to export our routes, so at the bottom of *app.routes.ts*, add this: <br><span class="new">export const QuizAppRoutes = RouterModule.forRoot(routes);</span>
-3.  Open the *src/app/app.module.ts* file &amp; add an <span class="ref">import</span>. Import <span class="ref">QuizAppRoutes</span> from *app.routes.ts* [hint: that needs minor modifications to make that the actual import statement.]
-4.  We also need to add <span class="ref">QuizAppRoutes</span> in this file’s <span class="ref">@NgModule imports</span>.
-5.  Last, but not least, we need to define where our router will display the relevant component.<br>In *src/app/app.component.html*, replace <span class="ref">&lt;app-quiz&gt;&lt;/app-quiz&gt;</span> with <span class="new">&lt;router-outlet&gt;&lt;/router-outlet&gt;</span>
-6.  Visit your app in Chrome to checkout your routes! [http://localhost:4200/](http://localhost:4200/) &amp; [http://localhost:4200/about](http://localhost:4200/about)
+1.  You need to `import` your 2 components, so add those 2 import statements to the top of the file.
+
+2.  Next, export your routes, so at the bottom of *app.routes.ts*, type: `export const QuizAppRoutes = RouterModule.forRoot(routes);`
+
+3.  Open the *src/app/app.module.ts* file & add an `import`. Import `QuizAppRoutes` from *app.routes.ts* [hint: that needs minor modifications to make that the actual import statement.]
+
+4.  You also need to add `QuizAppRoutes` in this file’s `@NgModule imports`.
+
+5.  Last, but not least, you need to define where your router will display the relevant component.
+
+  In the *src/app/app.component.html* file, replace `<app-quiz></app-quiz>` with `<router-outlet></router-outlet>`
+  
+6.  Visit your app in Chrome to checkout your routes! [http://localhost:4200/](http://localhost:4200/) & [http://localhost:4200/about](http://localhost:4200/about)
 
 [![](../images/29.png)](http://bit.ly/spa-homework)
