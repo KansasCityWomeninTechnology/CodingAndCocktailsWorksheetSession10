@@ -28,13 +28,9 @@ For more information on working with remotes read [Git Basics - Working with Rem
   
      ![](/images/gitClone.png)
 
-  3. In Git Bash or iTerm2, type the following to add the remote:
-  
-    {% label %}Git Bash/iTerm2{% endlabel %}
-    ```
-    git remote add origin https://github.com/<your_github_username>/trivia.git
-    ```
-    Replace the git URL with the URL you copied from the GitHub site in step 6.i. above.
+  3. In Git Bash or iTerm2, add the remote. Type: `git remote add origin https://github.com/<your_github_username>/trivia.git`
+
+    Replace the git URL with the URL you copied from the GitHub site in the previous step above.
 
 7. Check which directories/files are unstaged (that Git doesn't yet know about). Type:
 
