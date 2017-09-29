@@ -42,22 +42,7 @@ For more information on working with remotes read [Git Basics - Working with Rem
   
   Now, your files should display under a header of "Changes to be committed:" and should be green in color.
 
-10. Commit the files so Git understands what group of changes to deal with.  Feel free to change the commit message (the part in the quotation marks) if you'd like!
-
-  {% label %}Git Bash/iTerm2{% endlabel %}
-  ```
-  git commit -m "Mom, look, my first API!"
-  ```
-
-11. Push these changes up to the GitHub website (the origin remote you created in step 6) and set the upstream (`-u`) this is the the gatekeeper of the project or the source of truth to which you wish to contribute to) to the remote's `master` branch. 
-
-  {% label %}Git Bash/iTerm2{% endlabel %}
-  ```
-  git push -u origin master
-  ```
-  
-12. Your API now exists on GitHub!
-
+10. Commit the files so Git understands what group of changes to deal with.  Feel free to change the commit message (the part in the quotation marks) if you'd like! Type: `git commit -m "I built a Single Page Application!"`
 
 
 
