@@ -21,7 +21,7 @@ Start with creating your app’s foundation. Open Git Bash (Windows) or iTerm2 (
   [bit.ly/CnCMarWork](http://bit.ly/CnCMarWork)
   {% endhint %}
 
-2.  In Git Bash or iTerm2, use Angular CLI to scaffold the project. Type: `ng new trivia`
+2.  In Git Bash or iTerm2, use Angular CLI to scaffold the project. Type: `ng new trivia --routing`
 
 3.  In Git Bash or iTerm2, Change the directory to the new one Angular CLI created for you. Type: `cd trivia`
 
@@ -36,7 +36,7 @@ This command will:
 </br>
 3. Watch your project files for changes so that when one of them changes it will automatically reload in the browser for you and avoid the step of having to push the refresh button to see every update you make.
   {% endhint %}
-  
+
   {% hint style='danger' %}
 ![images/windows-icon.png](/images/windows-icon.png)
 Windows will take more time for the ng serve process and for the automatic reload in the browser (upon file changes), unless you are running as admin. If you don’t recall doing this earlier, see tips [here](http://bit.ly/angular-cli-windows) to make it run faster.
@@ -59,7 +59,7 @@ Make some updates to the app to see the live reload we get from `ng serve`! Reme
   {% endhint %}
 
   Type: `atom .`
-  
+
   {% hint style='danger' %}
 Command not found
 
@@ -77,17 +77,17 @@ You can configure your system to recognize the command (ask a mentor for help) o
 3. Next, do the same thing next to the _app_ folder to expand it.
 
 4. Double click on the _app.component.ts_ file inside that _app_ folder to open it in the right side editing pane.
-  
+
 5.  Edit the `title` variable to whatever text you want (like: have a cocktail!)
 
   {% hint style='info' %}
 This `title` will end up being the title of your trivia app.
-  {% endhint %} 
-  
+  {% endhint %}
+
   ![](/images/image11.gif)
 
 6.  Save your file & go back to the tab in Chrome that has your app running. You should see your updated text!
 
     ![](/images/appUpdate.gif)
 
-##### Nice work! Take a break and grab another drink, you've earned it! 
+##### Nice work! Take a break and grab another drink, you've earned it!
