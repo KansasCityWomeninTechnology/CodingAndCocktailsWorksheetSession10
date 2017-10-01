@@ -18,7 +18,7 @@ This creates two files in your _src/app/quiz_ directory:
 You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.ts_ file.
   {% endhint %}
 
-2. We're going to use an **HTTP Module** that Angular provides, but we need to tell Angular that we want to use it. In Atom, open the _app.module.ts_ file.
+2. We're going to use an **HTTPClient Module** that Angular provides, but we need to tell Angular that we want to use it. In Atom, open the _app.module.ts_ file.
 
   1. Below the `import {NgModule} from '@angular/core';`, add a new line & type:
   `import { HttpClientModule } from '@angular/common/http';`

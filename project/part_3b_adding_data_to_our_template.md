@@ -11,11 +11,11 @@ Now that you have your data ready, wire it up to your component’s template.
   {% hint style='info' %}
 `*ngIf` is an Angular attribute directive that will only render our template **IF** `this.questions` is defined in our component.
   {% endhint %}
-  
+
 3.  In the HTML element `<div class="each-question">`, place your cursor directly in front of the `>`, press **return**, then press **tab** and then type the following to add an attribute: `*ngFor="let question of questions; let i = index;"`
 
   ![](/images/image17.gif)
-  
+
   {% hint style='tip' %}
 To help make the code easier to read, the example above starts each attribute on it's own line.
   {% endhint %}
@@ -27,27 +27,27 @@ This is an `*ngFor` directive that will repeat the HTML markup (including the `d
 
 It also sets a variable named `i` to `index`.  This helps to keep track of what question is currently being rendered in the template by giving you the `index` of that `question`.  **Question 1 is Index 0. Question 2 is Index 1.** This will come into play later in the tutorial.
   {% endhint %}
-  
-4.  In the `<h3 class="question">` HTML element, replace the "question here" text with `{{question.text}}`
+
+4.  In the `<h3 class="question">` HTML element, replace the "question here" text with: `{% raw %}{{question.text}}{% endraw %}`
 
   ![](/images/image02.png)
-  
+
   This will use the *question’s text* from the data you added in Part 3 to populate your HTML template. The data is connected to the HTML template through the _quiz.component.ts_ file.
-  
+
 5.  Next, loop through the question's answers. Add an `*ngFor` attribute to the `<li>` HTML element. Place your cursor before the `>` on the element, press **return**, then **tab** and then type: `*ngFor="let answer of question.answers"`
 
   ![](/images/image20.gif)
 
-6.  Replace the text "answer here" inside the opening and closing `li` HTML tags with the text ` {{answer.text}}` including the curly braces.
+6.  Replace the text "answer here" inside the opening and closing `li` HTML tags with the following text (including the curly braces): `{% raw %}{{answer.text}}{% endraw %}`
 
   ![](/images/image26.png)
 
 7.  You now have your template rendering questions and answers, but nothing happens when a user selects an answer. Add a *click* event so you can start tracking clicks.
 
   1.  In that same `<li>` tag, add a `(click)` attribute on the line below the `*ngFor`. Type:`(click)="onSelect(answer)"`
-   
+
       ![](/images/image46.png)
-      
+
     {% hint style='info' %}
 ### What does this code do?
 When a user clicks on the `<li>` HTML element holding the answer data, a method named `onSelect` in the Component's TypeScript file  is executed and passes the `answer` data through to the `onSelect` method.  (You haven't yet defined the `onSelect` method in the _quiz.component.ts_ file just yet, you'll do that next!
@@ -65,11 +65,11 @@ When a user clicks on the `<li>` HTML element holding the answer data, a method 
       }
     }
     ```
-    
+
 9. Paste the code in after the closing curly brace of the `ngOnInit() {}` (the method does have content inside the curly braces in your file).
-      
+
       ![](/images/image03.png)
-      
+
       {% hint style='info' %}
 ### What does this code do?
 You're declaring that the `answer` parameter is of data type `Answer`.  Then, if the selected answer (the answer passed to the `onSelect` method) is correct, we log "answer correct" to the development console.  If the selected answer is incorrect, we log "answer wrong" to the development console.

@@ -150,12 +150,14 @@ This creates a _src/app/quiz_ directory with 4 files in it: _html, css, typescri
 
   3.  Add the **quiz** component html to the **app** component. Copy the HTML code:
 
-        {% raw %}
-        <div class="quiz-wrapper">
-          <h1>{{title}}</h1>
-          <router-outlet></router-outlet>
-        </div>
-        {% endraw %}
+    ```
+    {% raw %}
+    <div class="quiz-wrapper">
+      <h1>{{title}}</h1>
+      <router-outlet></router-outlet>
+    </div>
+    {% endraw %}
+    ```
 
   4. Paste it into the *src/app/app.component.html* file.
 
