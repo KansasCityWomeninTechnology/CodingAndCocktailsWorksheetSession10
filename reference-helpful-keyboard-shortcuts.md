@@ -12,4 +12,7 @@
 |Switch between open apps/programs |`cmd` + `tab`|`alt` + `tab`|
 |Switch between programs on the taskbar| N/A | `windows key` + `tab`|
 |Switch between Chrome windows. |`shift` + `cmd` + `~`| N/A |
+|Open Google Chrome developer tools console. |`cmd` + `shift` + `j`| `ctrl` + `shift` + `j` |
+
+
 
