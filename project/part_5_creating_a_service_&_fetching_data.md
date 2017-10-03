@@ -45,9 +45,9 @@ You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.
     5. Now, you’re going to add your API request to **//cocktail-trivia-api.herokuapp.com/api/sample**. Copy the code below:
 
     ```
-    getQuestions() {
-  		return this.http.get<Question[]>('//cocktail-trivia-api.herokuapp.com/api/sample');
-  	}
+    getQuestions(): Observable<Question[]> { 
+      return this.http.get<Question[]>('//cocktail-trivia-api.herokuapp.com/api/sample'); 
+    }
     ```
 
     6. Paste the code in the _src/app/quiz/quiz.service.ts_ file just below the `constructor(private http: Http) { }` line
