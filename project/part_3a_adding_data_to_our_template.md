@@ -89,12 +89,14 @@ Check your code against the answer key here: [[http://bit.ly/spa-3_1](http://bit
       {% hint style='tip' %}
 ### What does this code do?
 
-It defines two models, one `Answer` model and one `Question` model. It **exports** the models so you can **import** the models into the file where you want to use them. 
+It defines two models, one `Answer` model and one `Question` model. It **exports** the models from this file so you can **import** the models into the file where you want to use them. 
 
 The `Answer` model has 2 properties: `correct` and `text`.  `correct` is of data type **boolean** (that means it can be set to either **true** or **false**).  `text` is of data type **string** (that means it represents textual data or, a series of characters).
 
 The `Question` model has two properties: `text` and `answers`.  `text` is of data type **string**.  `answers` is of data type **array** (this means it can hold multiple items of any data type, similar to a list like a grocery list or a honey-do list)
       {% endhint %}
+      
+  3. Save the file.
 
 4.  Now you'll import these models into the *quiz.component.ts* file to use them.
 
