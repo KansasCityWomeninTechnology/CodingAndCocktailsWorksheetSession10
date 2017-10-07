@@ -100,22 +100,20 @@ When the `currentQuestionIndex` value is the same as the number of questions in 
 
   1.  In the *src/app/quiz/quiz.component.html* file, before the `<div class="quiz">` HTML element but after the opening `<div class="quiz-wrapper">` HTML element, paste the following code:
 
-    ```
-    {% raw %}
-    <div
-      class="question-tracker"
-      *ngIf="!quizIsOver">
-      Question {{currentQuestionIndex + 1}} of {{questions.length}}
-    </div>
-    <div
-      class="results-header"
-      *ngIf="quizIsOver">
-      Results
-    </div>
-    {% endraw %}
-    ```
+      ```
+      {% raw %}<div
+        class="question-tracker"
+        *ngIf="!quizIsOver">
+        Question {{currentQuestionIndex + 1}} of {{questions.length}}
+      </div>
+      <div
+        class="results-header"
+        *ngIf="quizIsOver">
+        Results
+      </div>{% endraw %}
+      ```
 
-    ![](/images/image40.png)
+      ![](/images/image40.png)
 
     **Challenge**: Can you explain to your neighbor what this is doing?
 
