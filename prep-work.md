@@ -53,7 +53,7 @@ If you joined us earlier this year, you might have installed Node.js & **npm**, 
 
       <!--sec data-title="Windows - Install Node" data-id="sectionInstallWindows" data-show=true data-collapse=true ces-->
 
-      1. [Download](https://nodejs.org/en/) the **Current** installer for Windows [v.8.4.0].
+      1. [Download](https://nodejs.org/en/) the **Current** installer for Windows.
 
       2. Double-click on the downloaded file & follow the installation prompts.
 
