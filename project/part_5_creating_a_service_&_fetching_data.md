@@ -62,17 +62,17 @@ It creates a method named `getQuestions`, that makes the `http` request to the U
 
   1.  You need to import the `QuizService`, so that you can use it. Add the following to the list of your other imports: `import { QuizService } from './quiz.service';`
 
-  2.  In our `Component` metadata, you need to add `QuizService` as a provider. Add a comma & a new line after `styleUrls: ['./quiz.component.css']` and add:`providers: [QuizService]`
+  2.  In your `Component` metadata, you need to add `QuizService` as a provider. Add a comma & a new line after `styleUrls: ['./quiz.component.css']` and add:`providers: [QuizService]`
 
-  ![](/images/image22.png)
+      ![](/images/image22.png)
 
   3. In the parenthesis for `constructor() { }` add:`private quizService: QuizService`
 
-  ![](/images/image48.png)
+      ![](/images/image48.png)
 
   Now, you can access the `QuizService methods` via `this.quizService`.
 
-4.  Replace `this.questions = [...];` with:
+4.  Replace the `this.questions = [...];` array with the following code:
     ```
     this.quizService.getQuestions()
       .subscribe(questions => this.questions = questions);
@@ -80,4 +80,9 @@ It creates a method named `getQuestions`, that makes the `http` request to the U
 
     ![](/images/image13.png)
 
-![](../images/27.png)
+    {% hint style='tip' %}
+#### What does this code do?
+This subscribes to the `getQuestions` method that you defined in the `QuizService` since HTTP requests can take a little or a long time to return a response.  When the HTTP request comes back, the `getQuestions` method returns the data to the subscriber and then set that data to the component's `this.questions` so it is available for use in the component's template for display.
+    {% endhint %}
+
+5. Make sure all of your files are saved. 
