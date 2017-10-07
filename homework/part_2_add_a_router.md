@@ -1,12 +1,10 @@
 ### Homework Part 2: Add a New Route
 
-<!-- It is recommended to watch this video [[http://bit.ly/router-video](http://bit.ly/router-video)] (sign-up for free account to view) or read this article [[http://bit.ly/angular2-routing](http://bit.ly/angular2-routing)] to see how routers work in Angular & how to configure them. -->
-
-  1. Create a new component named **about**.
+  1. In Git Bash or iTerm2, create a new component called **about**. Type: `ng g component about`.
 
   2. In Atom, open the _src/app/app-routing.module.ts_ file.
 
-    1. You need to `import` your **About** component, so add that import statement to the top of the file.
+    1. You need to `import` your **About** component for routing, so add that import statement to the top of the file similar to the way the QuizComponent is imported.
 
     2.  Next, add the **about** route to the `routes` array.
 
