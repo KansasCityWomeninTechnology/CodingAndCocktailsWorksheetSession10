@@ -11,15 +11,14 @@
       {% hint style='tip' %}
 The format for a route looks like this [replace the italicized words with your own]:
 
-```{
+```
+{
   path: '_urlpath_',
   component: _MyComponent_
 }```
 
 When defining a route, don't include the '/' at the beginning
       {% endhint %}
-
-    <!-- This sets a **constant** variable named `routes` [of imported type `Routes`] to an empty array. You’ll add your routes to this array. -->
 
     <!-- 1. '' that loads your `QuizComponent` [this is the root or homepage path '/']
 
