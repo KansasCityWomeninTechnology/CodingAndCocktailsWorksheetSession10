@@ -37,11 +37,6 @@ This command will:
 To stop the server and get back to your command prompt, press the `ctrl` + `c` keys on your keyboard.
   {% endhint %}
 
-  {% hint style='danger' %}
-![images/windows-icon.png](/images/windows-icon.png)
-Windows will take more time for the ng serve process and for the automatic reload in the browser (upon file changes), unless you are running as admin. If you don’t recall doing this earlier, see tips [here](http://bit.ly/angular-cli-windows) to make it run faster.
-  {% endhint %}
-
 5.  In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to see your working (basic) app.
 
 6. Open a new CLI tab or window. You'll want to leave `ng serve` running in your CLI tool to see the live updates as you progress through the project.
