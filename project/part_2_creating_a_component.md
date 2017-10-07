@@ -175,7 +175,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
       </div>{% endraw %}
       ```
 
-  4. In Atom, open the *src/app/app.component.html* file. Delete all of the code **EXCEPT** the `<router-outlet></router-outlet>` tags.
+  4. In Atom, open the *src/app/app.component.html* file. Delete all of the HTML code **EXCEPT** the `<router-outlet></router-outlet>` tags.
 
     TODO: UPDATE IMAGE
 
