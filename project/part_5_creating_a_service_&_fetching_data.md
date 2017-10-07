@@ -27,13 +27,15 @@ You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.
 
 2.  In Atom, open the _src/app/quiz/quiz.service.ts_ file.
 
-    You'll need to import a method from the **HttpClientModule** and your **Question** model.
+    You'll need to import a method from the **HttpClientModule**, **Observable** from the RxJS library, and your **Question** model.
 
     1. Place your cursor at the end of the first line of the file that reads `import { Injectable } from '@angular/core';` and press return.
 
     2. Type: `import { HttpClient } from '@angular/common/http';`
 
     3. Press return to move to a new line and then type: `import { Question } from './quiz.model';`
+    
+    4. Add another line and type: `import { Observable } from 'rxjs/Observable';`
 
     4. In between the parenthesis of the `constructor()` code, type: `private http: HttpClient`
     
@@ -85,4 +87,8 @@ It creates a method named `getQuestions`, that makes the `http` request to the U
 This subscribes to the `getQuestions` method that you defined in the `QuizService` since HTTP requests can take a little or a long time to return a response.  When the HTTP request comes back, the `getQuestions` method returns the data to the subscriber and then set that data to the component's `this.questions` so it is available for use in the component's template for display.
     {% endhint %}
 
-5. Make sure all of your files are saved. 
+5. Make sure all of your files are saved. You can tell if a file is unsaved because it will have a small blue circle on the right side of the file tab. 
+
+  ![](/images/unsaved.png)
+  
+6. In 
