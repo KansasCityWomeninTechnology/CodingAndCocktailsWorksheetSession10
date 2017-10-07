@@ -43,7 +43,7 @@ You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.
 This creates an instance of the `HttpClient` service that you imported and assigns it to `http`. It’s private because you don’t want to access it from outside the `QuizService` class.
       {% endhint %}
 
-    5. Now, you’re going to add your API request to **//cocktail-trivia-api.herokuapp.com/api/sample**. Copy the code below:
+    5. Now, you’re going to add your API request to the **//cocktail-trivia-api.herokuapp.com/api/sample** URL. Copy the code below:
 
       ```
       getQuestions(): Observable<Question[]> { 
