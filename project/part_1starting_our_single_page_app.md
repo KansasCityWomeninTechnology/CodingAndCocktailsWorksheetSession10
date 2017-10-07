@@ -32,6 +32,12 @@ This command will:
 2. Start a local server on our computer so you can view your project prior to making it live on the internet
 3. Watch your project files for changes so that when one of them changes it will automatically reload in the browser for you and avoid the step of having to push the refresh button to see every update you make.
   {% endhint %}
+  
+  {% hint style='tip' %}
+To stop the server and get back to your command prompt, press the `ctrl` + `c` keys on your keyboard.
+  {% endhint %}
+
+
 
   {% hint style='danger' %}
 ![images/windows-icon.png](/images/windows-icon.png)
@@ -42,13 +48,15 @@ Windows will take more time for the ng serve process and for the automatic reloa
 
 6. Open a new CLI tab or window. You'll want to leave `ng serve` running in your CLI tool to see the live updates as you progress through the project.
   
-  * **Mac:** In iTerm2, make sure your window is active and then open a new tab by pressing the `cmd` + `T` keys at the same time.
+  * **Mac:** In iTerm2, make sure your window is active and then open a new tab by pressing the `cmd` + `t` keys at the same time.
   
-  * **Windows:** In Git Bash, open a second Git Bash window.  
+  * **Windows:** In Git Bash, open a second Git Bash window. 
+  
+7. In iTerm2 (mac) or Git Bash (windows), navigate to your _trivia_ project folder 
 
 ## Make a Change
 
-Make some updates to the app to see the live reload we get from `ng serve`! Remember the `ng serve` command watches for changes to your project files and automatically refreshes the browser for you so you don’t have to.  This is called “live reload.”
+Now, you'll make some updates to the app to see the live reload you get from `ng serve`! Remember the `ng serve` command watches for changes to your project files and automatically refreshes the browser for you so you don’t have to.  This is called “live reload.”
 
 1.  Open Atom via the command line
 
@@ -59,14 +67,14 @@ Make some updates to the app to see the live reload we get from `ng serve`! Reme
   Type: `atom .`
 
   {% hint style='danger' %}
-Command not found
+##### Command not found
 
 If Atom doesn't open (but you know it's installed), your system likely doesn't recognize the `atom` command.
 
 You can configure your system to recognize the command (ask a mentor for help) or you can follow these steps to open it manually:
   1. From your applications or start menu, open Atom
   2. In Atom: File >> Open... (Mac) or Open Folder... (Windows)
-  3. Open the _trivia-api_ folder
+  3. Open the _trivia_ folder
   4. Click the Open button
   {% endhint %}
 
