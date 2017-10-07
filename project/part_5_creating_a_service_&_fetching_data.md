@@ -53,8 +53,10 @@ This creates an instance of the `HttpClient` service that you imported and assig
 
     6. Paste the code in the _src/app/quiz/quiz.service.ts_ file just below the `constructor(private http: Http) { }` line
 
-    TODO: UPDATE IMAGE
-    ![](../images/26.png)
+       {% hint style='tip' %}
+#### What does this code do?
+It creates a method named `getQuestions`, that makes the `http` request to the URL that accesses the API and returns the JSON (**J**ava**S**cript **O**bject **N**otation) formatted data from the response. 
+       {% endhint %}
 
 9.  In Atom, open the _src/app/quiz/quiz.component.ts_ file.
 
