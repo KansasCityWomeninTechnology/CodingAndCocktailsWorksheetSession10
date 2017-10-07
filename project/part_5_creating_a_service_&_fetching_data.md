@@ -45,11 +45,11 @@ This creates an instance of the `HttpClient` service that you imported and assig
 
     5. Now, you’re going to add your API request to **//cocktail-trivia-api.herokuapp.com/api/sample**. Copy the code below:
 
-    ```
-    getQuestions(): Observable<Question[]> { 
-      return this.http.get<Question[]>('//cocktail-trivia-api.herokuapp.com/api/sample'); 
-    }
-    ```
+      ```
+      getQuestions(): Observable<Question[]> { 
+        return this.http.get<Question[]>('//cocktail-trivia-api.herokuapp.com/api/sample'); 
+      }
+      ```
 
     6. Paste the code in the _src/app/quiz/quiz.service.ts_ file just below the `constructor(private http: Http) { }` line
 
