@@ -122,7 +122,7 @@ Using TypeScript with Angular2, provides us a lot of shortcuts. However, to make
 
 6. Hover over the settings tab at the top of the page and an x should appear.  Click the x to close the setup tab.
 
-7. Setup is done! Give high fives to those around you.
+7. Setup is done! Give high fives to those around you!
 
 <!--sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section0" data-show=true data-collapse=true ces id="chromebook"-->
 
