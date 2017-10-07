@@ -100,6 +100,8 @@ If you joined us earlier this year, you might have installed Node.js & **npm**, 
 
 2.  To confirm Angular CLI was installed, while still in Git Bash or iTerm2, type: `ng version`. If you get a version number, you can move on!
 
+    ![](/images/ngVersion.png)
+
 ### 4: Add TypeScript Package to Atom
 
 Using TypeScript with Angular2, provides us a lot of shortcuts. However, to make sure the correct words highlight for us in Atom (maybe you've noticed the colors in HTML, CSS or JavaScript files?), and that we get some of the autosuggest features of TypeScript, we have to install the TypeScript package for Atom.
@@ -108,9 +110,13 @@ Using TypeScript with Angular2, provides us a lot of shortcuts. However, to make
 
 2.  In the Preferences pane click on the **Install** option. 
 
+    ![](/images/install.png)
+
 3.  In the search bar, type **Typescript**
 
 4.  Find & select the TypeScript package that matches this image:
+
+    ![](/images/typescriptPackage.png)
    
 5.  When prompted for any dependencies select **Yes** to install them.
 
