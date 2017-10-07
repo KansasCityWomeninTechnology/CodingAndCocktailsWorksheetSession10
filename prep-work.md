@@ -1,9 +1,7 @@
 # Prep Work
 
 {% hint style='danger' %}
-
 If this is your first time joining us for Coding & Cocktails, you'll want to [install our tools](http://bit.ly/CnCTheTools) before you go any further.
-
 {% endhint %}
 
 ### 1. <a href="https://kcwit.slack.com/messages/C0BGBKGG6">Click Here to Open Slack</a>
@@ -11,28 +9,22 @@ If this is your first time joining us for Coding & Cocktails, you'll want to [in
 If you have a tip that helped you with a step on the worksheet, you can easily share it with the group in Slack. Or if there are any issues with the worksheet [we make typos or there's an update to a tool that we didn't catch before the session], we may post updates in Slack. Plus, after class is over, Slack becomes a tool for you to gain access to mentors as you go through the homework, or any other questions that arise.
 
 {% hint style='danger' %}
-
 If you're using a Chromebook, skip down to the Cloud9 instructions at the bottom.
-
 {% endhint %}
 
 
 ### 2. Install/Update Node.js & npm
 
 {% hint style='danger' %}
-
 If you joined us earlier this year, you might have installed Node.js & **npm**, but you'll still want to update to the latest version of Node.js & **npm**.
-
 {% endhint %}
 
 1.  Open Git Bash or iTerm2
 
   {% hint style='info' %}
-
   The "terminal" and "command line" (aka CLI, command line interface) are the same thing.
   - On Windows, we use **Git Bash**
   - On Mac, we use **iTerm2**
-
   {% endhint %}
 
 2.  In your CLI, type: `node --version`
@@ -106,7 +98,7 @@ If you joined us earlier this year, you might have installed Node.js & **npm**, 
 
 Using TypeScript with Angular2, provides us a lot of shortcuts. However, to make sure the correct words highlight for us in Atom (maybe you've noticed the colors in HTML, CSS or JavaScript files?), and that we get some of the autosuggest features of TypeScript, we have to install the TypeScript package for Atom.
 
-1.  Open Atom and from the Atom menu (mac) or File menu (windows) **TODO: Windows vs Mac** choose **Preferences**.
+1.  Open Atom and from the Atom menu (mac) or File menu (windows) choose **Preferences**.
 
 2.  In the Preferences pane click on the **Install** option. 
 
@@ -120,7 +112,7 @@ Using TypeScript with Angular2, provides us a lot of shortcuts. However, to make
    
 5.  When prompted for any dependencies select **Yes** to install them.
 
-6. Hover over the settings tab at the top of the page and an x should appear.  Click the x to close the setup tab.
+6. Hover over the settings tab at the top of the page and an x should appear.  Click the x to close the settings tab.
 
 7. Setup is done! Give high fives to those around you!
 
