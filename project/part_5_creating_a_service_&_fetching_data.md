@@ -52,6 +52,10 @@ This creates an instance of the `HttpClient` service that you imported and assig
         return this.http.get<Question[]>('//cocktail-trivia-api.herokuapp.com/api/sample'); 
       }
       ```
+      
+      {% hint style='tip' %}
+If you built your own API during the Node.js session last month, you can replace the `//cocktail-trivia-api.herokuapp.com/api/sample` URL with the URL to your own API.  For example if your heroku app was named **my-awesome-api** you would use the URL `//my-awesome-api.herokuapp.com/api/
+      {% endhint %}
 
     7. Paste the code in the _src/app/quiz/quiz.service.ts_ file just below the `constructor(private http: Http) { }` line
 
@@ -91,4 +95,6 @@ This subscribes to the `getQuestions` method that you defined in the `QuizServic
 
   ![](/images/unsaved.png)
   
-6. In 
+6. In Google Chrome, checkout your application using a new data source!
+
+   ![](/images/finishedApp.png)  
