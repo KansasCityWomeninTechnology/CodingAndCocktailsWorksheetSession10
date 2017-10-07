@@ -15,6 +15,8 @@ Make sure **Initialize this repository with a README** is **unchecked**.
 
 ![](/images/no-readme.PNG)
   {% endhint %}
+  
+  3. Click the green "Create Repository" button.
 
 6. You must connect the repository from GitHub (on the internet) to this repository you now have locally on your computer. This is called adding a remote repository. 
 
