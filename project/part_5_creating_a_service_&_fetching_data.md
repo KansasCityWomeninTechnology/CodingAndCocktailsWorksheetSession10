@@ -37,9 +37,11 @@ You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.
 
     4. In between the parenthesis of the `constructor()` code, type: `private http: HttpClient`
     
-      ![](/images/image27.png)
+      ![](/images/httpClient.png)
 
-    This creates an instance of the `HttpClient` service that you imported and assigns it to `http`. It’s private because you don’t want to access it from outside the `QuizService` class.
+      {% hint style='tip' %}
+This creates an instance of the `HttpClient` service that you imported and assigns it to `http`. It’s private because you don’t want to access it from outside the `QuizService` class.
+      {% endhint %}
 
     5. Now, you’re going to add your API request to **//cocktail-trivia-api.herokuapp.com/api/sample**. Copy the code below:
 
