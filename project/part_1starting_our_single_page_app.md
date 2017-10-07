@@ -29,9 +29,7 @@ Revisit the command line worksheet from March:
 This command will:
 
 1. Compile your TypeScript files into JavaScript
-</br>
 2. Start a local server on our computer so you can view your project prior to making it live on the internet
-</br>
 3. Watch your project files for changes so that when one of them changes it will automatically reload in the browser for you and avoid the step of having to push the refresh button to see every update you make.
   {% endhint %}
 
