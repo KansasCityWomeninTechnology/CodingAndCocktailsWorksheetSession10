@@ -127,7 +127,11 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
       }
       ```
 
-  6. Paste the CSS code into the *src/app/quiz/quiz.component.css* file. These styles apply only to the markup in _quiz.component.html_.
+  8. Paste the CSS code into the *src/app/quiz/quiz.component.css* file. These styles apply only to the markup in _quiz.component.html_.
+  
+  9. Save the _src/app/quiz/quiz.component.css_ file.
+  
+  10. In Google chrome, take a look at your app now.  You'll see the styles have changed and the page background is now black along with some other styling changes.
 
   {% hint style='info' %}
   #### What is this HTML & CSS stuff?!
