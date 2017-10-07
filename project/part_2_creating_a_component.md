@@ -229,24 +229,18 @@ If the number of files you have open for editing is making it hard to remember w
 
   4. Place your cursor between the curly braces & hit enter to create another new line.
 
-  3. Type:
+  5. Type:
 
     ```
     path: '',
     component: QuizComponent
     ```
 
-    TODO: IMAGE OR SOMETHING LIKE _Code should look like this:_
-    ```
-    const routes: Routes = [
-      {
-        path: '',
-        component: QuizComponent
-      }
-    ];
-    ```
-
-    4. Now go look at your app in Chrome.
+  6. Your code should look similar to:
+  
+      ![](/images/defaultRoute.png)
+    
+  7. Now go look at your app in Chrome, there's your quiz!
 
       ![](/images/appOne.png)
 
