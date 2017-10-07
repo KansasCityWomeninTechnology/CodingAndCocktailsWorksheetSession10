@@ -179,7 +179,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
 
         ![](/images/quizComponentHTML.png)
 
-  5. Copy the HTML code:
+  5. Copy the HTML code below:
 
     ```
     <div class="quiz-wrapper">
