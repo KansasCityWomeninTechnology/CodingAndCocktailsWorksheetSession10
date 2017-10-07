@@ -201,9 +201,11 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
         </div>
         ```
 
-  6. Paste it into the *src/app/quiz/quiz.component.html* file.
+  6. Delete all the code in the *src/app/quiz/quiz.component.html* file and paste the copied HTML into the file.
 
         ![](/images/image28.png)
+        
+  7. Save the *src/app/quiz/quiz.component.html* file.
 
 4.  Head on over to Chrome to check out how your app looks.
 
