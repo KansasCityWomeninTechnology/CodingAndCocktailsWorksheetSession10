@@ -48,10 +48,10 @@ It also sets a variable named `i` to `index`.  This helps to keep track of what 
 
       ![](/images/image46.png)
 
-    {% hint style='info' %}
+      {% hint style='info' %}
 ### What does this code do?
 When a user clicks on the `<li>` HTML element holding the answer data, a method named `onSelect` in the Component's TypeScript file  is executed and passes the `answer` data through to the `onSelect` method.  (You haven't yet defined the `onSelect` method in the _quiz.component.ts_ file just yet, you'll do that next!
-    {% endhint %}
+      {% endhint %}
 
 8.  In Atom, open the *src/app/quiz/quiz.component.ts* file.  Copy the code below:
 
