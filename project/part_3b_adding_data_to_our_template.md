@@ -71,7 +71,10 @@ When a user clicks on the `<li>` HTML element holding the answer data, a method 
 10. Paste the code in after the closing curly brace of the `ngOnInit() {...}` (the method does have content inside the curly braces in your file).
 
   {% hint style='tip' %}
-If you place your cursor near a parentheses, curly brace, or square bracket, Atom will highlight the corresponding opening or closing parentheses, curly brace, or square bracket to help you figure out code alignment.
+If you place your cursor near a parentheses, curly brace, or square bracket, Atom will highlight the corresponding opening or closing parentheses, curly brace, or square bracket with a small green dotted line to help you figure out code alignment.
+
+![](/images/openingBrace.png)
+![](/images/closingBrace.png)
   {% endhint %}
 
   ![](/images/image03.png)
