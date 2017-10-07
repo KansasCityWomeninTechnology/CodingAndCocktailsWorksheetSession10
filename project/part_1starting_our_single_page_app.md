@@ -15,8 +15,8 @@ Start with creating your app’s foundation. Open Git Bash (Windows) or iTerm2 (
   - Command to change folders: `cd <folderToGoTo>`
   - Command to make a folder: `mkdir <newFolder>`
   - You can also use **~** as a shortcut in your CLI for your home directory: ``cd ~``
-</br>
-</br>
+
+
   Revisit the command line worksheet from March:
   [bit.ly/CnCMarWork](http://bit.ly/CnCMarWork)
   {% endhint %}
