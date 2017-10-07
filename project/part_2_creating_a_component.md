@@ -181,29 +181,29 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
 
   5. Copy the HTML code below:
 
-    ```
-    <div class="quiz-wrapper">
+        ```
+        <div class="quiz-wrapper">
 
-      <div class="quiz">
+          <div class="quiz">
 
-        <div class="each-question">
-          <div class="q-and-a">
-            <h3 class="question">question here</h3>
+            <div class="each-question">
+              <div class="q-and-a">
+                <h3 class="question">question here</h3>
 
-            <ul class="answers">
-              <li>answer here</li>
-            </ul>
+                <ul class="answers">
+                  <li>answer here</li>
+                </ul>
+              </div>
+            </div>
+
           </div>
+
         </div>
-
-      </div>
-
-    </div>
-    ```
+        ```
 
   6. Paste it into the *src/app/quiz/quiz.component.html* file.
 
-    ![](/images/image28.png)
+        ![](/images/image28.png)
 
 4.  Head on over to Chrome to check out how your app looks.
 
