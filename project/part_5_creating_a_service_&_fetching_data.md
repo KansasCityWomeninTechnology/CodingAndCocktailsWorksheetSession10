@@ -1,6 +1,6 @@
 ### Part 6: Creating a Service & Fetching Data
 
-You have your component set-up to display trivia questions and answers, but you only have a couple hardcoded questions & answers. Next you'll use an API to populate your quiz questions and possible answers.
+You have your component set-up to display trivia questions and answers, but you only have a couple hardcoded questions & answers. Next you'll create a service to use an API to populate your quiz questions and possible answers.
 
 {% hint style='info' %}
 A service is just one piece of your larger application. Services are used to:
@@ -18,16 +18,16 @@ This creates two files in your _src/app/quiz_ directory:
 You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.ts_ file.
   {% endhint %}
 
-2. We're going to use an **HTTPClient Module** that Angular provides, but we need to tell Angular that we want to use it. In Atom, open the _app.module.ts_ file.
+2. You'll use an **HTTPClient Module** that Angular provides, but you need to tell Angular that you want to use it. In Atom, open the _app.module.ts_ file.
 
-  1. Below the `import {NgModule} from '@angular/core';`, add a new line & type:
+  1. Add a new blank line below the `import {NgModule} from '@angular/core';` line & type:
   `import { HttpClientModule } from '@angular/common/http';`
 
-  2. In the same file, look for `imports` section within the parameters passed to `@NgModule`. Add a comma after `BrowserModule` & add a new line. On this new line, type: `HttpClientModule`
+  2. In the same file, look for `imports` section within the parameters passed to `@NgModule`. Add a comma after `AppRoutingModule` & add a new line. On this new line, type: `HttpClientModule`
 
 2.  In Atom, open the _src/app/quiz/quiz.service.ts_ file.
 
-    We need to import a method from the **HttpClientModule** and our **Question** model.
+    You'll need to import a method from the **HttpClientModule** and your **Question** model.
 
     1. Place your cursor at the end of the first line of the file that reads `import { Injectable } from '@angular/core';` and press return.
 
@@ -35,7 +35,9 @@ You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.
 
     3. Press return to move to a new line and then type: `import { Question } from './quiz.model';`
 
-    4. On the line that starts with `constructor()`, place your cursor in between the parenthesis and type: `private http: HttpClient`
+    4. In between the parenthesis of the `constructor()` code, type: `private http: HttpClient`
+    
+    
 
     TODO: UPDATE IMAGE
     ![](/images/image27.png)
