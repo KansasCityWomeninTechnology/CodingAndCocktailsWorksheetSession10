@@ -53,7 +53,9 @@ It also sets a variable named `i` to `index`.  This helps to keep track of what 
 When a user clicks on the `<li>` HTML element holding the answer data, a method named `onSelect` in the Component's TypeScript file  is executed and passes the `answer` data through to the `onSelect` method.  (You haven't yet defined the `onSelect` method in the _quiz.component.ts_ file just yet, you'll do that next!
       {% endhint %}
 
-8.  In Atom, open the *src/app/quiz/quiz.component.ts* file.  Copy the code below:
+8. Save the _src/app/quiz/quiz.component.html_ file.
+
+9. In Atom, open the *src/app/quiz/quiz.component.ts* file.  Copy the code below:
 
     ```
     onSelect(answer: Answer){
