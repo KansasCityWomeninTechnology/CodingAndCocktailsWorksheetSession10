@@ -50,7 +50,8 @@ Windows will take more time for the ng serve process and for the automatic reloa
   
   * **Windows:** In Git Bash, open a second Git Bash window. 
   
-7. In iTerm2 (mac) or Git Bash (windows), navigate to your _trivia_ project folder 
+7. In iTerm2 (mac) or Git Bash (windows), navigate to your _trivia_ project folder. Type: `cd ~/CodingAndCocktails/trivia`
+ 
 
 ## Make a Change
 
