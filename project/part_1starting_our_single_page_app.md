@@ -40,9 +40,11 @@ Windows will take more time for the ng serve process and for the automatic reloa
 
 5.  In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to see your working (basic) app.
 
-  {% hint style='tip' %}
-In iTerm2 (mac), open a new tab or in Git Bash (windows), open a new window to be ready for the next CLI commands.  You'll want to leave `ng serve` running in your CLI tool to see the live updates as you progress through the project.
-  {% endhint %}
+6. Open a new CLI tab or window. You'll want to leave `ng serve` running in your CLI tool to see the live updates as you progress through the project.
+  
+  * **Mac:** In iTerm2, make sure your window is active and then open a new tab by pressing the `cmd` + `T` keys at the same time.
+  
+  * **Windows:** In Git Bash, open a second Git Bash window.  
 
 ## Make a Change
 
