@@ -102,14 +102,14 @@ When the `currentQuestionIndex` value is the same as the number of questions in 
 
       ```
       {% raw %}<div
-        class="question-tracker"
-        *ngIf="!quizIsOver">
-        Question {{currentQuestionIndex + 1}} of {{questions.length}}
+          class="question-tracker"
+          *ngIf="!quizIsOver">
+            Question {{currentQuestionIndex + 1}} of {{questions.length}}
       </div>
       <div
-        class="results-header"
-        *ngIf="quizIsOver">
-        Results
+          class="results-header"
+          *ngIf="quizIsOver">
+            Results
       </div>{% endraw %}
       ```
 
