@@ -85,7 +85,9 @@ If you place your cursor near a parentheses, curly brace, or square bracket, Ato
 You're declaring that the `answer` parameter is of data type `Answer`.  Then, if the selected answer (the answer passed to the `onSelect` method) is correct, we log "answer correct" to the development console.  If the selected answer is incorrect, we log "answer wrong" to the development console.
   {% endhint %}
   
-11. In Google Chrome, view your application using your new data.
+11. Save your _src/app/quiz/quiz.component.ts_ file.
+
+12. In Google Chrome, view your application using your new data.
 
     {% hint style='danger' %}
 Application not working?  You may have had an error during development that the server wasn't able to overcome.  Try stopping the `ng serve` command in iTerm2 (mac) or Git Bash (windows) by pressing the `ctrl` + `c` keys and restarting it by typing `ng serve` and pressing enter.  Refresh the page in Google Chrome.  If you're still having issues, grab a mentor to help troubleshoot!
