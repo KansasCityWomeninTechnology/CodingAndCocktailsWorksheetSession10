@@ -215,36 +215,36 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
 
 Didn't you just add a component to make a quiz application?  Where is it?!  Since you used the `--routing` flag when you first generated your application, you'll need to add a default route, so that it loads your Quiz Component's HTML & CSS.
 
-5. In Atom, double click on the _src/app/app-routing.module.ts_ file in the left side project pane to open it for editing. 
+1. In Atom, double click on the _src/app/app-routing.module.ts_ file in the left side project pane to open it for editing. 
 
     {% hint style='info' %}
 If the number of files you have open for editing is making it hard to remember which tab to use or just feeling overwhelming, you can close some of them by hovering your mouse cursor over the tab and clicking on the `x` that shows up.
     {% endhint %}
 
-  1. You'll need to import your Quiz Component. Place your cursor at the end of the `import { Routes, RouterModule } from '@angular/router';` line and press enter to move to a new line. Type: `import { QuizComponent } from './quiz/quiz.component';`
+2. You'll need to import your Quiz Component. Place your cursor at the end of the `import { Routes, RouterModule } from '@angular/router';` line and press enter to move to a new line. Type: `import { QuizComponent } from './quiz/quiz.component';`
 
-  2. Place your cursor between the brackets `[]` in `const routes: Routes = [];` & hit enter to create a new line between the brackets. Atom will automatically make the `];` move to the line below your cursor.  This is Atom trying to help you with formatting so that your code is more readable.
+3. Place your cursor between the brackets `[]` in `const routes: Routes = [];` & hit enter to create a new line between the brackets. Atom will automatically make the `];` move to the line below your cursor.  This is Atom trying to help you with formatting so that your code is more readable.
 
-  3. On this new line type: {}
+4. On this new line type: {}
 
-  4. Place your cursor between the curly braces & hit enter to create another new line.
+5. Place your cursor between the curly braces & hit enter to create another new line.
 
-  5. Type:
+6. Type:
 
     ```
     path: '',
     component: QuizComponent
     ```
 
-  6. Your code should look similar to:
+7. Your code should look similar to:
   
-      ![](/images/defaultRoute.png)
+    ![](/images/defaultRoute.png)
     
-  7. Now go look at your app in Chrome, there's your quiz!
+8. Now go look at your app in Chrome, there's your quiz!
 
-      ![](/images/appOne.png)
+    ![](/images/appOne.png)
 
     {% hint style='danger' %}
-    #### App doesn't look like this?
-    Look back through the steps or grab a mentor!
+#### App doesn't look like this?
+Look back through the steps or grab a mentor!
     {% endhint %}
