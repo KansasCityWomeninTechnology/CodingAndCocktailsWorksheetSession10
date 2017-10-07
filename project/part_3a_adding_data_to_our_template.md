@@ -52,23 +52,27 @@ Later, you’ll be using an [API](http://bit.ly/CnCgloss) [Application Programmi
       }
     ];
     ```
-    
-    {% hint style='danger' %}
-Atom may highlight the `this.questions` text in red and you may see a warning that states "Property 'questions' does not exist on type 'QuizComponent'." when you hover over that text.
-You can ignore this warning for now, we'll fix it in the next few steps.
-    {% endhint %}
 
 2. In Atom, open your *src/app/quiz/quiz.component.ts* file by double clicking on it in the left side Project Pane. In the `ngOnInit()` [method](http://bit.ly/CnCgloss), between the opening and closing curly braces, (`{}`), paste that code in.
+
+  {% hint style='danger' %}
+Atom may highlight the `this.questions` text in red and you may see a warning that states "Property 'questions' does not exist on type 'QuizComponent'." when you hover over that text.
+You can ignore this warning for now, we'll fix it in the next few steps.
+  {% endhint %}
 
   {% hint style='tip' %}
 Check your code against the answer key here: [[http://bit.ly/spa-3_1](http://bit.ly/spa-3_1)].
   {% endhint %}
 
-3.  Since you’re using [TypeScript](https://www.typescriptlang.org), you'll need to set data types for the data that you just copied and pasted. This is one file Angular CLI won’t generate for you since it can't read your mind about what your application's data should look like!  Here you'll create a model to represent the data for your applications questions and answers
+3.  Since you’re using [TypeScript](https://www.typescriptlang.org), you'll need to set data types for the data that you just copied and pasted. This is one file Angular CLI won’t generate for you since it can't read your mind about what your application's data should look like!  Here you'll create a model to represent the data for your applications questions and answers.
 
-  1. Create a new file in *src/app/quiz* & name it **quiz.model.ts**.
+  1. Create a new file in *src/app/quiz* 
   
-  2. In your newly created *quiz.model.ts*, add the code below. Feel free to manually type or copy/paste.
+      1. Right click on the _src/app/quiz_ folder in the left side project pane and select **new file**. 
+      
+      2. Name it **quiz.model.ts** and press enter.
+  
+  2. In your newly created *quiz.model.ts* file, add the code below. Feel free to manually type or copy/paste.
 
       ```
       export class Answer {
