@@ -50,7 +50,7 @@ Now you have questions and answers to create a quiz, but at the end of the quiz,
       ![](/images/image39.png)
 
       {% hint style='info' %}
-### Why these defaults?
+##### Why these defaults?
   - `correctAnswers` and `currentQuestionIndex` both start at 0 because the quiz hasn't started yet.
   - `quizIsOver` starts as false because the quiz can't be over if it hasn't started yet.
       {% endhint %}
