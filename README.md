@@ -32,6 +32,6 @@ Want to be more efficient at working with your computer?
 {% endhint %}
 
 Look for these formatting hints throughout the workbook:
-_src/directory/file.ts_ - **File paths and names**
-`code block` - **Code to use or reference in your project**
-![](/images/windows-icon.png) - **Attention Windows Users - info specific to windows macnines**
+* _src/directory/file.ts_ - **File paths and names**
+* `code block` - **Code to use or reference in your project**
+* ![](/images/windows-icon.png) - **Attention Windows Users - info specific to windows machines**
