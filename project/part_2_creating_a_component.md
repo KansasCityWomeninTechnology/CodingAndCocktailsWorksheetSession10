@@ -135,7 +135,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
   
       ![](/images/newStyles.png)
 
-  {% hint style='info' %}
+      {% hint style='info' %}
   #### What is this HTML & CSS stuff?!
   In an effort to keep the project focused on Single Page Applications, we're providing the HTML & CSS code for you to copy/paste. Keep an eye out to join us for our HTML & CSS sessions if you're interested in learning more!
 
@@ -144,7 +144,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
 
   ##### Know HTML/CSS?
   Have at it! Customize the HTML/CSS to your liking!
-  {% endhint %}
+      {% endhint %}
 
 3.  Now that you have styles, add the HTML markup for your templates.
 
