@@ -32,8 +32,10 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
       ```
 
   2. Paste (use the [keyboard shortcuts](/reference-helpful-keyboard-shortcuts.md)!) the CSS code into your _src/styles.css_ file. These are global styles that apply to the whole app.
+  
+  3. Save the _src/styles.css_ file.
 
-  3.  Copy these CSS styles:
+  4.  Copy these CSS styles:
 
       ```
       .quiz-wrapper {
