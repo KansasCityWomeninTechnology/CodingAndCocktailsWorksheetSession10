@@ -137,7 +137,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
 
   {% hint style='info' %}
   #### What is this HTML & CSS stuff?!
-  In an effort to keep the project focused on Single Page Applications, we're providing the HTML & CSS code for you to copy/paste.
+  In an effort to keep the project focused on Single Page Applications, we're providing the HTML & CSS code for you to copy/paste. Keep an eye out to join us for our HTML & CSS sessions if you're interested in learning more!
 
   ##### New to HTML/CSS?
   Take a minute to read what you pasted.  Try to predict what you might see in the finished product. If you have questions about any of it, or HTML/CSS in general, grab a mentor!
