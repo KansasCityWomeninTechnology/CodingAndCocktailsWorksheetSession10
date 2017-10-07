@@ -88,11 +88,11 @@ If you joined us earlier this year, you might have installed Node.js & **npm**, 
 3. Let's check your version of **npm** [which was installed with Node]. [_Version **5 or greater** required._]  
    In your CLI, type: `npm --version`  
 
-   1. If your version is **5 or greater**, proceed to Part 1.
+   1. If your version is **5 or greater**, proceed to Step 3.
 
    2. If your version is less than **5**, update to the latest by typing: `npm install npm -g`
 
-### 3. angular-cli
+### 3. Install angular-cli
 
 1.  In Git Bash (windows) or iTerm2 (macs), type: `npm install -g @angular/cli`
 
