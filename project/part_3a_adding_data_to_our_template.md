@@ -113,3 +113,5 @@ The `Question` model has two properties: `text` and `answers`.  `text` is of dat
     ![](/images/image14.png)
     
       This uses the imported `Question` Model to set the type for `questions`, (the data we set earlier in `ngOnInit`).
+      
+Now you've set up your data and are ready to move on to adding it to your template!
