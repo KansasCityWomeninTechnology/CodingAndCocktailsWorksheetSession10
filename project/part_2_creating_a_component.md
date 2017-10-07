@@ -146,7 +146,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
   Have at it! Customize the HTML/CSS to your liking!
   {% endhint %}
 
-3.  Now that you have styles, add the HTML markup for our templates.
+3.  Now that you have styles, add the HTML markup for your templates.
 
   1.  Copy the HTML code:
 
