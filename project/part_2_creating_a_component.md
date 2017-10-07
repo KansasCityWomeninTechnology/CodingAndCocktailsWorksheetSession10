@@ -211,7 +211,9 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
 
     ![](/images/appWithoutRoute.png)
 
-    Didn't you just add a component to make a quiz application?  Where is it?!  Since you used the `--routing` flag when you first generated your application, you'll need to add a default route, so that it loads your Quiz Component's HTML & CSS.
+### Component Routing
+
+Didn't you just add a component to make a quiz application?  Where is it?!  Since you used the `--routing` flag when you first generated your application, you'll need to add a default route, so that it loads your Quiz Component's HTML & CSS.
 
 5. In Atom, open _src/app/app-routing.module.ts_.
 
