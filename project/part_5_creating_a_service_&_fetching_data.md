@@ -32,12 +32,12 @@ You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.
     1. Place your cursor at the end of the first line of the file that reads `import { Injectable } from '@angular/core';` and press return.
 
     2. Type: `import { HttpClient } from '@angular/common/http';`
-
-    3. Press return to move to a new line and then type: `import { Question } from './quiz.model';`
     
-    4. Add another line and type: `import { Observable } from 'rxjs/Observable';`
+    3. Add another line and type: `import { Observable } from 'rxjs/Observable';`
+    
+    4. Press return twice to move to a new line with a blank line in between and then type: `import { Question } from './quiz.model';` The blank line separates imports from Angular libraries from code that you have written (the Question model).
 
-    4. In between the parenthesis of the `constructor()` code, type: `private http: HttpClient`
+    5. In between the parenthesis of the `constructor()` code, type: `private http: HttpClient`
     
       ![](/images/httpClient.png)
 
@@ -45,7 +45,7 @@ You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.
 This creates an instance of the `HttpClient` service that you imported and assigns it to `http`. It’s private because you don’t want to access it from outside the `QuizService` class.
       {% endhint %}
 
-    5. Now, you’re going to add your API request to the **//cocktail-trivia-api.herokuapp.com/api/sample** URL. Copy the code below:
+    6. Now, you’re going to add your API request to the **//cocktail-trivia-api.herokuapp.com/api/sample** URL. Copy the code below:
 
       ```
       getQuestions(): Observable<Question[]> { 
@@ -53,7 +53,7 @@ This creates an instance of the `HttpClient` service that you imported and assig
       }
       ```
 
-    6. Paste the code in the _src/app/quiz/quiz.service.ts_ file just below the `constructor(private http: Http) { }` line
+    7. Paste the code in the _src/app/quiz/quiz.service.ts_ file just below the `constructor(private http: Http) { }` line
 
        {% hint style='tip' %}
 #### What does this code do?
