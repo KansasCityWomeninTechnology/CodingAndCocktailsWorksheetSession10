@@ -162,7 +162,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
   
   4. Place your cursor at the end of the line that looks like `<link rel="icon" type="image/x-icon" href="favicon.ico">` and press enter to move to a new line.  Your cursor should now be between that `link` tag and the `</head>` tag.
   
-  5. Paste the HTML code from above here. This adds some Google Web Fonts to make the app a bit more visually appealing.
+  5. Paste the HTML code from above on this new line. The code you're pasting in adds some Google Web Fonts to make the app a bit more visually appealing.
 
       ![](/images/image36.png)
 
@@ -175,7 +175,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
       </div>{% endraw %}
       ```
 
-  4. Paste it into the *src/app/app.component.html* file.
+  4. In Atom, open the *src/app/app.component.html* file. Delete all of the code **EXCEPT** the `<router-outlet></router-outlet>` tags.
 
     TODO: UPDATE IMAGE
 
