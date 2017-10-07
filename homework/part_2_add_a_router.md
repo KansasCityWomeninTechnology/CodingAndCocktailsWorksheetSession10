@@ -20,11 +20,6 @@ The format for a route looks like this [replace the _urlpath_ and _MyComponent_ 
 When defining a route, don't include the '/' at the beginning
       {% endhint %}
 
-    <!-- 1. '' that loads your `QuizComponent` [this is the root or homepage path '/']
-
-    2.  `'about'` that loads your new `AboutComponent` [this will load for the path '/about'] -->
-
-
   3.  Visit your app in Chrome to checkout your new route!  [http://localhost:4200/about](http://localhost:4200/about)
 
 [![](../images/29.png)](http://bit.ly/spa-homework)
