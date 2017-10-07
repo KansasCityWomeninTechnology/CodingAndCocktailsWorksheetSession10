@@ -156,19 +156,23 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
       <link href="//fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
       ```
 
-  2. Paste it into your *src/index.html* file, above the closing &lt;/head&gt; tag. This adds some Google Web Fonts to make the app a bit more visually appealing.
+  2. In Atom, open the *src/index.html* file by double clicking on it in the left side project pane.
+  
+  3. Find the `</head>` tag. This tag closes out the head section of your HTML document where some information about the HTML document is usually provided. 
+  
+  4. Place your cursor at the end of the line that looks like `<link rel="icon" type="image/x-icon" href="favicon.ico">` and press enter to move to a new line.  Your cursor should now be between that `link` tag and the `</head>` tag.
+  
+  5. Paste the HTML code from above here. This adds some Google Web Fonts to make the app a bit more visually appealing.
 
       ![](/images/image36.png)
 
-  3.  Add the **quiz** component html to the **app** component. Copy the HTML code:
+  6.  Add the **quiz** component html to the **app** component. Copy the HTML code:
 
     ```
-    {% raw %}
-    <div class="quiz-wrapper">
+    {% raw %}<div class="quiz-wrapper">
       <h1>{{title}}</h1>
       <router-outlet></router-outlet>
-    </div>
-    {% endraw %}
+    </div>{% endraw %}
     ```
 
   4. Paste it into the *src/app/app.component.html* file.
