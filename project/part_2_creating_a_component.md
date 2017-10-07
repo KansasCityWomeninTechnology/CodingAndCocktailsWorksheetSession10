@@ -31,7 +31,9 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
       }
       ```
 
-  2. Paste (use the [keyboard shortcuts](/reference-helpful-keyboard-shortcuts.md)!) the CSS code into your _src/styles.css_ file. These are global styles that apply to the whole app.
+  2. In Atom, open the _src/styles.css_ file for editing by double clicking on it in the left side project pane.
+  
+  3. Paste (use the [keyboard shortcuts](/reference-helpful-keyboard-shortcuts.md)!) the CSS code into your _src/styles.css_ file. These are global styles that apply to the whole app.
   
   3. Save the _src/styles.css_ file.
 
@@ -53,7 +55,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
       }
       ```
 
-  5. Paste the CSS code into your *src/app/app.component.css* file. These styles apply only to the markup in _app.component.html_.
+  5. In Atom, open the _src/app/app.component.css_ file for editing and paste the CSS code into your *src/app/app.component.css* file. These styles apply only to the markup in _app.component.html_.
   
   6. Save the _src/app/app.component.css_ file.
 
@@ -127,7 +129,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
       }
       ```
 
-  8. Paste the CSS code into the *src/app/quiz/quiz.component.css* file. These styles apply only to the markup in _quiz.component.html_.
+  8. In Atom, open the _src/app/quiz/quiz.component.css_ file and paste the CSS code into the file. These styles apply only to the markup in _quiz.component.html_.
   
   9. Save the _src/app/quiz/quiz.component.css_ file.
   
