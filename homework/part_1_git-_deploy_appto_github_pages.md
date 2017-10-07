@@ -37,6 +37,8 @@ For more information on working with remotes read [Git Basics - Working with Rem
 7. Check which directories/files are unstaged (that Git doesn't yet know about). Type: `git status`
   
   Your files should display under a header of "Changes not staged for commit:" and should be red in color.
+  
+  ![](/images/gitStatus.png)
 
 8. Stage the files so Git knows which files to deal with.  In this case we want all of them so we just add all the files in the current directory. The current directory can be referenced as: `.`.  Type: `git add .`
 
@@ -45,6 +47,8 @@ For more information on working with remotes read [Git Basics - Working with Rem
 9. Check to ensure all of your files are staged & ready to be committed. Type: `git status`
   
   Now, your files should display under a header of "Changes to be committed:" and should be green in color.
+  
+  ![](/images/gitStaged.png)
 
 10. Commit the files so Git understands what group of changes to deal with.  Feel free to change the commit message (the part in the quotation marks) if you'd like! Type: `git commit -m "I built a Single Page Application!"`
 
