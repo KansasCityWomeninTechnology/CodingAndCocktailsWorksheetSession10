@@ -148,7 +148,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
 
 3.  Now that you have styles, add the HTML markup for your templates.
 
-  1.  Copy the HTML code:
+  1.  Copy this HTML code:
 
       ```
       <link href="//fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
