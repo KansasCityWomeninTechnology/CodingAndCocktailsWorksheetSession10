@@ -87,6 +87,10 @@ You're declaring that the `answer` parameter is of data type `Answer`.  Then, if
   
 11. In Google Chrome, view your application using your new data.
 
+    {% hint style='danger' %}
+Application not working?  You may have had an error during development that the server wasn't able to overcome.  Try stopping the `ng serve` command in iTerm2 (mac) or Git Bash (windows) by pressing the `ctrl` + `c` keys and restarting it by typing `ng serve` and pressing enter.  Refresh the page in Google Chrome.  If you're still having issues, grab a mentor to help troubleshoot!
+  {% endhint %}
+
 12. In Google Chrome, open the development console on a mac by pressing the `command` + `option` + `j` keys or on a windows machine by pressing `control`+ `shift` + `j` keys.  See what happens in the console when you interact with your quiz application!
 
 Your _src/app/quiz/quiz.component.ts_ file should look like the answer key here: [[http://bit.ly/spa-6_b](http://bit.ly/spa-6_b)].
