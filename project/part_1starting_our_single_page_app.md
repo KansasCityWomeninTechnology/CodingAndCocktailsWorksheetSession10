@@ -9,16 +9,14 @@ Start with creating your app’s foundation. Open Git Bash (Windows) or iTerm2 (
 
   {% hint style='tip' %}
 #### Command line woes?
+Revisit the command line worksheet from March:
+[bit.ly/CnCMarWork](http://bit.ly/CnCMarWork)
   - Your home directory is:
     - Mac: `/users/<yourUsername>`
     - Windows: `C:/Users/<yourUsername>`
   - Command to change folders: `cd <folderToGoTo>`
   - Command to make a folder: `mkdir <newFolder>`
   - You can also use **~** as a shortcut in your CLI for your home directory: ``cd ~``
-
-
-  Revisit the command line worksheet from March:
-  [bit.ly/CnCMarWork](http://bit.ly/CnCMarWork)
   {% endhint %}
 
 2.  In Git Bash or iTerm2, use Angular CLI to scaffold the project. Type: `ng new trivia --routing`
