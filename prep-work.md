@@ -173,5 +173,3 @@ Any time the worksheet references Atom, just know that your workspace is all inc
  {% endhint %}
 
 <!--endsec-->
-
-Yay, you're done with the prep work! You're ready to proceed to Part 1.
