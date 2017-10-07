@@ -29,7 +29,7 @@ Now you have questions and answers to create a quiz, but at the end of the quiz,
 
 3.  In Atom, open the *src/app/quiz/quiz.component.ts* file.
 
-4.  Below the `questions: Question[];` code, add 3 new variables and their data types. Type: `correctAnswers: number;`
+4.  On the next line below the `questions: Question[];` code, add 3 new variables and their data types. Type: `correctAnswers: number;`
 
 5. Press enter to write the next variable on the next line.
 
