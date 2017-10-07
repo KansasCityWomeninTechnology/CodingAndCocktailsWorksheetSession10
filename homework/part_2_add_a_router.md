@@ -9,12 +9,12 @@
     2.  Next, add the **about** route to the `routes` array.
 
       {% hint style='tip' %}
-The format for a route looks like this [replace the italicized words with your own]:
+The format for a route looks like this [replace the _urlpath_ and _MyComponent_ words with your the urlpath you want to define and the component that should be displayed at that path]:
 
 ```
 {
-  path: '_urlpath_',
-  component: _MyComponent_
+  path: 'urlpath',
+  component: MyComponent
 }```
 
 When defining a route, don't include the '/' at the beginning
