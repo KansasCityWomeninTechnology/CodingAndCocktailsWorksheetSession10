@@ -28,7 +28,7 @@ For more information on working with remotes read [Git Basics - Working with Rem
   
   2. Click on the clipboard icon to copy the URL.
   
-     ![](/images/gitClone.png)
+     
 
   3. In Git Bash or iTerm2, add the remote. Type: `git remote add origin https://github.com/<your_github_username>/trivia.git`
 
