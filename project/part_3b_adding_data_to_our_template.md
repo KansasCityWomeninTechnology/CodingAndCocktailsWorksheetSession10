@@ -68,15 +68,19 @@ When a user clicks on the `<li>` HTML element holding the answer data, a method 
     }
     ```
 
-9. Paste the code in after the closing curly brace of the `ngOnInit() {}` (the method does have content inside the curly braces in your file).
+10. Paste the code in after the closing curly brace of the `ngOnInit() {...}` (the method does have content inside the curly braces in your file).
 
-      ![](/images/image03.png)
+  {% hint style='tip' %}
+If you place your cursor near a parentheses, curly brace, or square bracket, Atom will highlight the corresponding opening or closing parentheses, curly brace, or square bracket to help you figure out code alignment.
+  {% endhint %}
 
-      {% hint style='info' %}
+  ![](/images/image03.png)
+
+  {% hint style='info' %}
 ### What does this code do?
 You're declaring that the `answer` parameter is of data type `Answer`.  Then, if the selected answer (the answer passed to the `onSelect` method) is correct, we log "answer correct" to the development console.  If the selected answer is incorrect, we log "answer wrong" to the development console.
 
 In Google Chrome you can open the development console on a mac by pressing the `command` + `option` + `j` keys or on a windows machine by pressing `control`+ `shift` + `j` keys.  Do this and see what happends when you interact with your application!
-      {% endhint %}
+  {% endhint %}
 
 Your _src/app/quiz/quiz.component.ts_ file should look like the answer key here: [[http://bit.ly/spa-6_b](http://bit.ly/spa-6_b)].
