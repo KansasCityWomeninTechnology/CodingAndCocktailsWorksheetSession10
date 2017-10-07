@@ -83,8 +83,10 @@ If you place your cursor near a parentheses, curly brace, or square bracket, Ato
   {% hint style='info' %}
 ### What does this code do?
 You're declaring that the `answer` parameter is of data type `Answer`.  Then, if the selected answer (the answer passed to the `onSelect` method) is correct, we log "answer correct" to the development console.  If the selected answer is incorrect, we log "answer wrong" to the development console.
-
-In Google Chrome you can open the development console on a mac by pressing the `command` + `option` + `j` keys or on a windows machine by pressing `control`+ `shift` + `j` keys.  Do this and see what happends when you interact with your application!
   {% endhint %}
+  
+11. In Google Chrome, view your application using your new data.
+
+12. In Google Chrome, open the development console on a mac by pressing the `command` + `option` + `j` keys or on a windows machine by pressing `control`+ `shift` + `j` keys.  See what happens in the console when you interact with your quiz application!
 
 Your _src/app/quiz/quiz.component.ts_ file should look like the answer key here: [[http://bit.ly/spa-6_b](http://bit.ly/spa-6_b)].
