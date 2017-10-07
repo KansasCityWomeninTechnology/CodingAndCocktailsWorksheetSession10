@@ -5,7 +5,7 @@ Your app works, but it’s not very exciting. Add some components to it!
 1.  In Git Bash or iTerm2, generate a component named quiz with Angular CLI. Type: `ng g component quiz`
 
   {% hint style='tip' %}
-This creates a _src/app/quiz_ directory with 4 files in it: _html, css, typescript & spec_.  _spec_ files are to write tests (to make sure your code works). You won't be using these tonight so you can ignore this file.
+This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html_, _quiz.component.css_, _quiz.component.ts_ & _quiz.component.spec.ts_.  _spec_ files are to write tests (to make sure your code works). You won't be using these tonight so you can ignore this spec file.
   {% endhint %}
 
 2.  Next, add some styles to your app, so it won’t look bland as you develop it.
