@@ -1,0 +1,651 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Part 2: Creating a component · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codeblock-label/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="part_3a_adding_data_to_our_template.html" />
+    
+    
+    <link rel="prev" href="part_1starting_our_single_page_app.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../prep-work.html">
+            
+                <a href="../prep-work.html">
+            
+                    
+                    Prep Work
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="part_1starting_our_single_page_app.html">
+            
+                <a href="part_1starting_our_single_page_app.html">
+            
+                    
+                    Part 1: Starting your Single Page App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="part_2_creating_a_component.html">
+            
+                <a href="part_2_creating_a_component.html">
+            
+                    
+                    Part 2: Creating a component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="part_3a_adding_data_to_our_template.html">
+            
+                <a href="part_3a_adding_data_to_our_template.html">
+            
+                    
+                    Part 3: Data Set-up
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="part_3b_adding_data_to_our_template.html">
+            
+                <a href="part_3b_adding_data_to_our_template.html">
+            
+                    
+                    Part 4: Adding Data to Your Template
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="part_4_tally_correct_answers_&_show_results.html">
+            
+                <a href="part_4_tally_correct_answers_&_show_results.html">
+            
+                    
+                    Part 5: Tally Correct Answers & Show Results
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="part_5_creating_a_service_&_fetching_data.html">
+            
+                <a href="part_5_creating_a_service_&_fetching_data.html">
+            
+                    
+                    Part 6: Creating a Service & Fetching Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../homework/">
+            
+                <a href="../homework/">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../homework/part_1_git-_deploy_appto_github_pages.html">
+            
+                <a href="../homework/part_1_git-_deploy_appto_github_pages.html">
+            
+                    
+                    Part 1: Git - Deploy App to GitHub Pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../homework/part_2_add_a_router.html">
+            
+                <a href="../homework/part_2_add_a_router.html">
+            
+                    
+                    Part 2: Add a New Route
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../reference-helpful-keyboard-shortcuts.html">
+            
+                <a href="../reference-helpful-keyboard-shortcuts.html">
+            
+                    
+                    Reference: Helpful Keyboard Shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../reference-answer-key.html">
+            
+                <a href="../reference-answer-key.html">
+            
+                    
+                    Reference: Answer Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../survey.html">
+            
+                <a href="../survey.html">
+            
+                    
+                    Survey
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Part 2: Creating a component</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="part-2-creating-a-component">Part 2: Creating a component</h1>
+<p>Your app works, but it&#x2019;s not very exciting. Add some components to it!</p>
+<ol>
+<li><p>In Git Bash or iTerm2, generate a component named quiz with Angular CLI. Type: <code>ng g component quiz</code></p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>This creates a <em>src/app/quiz</em> directory with 4 files in it: <em>quiz.component.html</em>, <em>quiz.component.css</em>, <em>quiz.component.ts</em> &amp; <em>quiz.component.spec.ts</em>.  <em>spec</em> files are to write tests (to make sure your code works). You won&apos;t be using these tonight so you can ignore this spec file.</p>
+</div></div></p>
+</li>
+<li><p>Next, add some styles to your app, so it won&#x2019;t look bland as you develop it.</p>
+<ol>
+<li><p>Copy (check out the <a href="../reference-helpful-keyboard-shortcuts.html">keyboard shortcuts</a> for help!) these CSS styles:</p>
+<pre><code>body {
+  align-items: center;
+  background: #000;
+  color: #fff;
+  display: flex;
+    font-family: &apos;Raleway&apos;, sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+</code></pre></li>
+<li><p>In Atom, open the <em>src/styles.css</em> file for editing by double clicking on it in the left side project pane.</p>
+</li>
+<li><p>Paste (use the <a href="../reference-helpful-keyboard-shortcuts.html">keyboard shortcuts</a>!) the CSS code into your <em>src/styles.css</em> file. These are global styles that apply to the whole app.</p>
+</li>
+<li><p>Save the <em>src/styles.css</em> file.</p>
+</li>
+<li><p>Copy these CSS styles:</p>
+<pre><code>.quiz-wrapper {
+  max-height: 100vh;
+  max-width: 31rem;
+}
+
+h1 {
+  color: #4db6ac;
+  float: left;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: 0;
+  padding: 1rem;
+}
+</code></pre></li>
+<li><p>In Atom, open the <em>src/app/app.component.css</em> file for editing and paste the CSS code into your <em>src/app/app.component.css</em> file. These styles apply only to the markup in <em>app.component.html</em>.</p>
+</li>
+<li><p>Save the <em>src/app/app.component.css</em> file.</p>
+</li>
+<li><p>Copy these CSS styles:</p>
+<pre><code>.question-tracker,
+.results-header {
+  color: #ff9800;
+  float: right;
+  font-size: 0.9rem;
+  font-style: italic;
+  padding: 1rem;
+}
+
+.quiz {
+  clear: both;
+}
+
+.question,
+.results {
+  background: #111;
+  color: #cddc39;
+  margin: 0;
+  padding: 1rem;
+}
+
+.question {
+  font-family: &apos;Playfair Display&apos;, serif;
+  font-size: 2.5rem;
+}
+
+.answers {
+  background: #1f1f1f;
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+}
+
+.answers li {
+    color: #f06292;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 1rem;
+    transition:all 0.5s ease;
+}
+
+.answers li:hover {
+    background: #222;
+    color: #ba68c8;
+}
+
+.results {
+    font-family: &apos;Raleway&apos;, sans-serif;
+    text-align: center;
+}
+
+.score {
+    color: #f06292;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.result-message {
+    font-size: 2.8rem;
+}
+
+.result-action {
+    color: #ba68c8;
+    font-family: &apos;Playfair Display&apos;, serif;
+    font-size: 1.8rem;
+}
+</code></pre></li>
+<li><p>In Atom, open the <em>src/app/quiz/quiz.component.css</em> file and paste the CSS code into the file. These styles apply only to the markup in <em>quiz.component.html</em>.</p>
+</li>
+<li><p>Save the <em>src/app/quiz/quiz.component.css</em> file.</p>
+</li>
+<li><p>In Google chrome, take a look at your app now.  You&apos;ll see the styles have changed and the page background is now black along with some other styling changes.</p>
+<p><img src="../images/newStyles.png" alt=""></p>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><h4 id="what-is-this-html--css-stuff">What is this HTML &amp; CSS stuff?!</h4>
+<p>  In an effort to keep the project focused on Single Page Applications, we&apos;re providing the HTML &amp; CSS code for you to copy/paste. Keep an eye out to join us for our HTML &amp; CSS sessions if you&apos;re interested in learning more!</p>
+<h5 id="new-to-htmlcss">New to HTML/CSS?</h5>
+<p>  Take a minute to read what you pasted.  Try to predict what you might see in the finished product. If you have questions about any of it, or HTML/CSS in general, grab a mentor!</p>
+<h5 id="know-htmlcss">Know HTML/CSS?</h5>
+<p>  Have at it! Customize the HTML/CSS to your liking!</p>
+</div></div></p>
+</li>
+</ol>
+</li>
+<li><p>Now that you have styles, add the HTML markup for your templates.</p>
+<ol>
+<li><p>Copy this HTML code:</p>
+<pre><code>&lt;link href=&quot;//fonts.googleapis.com/css?family=Playfair+Display|Raleway&quot; rel=&quot;stylesheet&quot;&gt;
+</code></pre></li>
+<li><p>In Atom, open the <em>src/index.html</em> file by double clicking on it in the left side project pane.</p>
+</li>
+<li><p>Find the <code>&lt;/head&gt;</code> tag. This tag closes out the head section of your HTML document where some information about the HTML document is usually provided. </p>
+</li>
+<li><p>Place your cursor at the end of the line that looks like <code>&lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;favicon.ico&quot;&gt;</code> and press enter to move to a new line.  Your cursor should now be between that <code>link</code> tag and the <code>&lt;/head&gt;</code> tag.</p>
+</li>
+<li><p>Paste the HTML code from above on this new line. The code you&apos;re pasting in adds some Google Web Fonts to make the app a bit more visually appealing.</p>
+<p><img src="../images/image36.png" alt=""></p>
+</li>
+<li><p>Add the <strong>quiz</strong> component html to the <strong>app</strong> component. Copy the HTML code:</p>
+<pre><code>&lt;div class=&quot;quiz-wrapper&quot;&gt;
+  &lt;h1&gt;{{title}}&lt;/h1&gt;
+  &lt;router-outlet&gt;&lt;/router-outlet&gt;
+&lt;/div&gt;
+</code></pre></li>
+<li><p>In Atom, open the <em>src/app/app.component.html</em> file. Delete all of the HTML code from the file and paste in the code you copied in the previous step.</p>
+<p> <img src="../images/quizComponentHTML.png" alt=""></p>
+</li>
+<li><p>Copy the HTML code below:</p>
+<pre><code> &lt;div class=&quot;quiz-wrapper&quot;&gt;
+
+   &lt;div class=&quot;quiz&quot;&gt;
+
+     &lt;div class=&quot;each-question&quot;&gt;
+       &lt;div class=&quot;q-and-a&quot;&gt;
+         &lt;h3 class=&quot;question&quot;&gt;question here&lt;/h3&gt;
+
+         &lt;ul class=&quot;answers&quot;&gt;
+           &lt;li&gt;answer here&lt;/li&gt;
+         &lt;/ul&gt;
+       &lt;/div&gt;
+     &lt;/div&gt;
+
+   &lt;/div&gt;
+
+ &lt;/div&gt;
+</code></pre></li>
+<li><p>Delete all the code in the <em>src/app/quiz/quiz.component.html</em> file and paste the copied HTML into the file.</p>
+<p> <img src="../images/image28.png" alt=""></p>
+</li>
+<li><p>Save the <em>src/app/quiz/quiz.component.html</em> file.</p>
+</li>
+</ol>
+</li>
+<li><p>Head on over to Chrome to check out how your app looks.</p>
+<p><img src="../images/appWithoutRoute.png" alt=""></p>
+</li>
+</ol>
+<h3 id="component-routing">Component Routing</h3>
+<p>Didn&apos;t you just add a component to make a quiz application?  Where is it?!  Since you used the <code>--routing</code> flag when you first generated your application, you&apos;ll need to add a default route, so that it loads your Quiz Component&apos;s HTML &amp; CSS.</p>
+<ol>
+<li><p>In Atom, double click on the <em>src/app/app-routing.module.ts</em> file in the left side project pane to open it for editing. </p>
+<p> <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>If the number of files you have open for editing is making it hard to remember which tab to use or just feeling overwhelming, you can close some of them by hovering your mouse cursor over the tab and clicking on the <code>x</code> that shows up.</p>
+</div></div></p>
+</li>
+<li><p>You&apos;ll need to import your Quiz Component. Place your cursor at the end of the <code>import { Routes, RouterModule } from &apos;@angular/router&apos;;</code> line and press enter to move to a new line. Type: <code>import { QuizComponent } from &apos;./quiz/quiz.component&apos;;</code></p>
+</li>
+<li><p>Place your cursor between the brackets <code>[]</code> in <code>const routes: Routes = [];</code> &amp; hit enter to create a new line between the brackets. Atom will automatically make the <code>];</code> move to the line below your cursor.  This is Atom trying to help you with formatting so that your code is more readable.</p>
+</li>
+<li><p>On this new line type: {}</p>
+</li>
+<li><p>Place your cursor between the curly braces &amp; hit enter to create another new line.</p>
+</li>
+<li><p>Type:</p>
+<pre><code> path: &apos;&apos;,
+ component: QuizComponent
+</code></pre></li>
+<li><p>Your code should look similar to:</p>
+<p> <img src="../images/defaultRoute.png" alt=""></p>
+</li>
+<li><p>Now go look at your app in Chrome, there&apos;s your quiz!</p>
+<p> <img src="../images/appOne.png" alt=""></p>
+<p> <div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle"></i></div><div class="hints-container"><h4 id="app-doesnt-look-like-this">App doesn&apos;t look like this?</h4>
+<p>Look back through the steps or grab a mentor!</p>
+</div></div></p>
+</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="part_1starting_our_single_page_app.html" class="navigation navigation-prev " aria-label="Previous page: Part 1: Starting your Single Page App">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="part_3a_adding_data_to_our_template.html" class="navigation navigation-next " aria-label="Next page: Part 3: Data Set-up">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Part 2: Creating a component","level":"1.4","depth":1,"next":{"title":"Part 3: Data Set-up","level":"1.5","depth":1,"path":"project/part_3a_adding_data_to_our_template.md","ref":"project/part_3a_adding_data_to_our_template.md","articles":[]},"previous":{"title":"Part 1: Starting your Single Page App","level":"1.3","depth":1,"path":"project/part_1starting_our_single_page_app.md","ref":"project/part_1starting_our_single_page_app.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["codeblock-label","custom-favicon","hints","sectionx","livereload"],"pluginsConfig":{"livereload":{},"codeblock-label":{},"search":{},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"favicon":"assets/images/favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"project/part_2_creating_a_component.md","mtime":"2017-10-07T19:07:01.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-10-07T19:08:52.803Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
