@@ -53,9 +53,11 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
       }
       ```
 
-  4. Paste the CSS code into your *src/app/app.component.css* file. These styles apply only to the markup in _app.component.html_.
+  5. Paste the CSS code into your *src/app/app.component.css* file. These styles apply only to the markup in _app.component.html_.
+  
+  6. Save the _src/app/app.component.css_ file.
 
-  5.  Copy these CSS styles:
+  7.  Copy these CSS styles:
 
       ```
       .question-tracker,
