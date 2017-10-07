@@ -55,7 +55,6 @@ Later, you’ll be using an [API](http://bit.ly/CnCgloss) [Application Programmi
     
     {% hint style='danger' %}
 Atom may highlight the `this.questions` text in red and you may see a warning that states "Property 'questions' does not exist on type 'QuizComponent'." when you hover over that text.
-</br>
 You can ignore this warning for now, we'll fix it in the next few steps.
     {% endhint %}
 
