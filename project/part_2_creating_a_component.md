@@ -218,7 +218,7 @@ Didn't you just add a component to make a quiz application?  Where is it?!  Sinc
 1. In Atom, double click on the _src/app/app-routing.module.ts_ file in the left side project pane to open it for editing. 
 
     {% hint style='info' %}
-If the number of files you have open for editing is making it hard to remember which tab to use or just feeling overwhelming, you can close some of them by hovering your mouse cursor over the tab and clicking on the `x` that shows up.
+If the number of files you have open for editing is making it hard to remember which tab to use or just feeling overwhelming, you can close some of them by hovering your mouse cursor over the tab and clicking on the `x` that shows up. You can open and close any files at any time!
     {% endhint %}
 
 2. You'll need to import your Quiz Component. Place your cursor at the end of the `import { Routes, RouterModule } from '@angular/router';` line and press enter to move to a new line. Type: `import { QuizComponent } from './quiz/quiz.component';`
