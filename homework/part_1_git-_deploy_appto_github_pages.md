@@ -58,6 +58,13 @@ For more information on working with remotes read [Git Basics - Working with Rem
 
 12. Build the application so it is ready for production.  Type: `ng build --prod --base-href "https://yourusername.github.io/trivia/"`
 
+  Replace "yourusername" with your own personal GitHub username! If your GitHub username was "gracehopper" your command would be: `ng build --prod --base-href "https://gracehopper.github.io/trivia/"`.
+
 13. Run the deploy step.  Type: `angular-cli-ghpages`
 
 14.  View your App from Chrome or from your phone! The URL for your app should be something like https://yourusername.github.io/trivia
+
+Replace "yourusername" with your own personal GitHub username! If your GitHub username was "gracehopper" your URL would be: https://gracehopper.github.io/trivia
+
+
+
