@@ -5,7 +5,7 @@ You have your component set-up to display trivia questions and answers, but you 
 {% hint style='info' %}
 A service is just one piece of your larger application. Services are used to:
 * share data or logic across multiple components of an application to avoid code duplication
-* encapsulate external interactions (like with our API).
+* contain an interaction with some other piece of software that you may not have written yourself (like with our API).
 {% endhint %}
 
 1. First, use **Angular CLI** to generate a service named **quiz** within the _quiz_ directory. In Git Bash or iTerm2, type: `ng g service quiz/quiz`
