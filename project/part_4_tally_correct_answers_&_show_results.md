@@ -41,11 +41,13 @@ Now you have questions and answers to create a quiz, but at the end of the quiz,
 
 8. Next, in Atom, in the same _src/app/quiz/quiz.component.ts_ file, find the `ngOnInit` function. Before the `this.questions` code, set default values for these 3 new variables that you just created. Place your cursor after the opening curly brace of the `ngOnInit() {` line and press enter.
 
-  1. Type: `this.correctAnswers = 0;` then press enter to move to the next line.
-
-  2. Type: `this.currentQuestionIndex = 0;` then press enter to move to the next line.
-
-  3. Type: `this.quizIsOver = false;`
+  1. Type: 
+  
+    ```
+    this.correctAnswers = 0;
+    this.currentQuestionIndex = 0;
+    this.quizIsOver = false;
+    ```
 
       ![](/images/image39.png)
 
@@ -90,7 +92,7 @@ When the `currentQuestionIndex` value is the same as the number of questions in 
 
   5. Save your _src/app/quiz/quiz.component.ts_ file.
 
-11.  Right now, you see all the quiz questions at once. Even when the results display, the questions and answers are still visible. Add an `*ngIf` attribute, so you only see 1 question at a time.
+11.  Right now, you see all the quiz questions at once. Even when the results display, the questions and answers are still visible. Add an `*ngIf` attribute, so you only see one question at a time.
 
   1.  Open the _src/app/quiz/quiz.component.html_ file. In the `<div class="q-and-a">` HTML element, add the attribute: `*ngIf="currentQuestionIndex === i"`
 
@@ -115,7 +117,7 @@ When the `currentQuestionIndex` value is the same as the number of questions in 
 
       ![](/images/image40.png)
 
-    **Challenge**: Can you explain to your neighbor what this is doing?
+    **Challenge**: Can you explain to a mentor what this is doing?
 
   2. Save the _src/app/quiz/quiz.component.html_ file.
 
