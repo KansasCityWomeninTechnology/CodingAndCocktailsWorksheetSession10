@@ -175,11 +175,13 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
       </div>{% endraw %}
       ```
 
-  4. In Atom, open the *src/app/app.component.html* file. Delete all of the HTML code from the file and paste in the code you copied in the previous step.
+  7. In Atom, open the *src/app/app.component.html* file. Delete all of the HTML code from the file and paste in the code you copied in the previous step.
 
         ![](/images/quizComponentHTML.png)
 
-  5. Copy the HTML code below:
+  8. Save the _src/app/app.component.html_ file.
+  
+  9. Copy the HTML code below:
 
         ```
         <div class="quiz-wrapper">
@@ -201,11 +203,11 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
         </div>
         ```
 
-  6. Delete all the code in the *src/app/quiz/quiz.component.html* file and paste the copied HTML into the file.
+  8. Delete all the code in the *src/app/quiz/quiz.component.html* file and paste the copied HTML into the file.
 
         ![](/images/image28.png)
         
-  7. Save the *src/app/quiz/quiz.component.html* file.
+  9. Save the *src/app/quiz/quiz.component.html* file.
 
 4.  Head on over to Chrome to check out how your app looks.
 
