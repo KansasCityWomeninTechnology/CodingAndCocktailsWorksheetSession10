@@ -21,5 +21,9 @@ When defining a route, don't include the '/' at the beginning
       {% endhint %}
 
   3.  Visit your app in Chrome to checkout your new route!  [http://localhost:4200/about](http://localhost:4200/about)
+  
+      Since you didn't set up any content for the new route, it will just show some simple default content:
+      
+      
 
 [![](../images/29.png)](http://bit.ly/spa-homework)
