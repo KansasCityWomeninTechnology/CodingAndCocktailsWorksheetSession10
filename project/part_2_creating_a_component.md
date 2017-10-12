@@ -166,7 +166,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
 
       ![](/images/image36.png)
 
-  6.  Add the **quiz** component html to the **app** component. Copy the HTML code:
+  6.  Now you're going to add the **quiz** component html to the **app** component. Copy the HTML code:
 
       ```
       {% raw %}<div class="quiz-wrapper">
