@@ -24,6 +24,6 @@ When defining a route, don't include the '/' at the beginning
   
       Since you didn't set up any content for the new route, it will just show some simple default content:
       
-      
+      ![](/images/route.png)
 
 [![](../images/29.png)](http://bit.ly/spa-homework)
