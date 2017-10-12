@@ -28,8 +28,6 @@ If you joined us earlier this year, you might have installed Node.js & **npm**, 
 
 2.  In your CLI, type: `node --version`
 
-    Do you get a version number [_Version **8 or greater** required._]?
-
     1. No version number [something like `node: command not found`]. You need to install Node.
 
       <!--sec data-title="Mac - Install Node" data-id="sectionInstallMac" data-show=true data-collapse=true ces-->
