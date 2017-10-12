@@ -64,7 +64,7 @@ You can ignore this warning for now, we'll fix it in the next few steps.
 Check your code against the answer key here: [[http://bit.ly/spa-3_1](http://bit.ly/spa-3_1)].
   {% endhint %}
 
-3.  Since you’re using [TypeScript](https://www.typescriptlang.org), you'll need to set data types for the data that you just copied and pasted. This is one file Angular CLI won’t generate for you since it can't read your mind about what your application's data should look like!  Here you'll create a model to represent the data for your applications questions and answers.
+3.  Since you’re using [TypeScript](https://www.typescriptlang.org), you'll need to set data types for the data that you just copied and pasted. This is one file Angular CLI won’t generate for you since it can't read your mind about what your application's data should look like!  Here you'll create a model to represent the data for your application's questions and answers.
 
   1. Create a new file in *src/app/quiz* 
   
