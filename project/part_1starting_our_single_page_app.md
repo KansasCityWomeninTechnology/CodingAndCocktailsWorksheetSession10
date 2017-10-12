@@ -82,6 +82,12 @@ You can configure your system to recognize the command (ask a mentor for help) o
 
 5.  Edit the `title` variable to whatever text you want (like: have a cocktail!)
 
+  {% hint style='danger' %}
+If you choose a title with an apostrophe in it you'll need to escape the character by typing a `\` in front of the `'` so that the apostrophe (aka single quote) isn't interpreted as closing the string.  A title of "Coding & Cocktail's Application" would need to be written as `Coding & Cocktail\'s Application`
+
+For more on escaping characters and why read [the "Special Characters" section on w3schools](https://www.w3schools.com/js/js_strings.asp).
+  {% endhint %}
+
   {% hint style='info' %}
 This `title` will end up being the title of your trivia app.
   {% endhint %}
