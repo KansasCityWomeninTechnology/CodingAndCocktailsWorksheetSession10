@@ -227,7 +227,7 @@ If the number of files you have open for editing is making it hard to remember w
 
 3. Place your cursor between the brackets `[]` in `const routes: Routes = [];` & hit enter to create a new line between the brackets. Atom will automatically make the `];` move to the line below your cursor.  This is Atom trying to help you with formatting so that your code is more readable.
 
-4. On this new line type: {}
+4. On this new line type: `{}`
 
 5. Place your cursor between the curly braces & hit enter to create another new line.
 
