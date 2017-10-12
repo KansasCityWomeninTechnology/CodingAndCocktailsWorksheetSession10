@@ -71,6 +71,14 @@ It creates a method named `getQuestions`, that makes the `http` request to the U
   2.  In your `Component` metadata, you need to add `QuizService` as a provider. Add a comma & a new line after `styleUrls: ['./quiz.component.css']` and add:`providers: [QuizService]`
 
       ![](/images/image22.png)
+      
+      {% hint style='tip' %}
+Metadata is data that gives information about other data.  In this case it tells Angular how to handle and manage the QuizComponent that you're building.
+
+For more on metadata look at [the Angular architecture documentation](https://angular.io/guide/architecture#metadata) or talk with a mentor!
+       {% endhint %}
+
+
 
   3. In the parenthesis for `constructor() { }` add:`private quizService: QuizService`
 
