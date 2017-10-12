@@ -108,7 +108,7 @@ The `Question` model has two properties: `text` and `answers`.  `text` is of dat
   
       ![](/images/image05.gif)
 
-5.  In the _quiz.component.ts_ file, within the `OnInit` method, type: `questions: Question[];`
+5.  In the _quiz.component.ts_ file, right under the class declaration line (`export class QuizComponent...`), type: `questions: Question[];`
 
     ![](/images/image14.png)
     
