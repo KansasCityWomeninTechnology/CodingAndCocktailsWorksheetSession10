@@ -8,12 +8,11 @@ If this is your first time joining us for Coding & Cocktails, you'll want to [in
 
 If you have a tip that helped you with a step on the worksheet, you can easily share it with the group in Slack. Or if there are any issues with the worksheet [we make typos or there's an update to a tool that we didn't catch before the session], we may post updates in Slack. Plus, after class is over, Slack becomes a tool for you to gain access to mentors as you go through the homework, or any other questions that arise.
 
+### 2. Install/Update Node.js & npm
+
 {% hint style='danger' %}
 If you're using a Chromebook, skip down to the Cloud9 instructions at the bottom.
 {% endhint %}
-
-
-### 2. Install/Update Node.js & npm
 
 {% hint style='danger' %}
 If you joined us earlier this year, you might have installed Node.js & **npm**, but you'll still want to update to the latest version of Node.js & **npm**.
