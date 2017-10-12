@@ -48,4 +48,4 @@ When defining a route, don't include the '/' at the beginning
 
 14.  View your about route from Chrome or from your phone! The URL for your app should be something like https://yourusername.github.io/trivia/about
 
-Replace "yourusername" with your own personal GitHub username! If your GitHub username was "gracehopper" your URL would be: https://gracehopper.github.io/trivia
+Replace "yourusername" with your own personal GitHub username! If your GitHub username was "gracehopper" your URL would be: https://gracehopper.github.io/trivia/about
