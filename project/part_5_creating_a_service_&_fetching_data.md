@@ -78,8 +78,6 @@ Metadata is data that gives information about other data.  In this case it tells
 For more on metadata look at [the Angular architecture documentation](https://angular.io/guide/architecture#metadata) or talk with a mentor!
        {% endhint %}
 
-
-
   3. In the parenthesis for `constructor() { }` add:`private quizService: QuizService`
 
       ![](/images/image48.png)
