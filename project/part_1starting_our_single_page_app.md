@@ -25,6 +25,17 @@ Revisit the command line worksheet from March:
 
 4.  In Git Bash or iTerm2, run your new app. Type: `ng serve`
 
+    <!--sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section0" data-show=true data-collapse=true ces id="chromebook"-->
+
+To run your app type: `ng serve --host $IP --port $PORT --disable-host-check`
+
+Then open a new tab and navigate to https://workspacename-username.c9users.io:8080
+
+Replacing the workspace name with your Cloud9 workspace name and 
+username with your Cloud9 username.
+  
+    <!--endsec-->
+
   {% hint style='info' %}
 This command will:
 
