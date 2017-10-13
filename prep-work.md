@@ -163,7 +163,7 @@ If you are prompted to install any dependencies select **Yes** to install them.
  {% hint style='danger' %}
 Any time the worksheet mentions to change directory to your home directory or type `cd ~` you will want to type `cd ~/workspace` instead.
 
-Any time the worksheet references Atom, just know that your workspace is all inclusive and you'll just be working within Cloud9.
+Any time the worksheet references Atom, iTerm2 or Git Bash, just know that your workspace is all inclusive and you'll just be working within Cloud9.
  {% endhint %}
 
 <!--endsec-->
