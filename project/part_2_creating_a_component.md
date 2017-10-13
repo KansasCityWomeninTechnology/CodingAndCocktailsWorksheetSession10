@@ -223,12 +223,12 @@ If the number of files you have open for editing is making it hard to remember w
 
     ```
     path: '',
-    component: QuizComponent,
+    component: QuizComponent
     ```
 
 7. Your code should look similar to:
   
-    ![](/images/defaultRoute.png)
+    
     
 8. Now go look at your app in Chrome, there's your quiz!
 
