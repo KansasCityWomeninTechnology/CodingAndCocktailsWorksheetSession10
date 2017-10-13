@@ -131,7 +131,7 @@ If you are prompted to install any dependencies select **Yes** to install them.
 
 6. Leave your workspace as **Public**.
 
-7. In the template section leave it on the HTML5 option.
+7. In the template section select the Node.js option.
 
 8. Click on the **Create Workspace** button.
 
@@ -139,7 +139,7 @@ If you are prompted to install any dependencies select **Yes** to install them.
 
 9. When the workspace opens, click on the small x on the right side of the tab that says `[M]/README.md` to clear your workspace.
 
-10. On the left side project pane, right click on the _hello-world.html_ file and choose **Delete**.  Then confirm Yes you want to continue.
+10. On the left side project pane, right click on the _client_ folder choose **Delete**.  Then confirm Yes you want to continue. Repeat for the _package.json_, _README.md_, and _server.js_ files.  
 
 9. We need to update the version of Node.js that Cloud9 uses by default. We'll use a tool called **Node Version Manager** to use version 8. In the terminal section of your workspace (that's the bottom portion with the `~/worspace $` prompt), type: `nvm install 8`
 
@@ -151,11 +151,6 @@ If you are prompted to install any dependencies select **Yes** to install them.
  {% endhint %}
 
 10. If we leave Cloud9 and come back to this workspace, the version of Node.js resets, so let's change the default. In the terminal, type: `nvm alias default 8`
-
-11. In the terminal, type: `npm install -g npm`  
-This will ensure Cloud9 uses the most recent version of **npm**.
-
-12. In the terminal, type `mkdir CodingAndCocktails` to create your folder/directory that you'll be working in tonight. You'll notice a new folder show up on the left side of your screen.
 
  {% hint style='danger' %}
 Any time the worksheet mentions to change directory to your home directory or type `cd ~` you will want to type `cd ~/workspace` instead.
