@@ -61,7 +61,12 @@ To stop the server and get back to your command prompt, press the `ctrl` + `c` k
 7. In iTerm2 (mac) or Git Bash (windows), check where you are in your filesystem by typing `pwd`.
 
   1. If `pwd` doesn't display your _CodingAndCocktails/trivia_ folder, navigate to your _trivia_ project folder. Type: `cd ~/CodingAndCocktails/trivia`
- 
+  
+    {% hint style='danger' %}
+### Cloud9 Instructions Only
+
+Check where you are with `pwd` but navigate to your trivia by typing `cd trivia`
+  {% endhint %}
 
 ## Make a Change
 
