@@ -25,7 +25,7 @@ Revisit the command line worksheet from March:
 
 4.  In Git Bash or iTerm2, run your new app. Type: `ng serve`
 
-    {% hint style='info' %}
+    {% hint style='danger' %}
 ### Cloud9 Instructions Only
 
 To run your app type: `ng serve --host $IP --port $PORT --disable-host-check`
