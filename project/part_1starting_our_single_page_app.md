@@ -118,5 +118,11 @@ This `title` will end up being the title of your trivia app.
 6.  Save your file & go back to the tab in Chrome that has your app running. You should see your updated text!
 
     ![](/images/appUpdate.gif)
+    
+    {% hint style='danger' %}
+### Cloud9 Instructions Only
+
+You'll have to refresh the page where your app is running to view changes.
+  {% endhint %}
 
 ##### Nice work! Take a break and grab another drink, you've earned it!
