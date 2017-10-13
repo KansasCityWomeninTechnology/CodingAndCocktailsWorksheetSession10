@@ -158,7 +158,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
 
       ![](/images/image36.png)
 
-  6.  Now you're going to add the **quiz** component html to the **app** component. Copy the HTML code:
+  6.  Now you're going to add the **quiz** component html to the **app** component. Copy the below HTML code and replace the file contents in the _src/app/app.component.html_ file with this copied code:
 
       ```
       {% raw %}<div class="quiz-wrapper">
@@ -167,13 +167,11 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
       </div>{% endraw %}
       ```
 
-  7. In Atom, open the *src/app/app.component.html* file. Delete all of the HTML code from the file and paste in the code you copied in the previous step.
-
         ![](/images/quizComponentHTML.png)
 
   8. Save the _src/app/app.component.html_ file.
   
-  9. Copy the HTML code below:
+  9. Copy the HTML code below and replace the file contents in the *src/app/quiz/quiz.component.html* file with this copied code:
 
         ```
         <div class="quiz-wrapper">
@@ -194,8 +192,6 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
 
         </div>
         ```
-
-  8. Delete all the code in the *src/app/quiz/quiz.component.html* file and paste the copied HTML into the file.
 
         ![](/images/image28.png)
         
