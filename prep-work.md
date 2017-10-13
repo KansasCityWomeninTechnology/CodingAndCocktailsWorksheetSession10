@@ -158,6 +158,8 @@ If you are prompted to install any dependencies select **Yes** to install them.
 
 12.  To confirm Angular CLI was installed, type: `ng version`. If you get a version number, you can move on!
 
+13. Continue with Part 1: Starting your Single Page App!
+
  {% hint style='danger' %}
 Any time the worksheet mentions to change directory to your home directory or type `cd ~` you will want to type `cd ~/workspace` instead.
 
