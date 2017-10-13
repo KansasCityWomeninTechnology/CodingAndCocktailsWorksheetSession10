@@ -70,7 +70,9 @@ Now, you'll make some updates to the app to see the live reload you get from `ng
 1.  Open Atom via the command line
 
   {% hint style='danger' %}
-**Cloud9 users:** Skip this step.
+### Cloud9 Instructions Only
+
+Skip this step.
   {% endhint %}
 
   Type: `atom .`
@@ -88,6 +90,12 @@ You can configure your system to recognize the command (ask a mentor for help) o
   {% endhint %}
 
 2. In Atom, in the left side project pane, click on the arrow next to _src_ to expand the folder.
+
+  {% hint style='danger' %}
+### Cloud9 Instructions Only
+
+You'll need to expand the _trivia_ folder first.
+  {% endhint %}
 
 3. Next, do the same thing next to the _app_ folder to expand it.
 
