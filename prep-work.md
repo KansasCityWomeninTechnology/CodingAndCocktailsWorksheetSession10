@@ -106,8 +106,10 @@ Using TypeScript with Angular2, provides us a lot of shortcuts. However, to make
 4.  Find & select the TypeScript package that matches this image:
 
     ![](/images/typescriptPackage.png)
-   
-5.  When prompted for any dependencies select **Yes** to install them.
+
+    {% hint style='info' %}   
+If you are prompted to install any dependencies select **Yes** to install them.
+    {% endhint %}
 
 6. Hover over the settings tab at the top of the page and an x should appear.  Click the x to close the settings tab.
 
