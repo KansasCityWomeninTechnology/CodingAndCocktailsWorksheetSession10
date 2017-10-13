@@ -152,6 +152,8 @@ If you are prompted to install any dependencies select **Yes** to install them.
 
 10. If we leave Cloud9 and come back to this workspace, the version of Node.js resets, so let's change the default. In the terminal, type: `nvm alias default 8`
 
+11. Continue with Step 3 above: Install angular-cli.
+
  {% hint style='danger' %}
 Any time the worksheet mentions to change directory to your home directory or type `cd ~` you will want to type `cd ~/workspace` instead.
 
