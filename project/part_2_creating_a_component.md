@@ -10,7 +10,7 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
 
 2.  Next, add some styles to your app, so it won’t look bland as you develop it.
 
-  1.  Copy (check out the [keyboard shortcuts](/reference-helpful-keyboard-shortcuts.md) for help!) these CSS styles:
+  1.  Copy (check out the [keyboard shortcuts](/reference-helpful-keyboard-shortcuts.md) for help!) the below CSS styles and then paste them into the _src/styles.css_ file in Atom. These are global styles that apply to the whole app.
 
       ```
       body {
@@ -30,14 +30,10 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
           padding: 0;
       }
       ```
-
-  2. In Atom, open the _src/styles.css_ file for editing by double clicking on it in the left side project pane.
-  
-  3. Paste (use the [keyboard shortcuts](/reference-helpful-keyboard-shortcuts.md)!) the CSS code into your _src/styles.css_ file. These are global styles that apply to the whole app.
   
   3. Save the _src/styles.css_ file.
 
-  4.  Copy these CSS styles:
+  4.  Copy the below CSS styles and then paste them into the _src/app/app.component.css_ file in Atom. These styles apply only to the markup in _app.component.html_.
 
       ```
       .quiz-wrapper {
@@ -54,12 +50,10 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
           padding: 1rem;
       }
       ```
-
-  5. In Atom, open the _src/app/app.component.css_ file for editing and paste the CSS code into your *src/app/app.component.css* file. These styles apply only to the markup in _app.component.html_.
   
   6. Save the _src/app/app.component.css_ file.
 
-  7.  Copy these CSS styles:
+  7.  Copy the below CSS styles and then paste them into the _src/app/quiz/quiz.component.css_ file in Atom. These styles apply only to the markup in _quiz.component.html_.
 
       ```
       .question-tracker,
@@ -128,8 +122,6 @@ This creates a _src/app/quiz_ directory with 4 files in it: _quiz.component.html
             font-size: 1.8rem;
       }
       ```
-
-  8. In Atom, open the _src/app/quiz/quiz.component.css_ file and paste the CSS code into the file. These styles apply only to the markup in _quiz.component.html_.
   
   9. Save the _src/app/quiz/quiz.component.css_ file.
   
