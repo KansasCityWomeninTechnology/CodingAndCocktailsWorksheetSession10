@@ -158,10 +158,10 @@ If you are prompted to install any dependencies select **Yes** to install them.
 
 12.  To confirm Angular CLI was installed, type: `ng version`. If you get a version number, you can move on!
 
-13. Continue with Part 1: Starting your Single Page App!
+13. Continue with Part 1: Starting your Single Page App, Step 2.
 
  {% hint style='danger' %}
-Any time the worksheet mentions to change directory to your home directory or type `cd ~` you will want to type `cd ~/workspace` instead.
+Keep your eyes out for Cloud9 sections that you need to expand and follow as you go through the worksheet. 
 
 Any time the worksheet references Atom, iTerm2 or Git Bash, just know that your workspace is all inclusive and you'll just be working within Cloud9.
  {% endhint %}
