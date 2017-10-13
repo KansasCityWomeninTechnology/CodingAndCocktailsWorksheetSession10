@@ -33,7 +33,7 @@ To run your app type: `ng serve --host $IP --port $PORT --disable-host-check`
 Then open a new tab and navigate to https://workspacename-username.c9users.io:8080
 
 Replacing the workspace name with your Cloud9 workspace name and 
-username with your Cloud9 username.
+username with your Cloud9 username. Skip step 5.
     {% endhint %}
 
   {% hint style='info' %}
