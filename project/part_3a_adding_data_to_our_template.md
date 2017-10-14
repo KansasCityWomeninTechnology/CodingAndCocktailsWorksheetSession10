@@ -114,4 +114,6 @@ The `Question` model has two properties: `text` and `answers`.  `text` is of dat
     
       This uses the imported `Question` Model to set the type for `questions`, (the data we set earlier in `ngOnInit`).
       
+6. Save the _quiz.component.ts_ file.
+      
 Now you've set up your data and are ready to move on to adding it to your template!
