@@ -95,7 +95,7 @@ If you joined us earlier this year, you might have installed Node.js & **npm**, 
 
 Using TypeScript with Angular2, provides us a lot of shortcuts. However, to make sure the correct words highlight for us in Atom (maybe you've noticed the colors in HTML, CSS or JavaScript files?), and that we get some of the autosuggest features of TypeScript, we have to install the TypeScript package for Atom.
 
-1.  Open Atom and from the Atom menu (mac) or File menu (windows) choose **Preferences**.
+1.  Open Atom and from the Atom menu and choose **Preferences** (mac) or File menu and choose **Settings** (windows).
 
 2.  In the Preferences pane click on the **Install** option. 
 
