@@ -1,0 +1,35 @@
+{
+  "name": "session10",
+  "version": "0.0.0",
+  "description": "Instructions for Coding & Cocktails program session 10 - Intro to Single Page Applications (SPAs)",
+  "main": "docs/README.md",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:install": "gitbook install",
+    "docs:build": "gitbook build",
+    "start": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KansasCityWomeninTechnology/CodingAndCocktailsWorksheetSession10.git"
+  },
+  "author": "Kansas City Women In Technology - Coding And Cocktails",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/KansasCityWomeninTechnology/CodingAndCocktailsWorksheetSession10/issues"
+  },
+  "homepage": "https://github.com/KansasCityWomeninTechnology/CodingAndCocktailsWorksheetSession10#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "dependencies": {
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-codeblock-label": "^1.0.1",
+    "gitbook-plugin-codetabs": "^1.0.0",
+    "gitbook-plugin-custom-favicon": "0.0.4",
+    "gitbook-plugin-hints": "^1.0.2",
+    "gitbook-plugin-sectionx": "^3.1.0"
+  }
+}
