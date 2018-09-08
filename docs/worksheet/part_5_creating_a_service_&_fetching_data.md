@@ -1,4 +1,4 @@
-### Part 6: Creating a Service & Fetching Data
+### Creating a Service & Fetching Data
 
 You have your component set-up to display trivia questions and answers, but you only have a couple hardcoded questions & answers. Next you'll create a service to use an API to populate your quiz questions and possible answers.
 
@@ -8,7 +8,7 @@ A service is just one piece of your larger application. Services are used to:
 * contain an interaction with some other piece of software that you may not have written yourself (like with our API).
 {% endhint %}
 
-1. First, use **Angular CLI** to generate a service named **quiz** within the _quiz_ directory. In Git Bash or iTerm2, type: `ng g service quiz/quiz`
+1. First, use **Angular CLI** to generate a service named **quiz** within the _quiz_ directory. In Cmder or iTerm2, type: `ng g service quiz/quiz`
 
   {% hint style='tip' %}
 This creates two files in your _src/app/quiz_ directory:

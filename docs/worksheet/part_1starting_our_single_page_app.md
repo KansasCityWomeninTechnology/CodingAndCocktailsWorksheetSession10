@@ -44,9 +44,12 @@ cd %USERPROFILE%/CodingAndCocktails
 ng new trivia --routing
   ```
   {% hint style="info" %}
-Angular CLI automatically creates the project directory for you. In this case, it will create a new folder called "trivia".
+We installed Angular CLI as a global package. This means we have access to it anywhere on our filesystem. In order to use Angular CLI, we use the command `ng`. This references Angular CLI. We pass in parameters to create a `new` application called "trivia" and use a flag `--routing` to automatically create routing files.
+
+Angular CLI automatically creates the project directory for you. In this case, it will create a new folder called "trivia", which is the name of the project you passed in.
   {% endhint %}
-    {% hint style="tip" %}
+
+  {% hint style="tip" %}
 Scaffolding the application and installing all the required npm packages can take a few minutes. Perfect time to get to know your neighbor. Here's an icebreaker question-- What is your neighbor's spirit animal?
   {% endhint %}
 
@@ -55,6 +58,10 @@ Scaffolding the application and installing all the required npm packages can tak
   ```bash
 cd trivia
   ```
+  {% hint style="working" %}
+#### What happened behind the scenes? 
+Try opening the "trivia" folder in your OS and inspect the files and folders created. You'll see a few familiar files and file extensions from past sessions, such as _package.json_, _package-lock.json_, _src/index.html_, _src/styles.css_, etc!
+  {% endhint %}
 
 4. Run your new app.
   {% label %}iTerm2/Cmder{% endlabel %}

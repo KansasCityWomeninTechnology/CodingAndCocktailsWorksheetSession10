@@ -1,4 +1,4 @@
-# Part 4: Adding Data to Your Template
+# Adding Data to Your Template
 
 Now that you have your data ready, wire it up to your component’s template.
 
@@ -90,7 +90,7 @@ You're declaring that the `answer` parameter is of data type `Answer`.  Then, if
 12. In Google Chrome, view your application using your new data.
 
     {% hint style='danger' %}
-Application not working?  You may have had an error during development that the server wasn't able to overcome.  Try stopping the `ng serve` command in iTerm2 (mac) or Git Bash (windows) by pressing the `ctrl` + `c` keys and restarting it by typing `ng serve` and pressing enter.  Refresh the page in Google Chrome.  If you're still having issues, grab a mentor to help troubleshoot!
+Application not working?  You may have had an error during development that the server wasn't able to overcome.  Try stopping the `ng serve` command in iTerm2 (mac) or Cmder (windows) by pressing the `ctrl` + `c` keys and restarting it by typing `ng serve` and pressing enter.  Refresh the page in Google Chrome.  If you're still having issues, grab a mentor to help troubleshoot!
   {% endhint %}
 
 12. In Google Chrome, open the development console on a Mac by pressing the `command` + `option` + `i` keys or on a Windows machine by pressing `F12` keys.  See what happens in the console when you interact with your quiz application!

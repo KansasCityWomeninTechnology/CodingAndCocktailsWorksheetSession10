@@ -1,4 +1,4 @@
-# Part 5: Tally Correct Answers & Show Results
+# Tally Correct Answers & Show Results
 
 Now you have questions and answers to create a quiz, but at the end of the quiz, the user won’t know how many they answered correctly. Add a counter that keeps track of the correct answers throughout a quiz and displays the results at the end!
 
