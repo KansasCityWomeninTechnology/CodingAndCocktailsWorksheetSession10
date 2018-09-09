@@ -1,16 +1,22 @@
 # Summary
 
 * [Overview](README.md)
-* [Prep Work](prep-work.md)
-* [Part 1: Starting your Single Page App](project/part_1starting_our_single_page_app.md)
-* [Part 2: Creating a component](project/part_2_creating_a_component.md)
-* [Part 3: Data Set-up](project/part_3a_adding_data_to_our_template.md)
-* [Part 4: Adding Data to Your Template](project/part_3b_adding_data_to_our_template.md)
-* [Part 5: Tally Correct Answers & Show Results](project/part_4_tally_correct_answers_&_show_results.md)
-* [Part 6: Creating a Service & Fetching Data](project/part_5_creating_a_service_&_fetching_data.md)
-* [Homework](homework/README.md)
-  * [Part 1: Git - Deploy App to GitHub Pages](homework/part_1_git-_deploy_appto_github_pages.md)
-  * [Part 2: Add a New Route](homework/part_2_add_a_router.md)
-* [Reference: Helpful Keyboard Shortcuts](reference-helpful-keyboard-shortcuts.md)
-* [Reference: Answer Key](reference-answer-key.md)
-* [Survey](survey.md)
+* [Setup Instructions](/setup/README.md)
+
+### Worksheet
+* [Starting your Single Page App](worksheet/part_1starting_our_single_page_app.md)
+* [Creating a component](worksheet/part_2_creating_a_component.md)
+* [Data Set-up](worksheet/part_3_adding_data_to_our_template.md)
+* [Adding Data to Your Template](worksheet/part_4_adding_data_to_our_template.md)
+* [Tally Correct Answers & Show Results](worksheet/part_5_tally_correct_answers_&_show_results.md)
+* [Creating a Service & Fetching Data](worksheet/part_6_creating_a_service_&_fetching_data.md)
+* [Quiz](quiz.md)
+
+### Bonus
+* [Deploy App to GitHub Pages](homework/part_1_git-_deploy_appto_github_pages.md)
+* [Add a New Route](homework/part_2_add_a_router.md)
+
+----
+* [Reference & Shortcuts](references/README.md)
+* [Answer Key](references/answer-key.md)
+

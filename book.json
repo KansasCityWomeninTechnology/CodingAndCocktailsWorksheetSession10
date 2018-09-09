@@ -9,7 +9,7 @@
     "anchors"
   ],
   "pluginsConfig": {
-    "favicon": "docs/images/favicon.ico",
+    "favicon": "docs/assets/images/favicon.ico",
     "hints": {
       "info": "fa fa-info-circle fa-lg",
       "tip": "fa fa-lightbulb-o fa-lg",
