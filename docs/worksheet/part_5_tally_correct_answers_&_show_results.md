@@ -131,6 +131,8 @@ When the `currentQuestionIndex` value is the same as the number of questions in 
 
 <!-- Trick markdown to give a little extra space -->    
 ## 
-##### Take a break, smarty pants, you earned it! Grab another drink and/or ask your neighbor "If you could live in any sitcom, which one would it be? Can they sing theme song too?".
+##### Take a break, smarty pants, you earned it! 
+Grab another drink and/or ask your neighbor "If you could live in any sitcom, which one would it be? Can they sing theme song too?".
+
 ![](https://media.giphy.com/media/3o7TKBbkeuhqszIhuE/giphy.gif)
 
