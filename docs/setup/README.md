@@ -29,7 +29,7 @@ You will need the following tools for the worksheet:
 
 1. [Node & npm](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-node/)
    {% hint style='danger' %}
-Confirm your version of Node returns **9.11 or greater**. Confirm your version of npm return **5.8 or greater**. Follow the instructions in the link to confirm versions, install, and update Node and npm.
+Confirm your version of Node returns **9.11 or greater**. Confirm your version of npm returns **5.8 or greater**. Follow the instructions in the link to confirm versions, install, and update Node and npm.
    {% endhint %}
 
 1. [Terminal for your OS](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-command-line/)
@@ -45,8 +45,12 @@ Use Cmder for tonight's session. You will have problems if you use Git Bash. Fee
 1. [Coding & Cocktails folder](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tips-directory-structure/)
 
 1. [Angular CLI](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-angular-cli/)
+   Confirm your version of Angular CLI return 6.1 or greater.
+
+   ![](images/angular-cli-version.png)
+   
    {% hint style="tip" %}
-This may take a minute or two to complete. Perfect excuse to grab yourself a drink and introduce yourself to your neighbor with this ice-breaker question-- What is your neighbor's guilty pleasure (or favorite most embarrassing) band or song?
+This may take a minute or two to complete. Perfect excuse to grab yourself a drink and introduce yourself to your neighbor with this ice-breaker question-- What was your neighbor's favorite Halloween costume?
    {% endhint %}
 
 

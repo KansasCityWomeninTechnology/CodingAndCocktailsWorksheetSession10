@@ -50,7 +50,7 @@ Angular CLI automatically creates the project directory for you. In this case, i
   {% endhint %}
 
   {% hint style="tip" %}
-Scaffolding the application and installing all the required npm packages can take a few minutes. Perfect time to get to know your neighbor. Here's an icebreaker question-- What is your neighbor's spirit animal?
+Scaffolding the application and installing all the required npm packages can take a few minutes. Perfect time to get to know your neighbor. Here's an icebreaker question-- What is your neighbor's guilty pleasure (or favorite most embarrassing) band or song?
   {% endhint %}
 
 3. Change the directory to the new one Angular CLI created for you. 
@@ -144,6 +144,3 @@ This `title` will end up being the title of your trivia app.
 
     ![](images/1_app-update.gif)
 
-<!-- Trick markdown to give a little extra space -->    
-## 
-##### Nice work! Take a break and grab another drink, you've earned it!

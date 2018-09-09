@@ -2,7 +2,8 @@
 
 Your app works, but it’s not very exciting. Add some components to it!
 
-1. In Cmder or iTerm2, generate a component named "quiz" with Angular CLI. Type 
+1. In Cmder or iTerm2, generate a component named "quiz" with Angular CLI. Type
+   {% label %}iTerm2/Cmder{% endlabel %} 
    ```bash
 ng g component quiz
    ```
@@ -166,7 +167,7 @@ This creates a "src/app/quiz" directory with 4 files in it: _quiz.component.html
 
   6.  Now you're going to add the **quiz** component html to the **app** component. Copy the below HTML code and replace the file contents in the _src/app/app.component.html_ file with this copied code:
 
-      {% label %}src/app/quiz.component.html{% endlabel %}
+      {% label %}src/app/app.component.html{% endlabel %}
       ```html
       {% raw %}<div class="quiz-wrapper">
           <h1>{{title}}</h1>
@@ -251,3 +252,8 @@ import { QuizComponent } from './quiz/quiz.component';
 #### App doesn't look like this?
 Look back through the steps or grab a mentor!
     {% endhint %}
+
+<!-- Trick markdown to give a little extra space -->    
+## 
+##### Nice work! Take a break and grab another drink, you've earned it! Ask your neighbor what their spirit animal is.
+![](https://media.giphy.com/media/10u67K77WbgFBS/giphy.gif)
