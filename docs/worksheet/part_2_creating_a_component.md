@@ -255,5 +255,7 @@ Look back through the steps or grab a mentor!
 
 <!-- Trick markdown to give a little extra space -->    
 ## 
-##### Nice work! Take a break and grab another drink, you've earned it! Ask your neighbor what their spirit animal is.
+##### Nice work! Take a break and grab another drink, you've earned it! 
+Start a serious conversation with your neighbor-- Ask your neighbor what their spirit animal is.
+
 ![](https://media.giphy.com/media/10u67K77WbgFBS/giphy.gif)
