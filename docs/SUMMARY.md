@@ -15,6 +15,7 @@
 ### Bonus
 * [Deploy App to GitHub Pages](homework/part_1_git-_deploy_appto_github_pages.md)
 * [Add a New Route](homework/part_2_add_a_router.md)
+* [Homework](homework/homework.md)
 
 ----
 * [Reference & Shortcuts](references/README.md)
