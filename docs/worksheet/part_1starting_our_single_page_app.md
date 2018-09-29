@@ -9,6 +9,10 @@ Tonight we will create a web application using a SPA framework with interactive 
 Before starting the worksheet, please take a moment to review [Setup instructions](/setup) to ensure you have all the tools and workspace setup you need for tonight's work.
 {% endhint %}
 
+{% hint style='danger' %}
+If you are borrowing a Coding & Cocktails laptop, open Cmder like a normal application-- please do not open Cmder As Administrator.
+{% endhint %}
+
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
 ## Application Foundation
@@ -35,7 +39,7 @@ cd %USERPROFILE%/CodingAndCocktails
   - You can also use **~** for Mac or **%USERPROFILE%** for Windows as a shortcut in CLI for your home directory: `cd ~` for Mac and `cd %USERPROFILE%` for Windows.
 
   Revisit the command line worksheet from March:
-[bit.ly/CnCMarWork](http://bit.ly/CnCMarWork)
+[bit.ly/CnCMarWork](https://bit.ly/CnCMarWork)
   {% endhint %}
 
 2. In Cmder or iTerm2, use Angular CLI to scaffold the project. Type
@@ -46,7 +50,10 @@ ng new trivia --routing
   {% hint style="info" %}
 We installed Angular CLI as a global package. This means we have access to it anywhere on our filesystem. In order to use Angular CLI, we use the command `ng`. This references Angular CLI. We pass in parameters to create a `new` application called "trivia" and use a flag `--routing` to automatically create routing files.
 
-Angular CLI automatically creates the project directory for you. In this case, it will create a new folder called "trivia", which is the name of the project you passed in.
+Angular CLI automatically creates the project directory for you. In this case, it will create a new folder called "trivia", which is the name of the project you passed in. 
+
+It also automatically initializes the project folder as a Git repository. Revisit the Git worksheet:
+[bit.ly/CnCAprWork](https://bit.ly/CnCAprWork)
   {% endhint %}
 
   {% hint style="tip" %}

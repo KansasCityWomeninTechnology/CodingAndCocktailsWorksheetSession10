@@ -126,13 +126,12 @@ When the `currentQuestionIndex` value is the same as the number of questions in 
       ![](images/5_question-tracker.png)
 
     **Challenge**: Can you explain to a mentor what this is doing?
-
-  2. Save the _src/app/quiz/quiz.component.html_ file. Check out your app in Chrome.
+2. Save the _src/app/quiz/quiz.component.html_ file. Check out your app in Chrome.
 
 <!-- Trick markdown to give a little extra space -->    
 ## 
 ##### Take a break, smarty pants, you earned it! 
-Grab another drink and/or ask your neighbor "If you could live in any sitcom, which one would it be? Can they sing theme song too?".
+Grab another drink and/or ask your neighbor "If you could live in any sitcom, which one would it be? Can they sing the theme song too?".
 
 ![](https://media.giphy.com/media/3o7TKBbkeuhqszIhuE/giphy.gif)
 

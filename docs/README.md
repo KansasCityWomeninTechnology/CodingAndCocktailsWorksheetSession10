@@ -7,7 +7,7 @@
 
 ### Overview {#overview}
 
-Single page applications provide a more native app-like experience to users. They can also be a lot of fun to develop. There are a lot of frameworks available to make this process easier, but choosing one and learning how to use it can be overwhelming. Angular is very opinionated, which means you have less architecture decisions to make than some of the other frameworks. This also means there will be more consistency among Angular projects, so if you’ve worked on one, you can easily jump into a different team’s project.
+**S**ingle **p**age **a**pplications (SPA) provide a more native app-like experience to users, which means the application can feel less like a web page and more like an application installed on their computers or phones. They can also be a lot of fun to develop. There are a lot of frameworks available to make this process easier, but choosing one and learning how to use it can be overwhelming. Angular is very opinionated, which means you have less architecture decisions to make than some of the other frameworks. This also means there will be more consistency among Angular projects, so if you’ve worked on one, you can easily jump into a different team’s project.
 
 In this session, you will become familiar with how to use Angular and use it to create a single page application that allows the user to play a trivia game using data from an API (Application Programming Interface).
 
@@ -32,4 +32,3 @@ Want to be more efficient at working with your computer?
 Look for these formatting hints throughout the workbook:
 * _src/directory/file.ts_ - **File paths and names**
 * `code block` - **Code to use or reference in your project**
-* ![](/assets/images/windows-icon.png) - **Attention Windows Users: info specific to windows machines**

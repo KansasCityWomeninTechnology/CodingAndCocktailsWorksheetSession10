@@ -1,4 +1,4 @@
-# Creating a component
+# Creating a Component
 
 Your app works, but it’s not very exciting. Add some components to it!
 
@@ -143,8 +143,8 @@ This creates a "src/app/quiz" directory with 4 files in it: _quiz.component.html
   ##### New to HTML/CSS?
   Take a minute to read what you pasted.  Try to predict what you might see in the finished product. If you have questions about any of it, or HTML/CSS in general, grab a mentor!
 
-  ##### Know HTML/CSS?
-  Have at it! Customize the HTML/CSS to your liking!
+  ##### Want to customize HTML/CSS?
+  Use our worksheets from the [HTML](https://bit.ly/CnCJanWork) and [CSS](https://bit.ly/CnCFebWork) sessions and customize the HTML/CSS to your liking!
       {% endhint %}
 
 3.  Now that you have styles, add the HTML markup for your templates.

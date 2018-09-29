@@ -29,7 +29,7 @@ You will need the following tools for the worksheet:
 
 1. [Node & npm](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-node/)
    {% hint style='danger' %}
-Confirm your version of Node returns **9.11 or greater**. Confirm your version of npm returns **5.8 or greater**. Follow the instructions in the link to confirm versions, install, and update Node and npm.
+Confirm your version of Node returns **9.11 or greater**. Confirm your version of npm returns **5.8 or greater**. Follow [the instructions in the link]((https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-node/)) to confirm versions, install, and update Node and npm.
    {% endhint %}
 
 1. [Terminal for your OS](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-command-line/)
