@@ -12,7 +12,7 @@ Now that you have your data ready, wire it up to your component’s template.
 `*ngIf` is an Angular structural attribute directive that conditionally renders our template **IF** `this.questions` is defined in our component.
   {% endhint %}
 
-3. In the HTML element `<div class="each-question">`, place your cursor directly in front of the `>`, press **Enter**, then press **Tab** and then type the following to add an attribute: `*ngFor="let question of questions; let i = index;"`
+3. In the HTML element `<div class="each-question">`, place your cursor directly in front of the `>`, press **Enter**, then press **Tab** and then type the following to add an attribute:`*ngFor="let question of questions; let i = index;"`
 
   ![](images/4_ngFor.gif)
 
@@ -23,7 +23,7 @@ To help make the code easier to read, the example above starts each attribute on
   {% hint style='info' %}
 ### What does this code do?
 
-This is an `*ngFor` directive that will repeat the HTML markup (including the `div` HTML element with the class `each-question`) for every question in your components `this.questions` array.
+This is an `*ngFor` directive that will repeat the HTML markup (including the `div` HTML element with the class `each-question`) for every question in your components `this.questions` array. Don't remember arrays? Check out the [MDN documentation on arrays](https://developer.mozilla.org/en-US/docs/Glossary/array).
 
 It also sets a variable named `i` to `index`.  This helps to keep track of what question is currently rendered in the template by giving you the `index` of that `question`.  **Question 1 is Index 0. Question 2 is Index 1.** This will come into play later in the tutorial.
   {% endhint %}
@@ -36,7 +36,7 @@ It also sets a variable named `i` to `index`.  This helps to keep track of what 
 
   ![](images/4_data-binding.png)
 
-  This will use the *question’s text* from the data you added in the last section to populate your HTML template. The data is connected to the HTML template through the _quiz.component.ts_ file.
+  This will use the *question’s text* from the data you added in the last section to populate your HTML template. The data is connected to the HTML template through the _quiz.component.ts_ file using one-way binding.
 
 5. Next, loop through the question's answers. Add an `*ngFor` attribute to the `<li>` HTML element. Place your cursor before the `>` on the element, press `Enter`, then `Tab` and then type: 
    {% label %}src/app/quiz/quiz.component.html{% endlabel %}
@@ -63,7 +63,9 @@ It also sets a variable named `i` to `index`.  This helps to keep track of what 
 
       {% hint style='info' %}
 ### What does this code do?
-When a user clicks on the `<li>` HTML element holding the answer data, a method named `onSelect` in the Component's TypeScript file  is executed and passes the `answer` data through to the `onSelect` method.  (You haven't yet defined the `onSelect` method in the _quiz.component.ts_ file just yet, you'll do that next!
+When a user clicks on the `<li>` HTML element holding the answer data, a method named `onSelect` in the Component's TypeScript file is executed and passes the `answer` data through to the `onSelect` method.  (You haven't yet defined the `onSelect` method in the _quiz.component.ts_ file just yet, you'll do that next!.)
+
+Don't remember events and event handlers? Check out [MDN documentation on events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events).
       {% endhint %}
 
 8. Save the _src/app/quiz/quiz.component.html_ file.

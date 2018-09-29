@@ -1,4 +1,4 @@
-# Data Set-up
+# Data Setup
 
 Your template is working and looks pretty, but it’s hardcoded, or, in other words, it uses fixed data and requires manual editing. Next, we'll add a couple questions and answers to your component, and make the template render your quiz questions dynamically. In this section, you’ll do some set-up work for data to use in your template. Then in the next section we will be to integrate the data with your component’s template (HTML).
 
@@ -96,7 +96,7 @@ Name the file <i>quiz.model.ts</i> and press <code>Enter</code>.
       {% hint style='tip' %}
 ### What does this code do?
 
-It defines two models, one `Answer` model and one `Question` model. It **exports** the models from this file so you can **import** the models into the file where you want to use them. If you attended the Server Side API session last month, **import** is the same **require** and **export** is the same as adding to the `module.exports`.
+It defines two models, one `Answer` model and one `Question` model. It **exports** the models from this file so you can **import** the models into the file where you want to use them. If you attended the Server Side API session last month, **import** is the same as **require** and **export** is the same as adding to the `module.exports`.
 
 The `Answer` model has 2 properties: `correct` and `text`. `correct` is of data type **boolean** (that means it can be set to either **true** or **false**). `text` is of data type **string** (that means it represents textual data or, a series of characters).
 

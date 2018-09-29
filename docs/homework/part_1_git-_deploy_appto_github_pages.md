@@ -93,7 +93,4 @@ For more information on working with remotes read [Git Basics - Working with Rem
 
 14.  View your App from Chrome or from your phone! The URL for your app should be something like https://yourusername.github.io/trivia
 
-Replace "yourusername" with your own personal GitHub username! If your GitHub username was "gracehopper" your URL would be: https://gracehopper.github.io/trivia
-
-
 

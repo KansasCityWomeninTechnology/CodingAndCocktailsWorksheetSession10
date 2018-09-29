@@ -34,7 +34,7 @@ You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.
 
 2.  In Atom, open the _src/app/quiz/quiz.service.ts_ file.
 
-    You'll need to import a method from the **HttpClientModule**, **Observable** from the RxJS library, and your **Question** model.
+    You'll need to import a method from the **HttpClientModule**, **Observable** from the RxJS library, and your **Question** model. RxJS is a JavaScript implementation for **R**eactive E**x**tensions. It helps make managing asynchronous code easier.
 
     1. Place your cursor at the end of the first line of the file that reads `import { Injectable } from '@angular/core';` and press `Enter`.
 
@@ -69,16 +69,16 @@ You won't be adding any tests tonight, so you can ignore the _quiz.service.spec.
 This creates an instance of the `HttpClient` service that you imported and assigns it to `http`. It’s private because you don’t want to access it from outside the `QuizService` class.
       {% endhint %}
 
-    6. Now, you’re going to add your API request to the **//cocktail-trivia-api.herokuapp.com/api/sample** URL. Copy the code below:
+    6. Now, you’re going to add your API request to the **https://cocktail-trivia-api.herokuapp.com/api/sample** URL. Copy the code below:
        {% label %}src/app/quiz/quiz.service.ts{% endlabel %}
       ```ts
       getQuestions(): Observable<Question[]> { 
-        return this.http.get<Question[]>('//cocktail-trivia-api.herokuapp.com/api/sample'); 
+        return this.http.get<Question[]>('https://cocktail-trivia-api.herokuapp.com/api/sample'); 
       }
       ```
       
       {% hint style='tip' %}
-If you built your own API during the Node.js session last month, you can replace the `//cocktail-trivia-api.herokuapp.com/api/sample` URL with the URL to your own API.  For example if your heroku app was named **my-awesome-api** and you wanted the quiz to be about animals with an easy difficulty you would use the URL `//my-awesome-api.herokuapp.com/api/category/animals/difficulty/easy`.  Remember you can generate the portion of your URL that should come after the `/api/` portion here: [https://cocktail-trivia-api.herokuapp.com](https://cocktail-trivia-api.herokuapp.com/)
+If you built your own API during the Node.js session last month, you can replace the `https://cocktail-trivia-api.herokuapp.com/api/sample` URL with the URL to your own API.  For example if your heroku app was named **my-awesome-api** and you wanted the quiz to be about animals with an easy difficulty you would use the URL `https://my-awesome-api.herokuapp.com/api/category/animals/difficulty/easy`.  Remember you can generate the portion of your URL that should come after the`/api/` portion here: [https://cocktail-trivia-api.herokuapp.com](https://cocktail-trivia-api.herokuapp.com/)
       {% endhint %}
 
     7. Paste the code in the _src/app/quiz/quiz.service.ts_ file just below the `constructor(private http: Http) { }` line
