@@ -88,7 +88,7 @@ If you built your own API during the Node.js session last month, you can replace
 It creates a method named `getQuestions`, that makes the `http` request to the URL that accesses the API and returns the JSON (**J**ava**S**cript **O**bject **N**otation) formatted data from the response. 
        {% endhint %}
 
-9.  In Atom, open the _src/app/quiz/quiz.component.ts_ file. NO LONGER NEEDED
+9.  In Atom, open the _src/app/quiz/quiz.component.ts_ file.
 
   1. You need to import the `QuizService`, so that you can use it. Add the following to the list of your other imports: 
      {% label %}src/app/quiz/quiz.component.ts{% endlabel %}
