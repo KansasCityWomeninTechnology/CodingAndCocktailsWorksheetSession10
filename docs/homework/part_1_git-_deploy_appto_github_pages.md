@@ -88,7 +88,7 @@ For more information on working with remotes read [Git Basics - Working with Rem
 13. Run the deploy step.  Type: 
    {% label %}Cmder/iTerm2{% endlabel %}
    ```bash
-   angular-cli-ghpages
+   angular-cli-ghpages --dir=dist/trivia
    ```
 
 14.  View your App from Chrome or from your phone! The URL for your app should be something like https://yourusername.github.io/trivia

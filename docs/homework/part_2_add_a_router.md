@@ -62,7 +62,7 @@ When defining a route, don't include the '/' at the beginning
 
   Replace "yourusername" with your own personal GitHub username! If your GitHub username was "gracehopper" your command would be: `ng build --prod --base-href "https://gracehopper.github.io/trivia/"`.
 
-13. Run the deploy step.  Type: `angular-cli-ghpages`
+13. Run the deploy step.  Type: `angular-cli-ghpages --dir=dist/trivia`
 
 14.  View your about route from Chrome or from your phone! The URL for your app should be something like https://yourusername.github.io/trivia/about
 
